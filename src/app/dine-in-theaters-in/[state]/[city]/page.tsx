@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
-import { PlaceholderPage } from "@/components/placeholder-page";
-import { formatSlug } from "@/lib/format-slug";
+import { notFound } from "next/navigation";
+import { Breadcrumb } from "@/components/breadcrumb";
+import { Container } from "@/components/container";
+import { EmptyState } from "@/components/empty-state";
+import { TheaterCard } from "@/components/theater-card";
+import { formatSlug, slugify } from "@/lib/format-slug";
+import { getActiveLocationsByCity } from "@/lib/queries";
+import { getStateBySlug } from "@/lib/us-states";
 
 type Params = { state: string; city: string };
 
@@ -10,7 +16,7 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { state, city } = await params;
-  const stateName = formatSlug(state);
+  const stateName = getStateBySlug(state) ?? formatSlug(state);
   const cityName = formatSlug(city);
   return {
     title: `Dine-In Theaters in ${cityName}, ${stateName}`,
@@ -20,13 +26,45 @@ export async function generateMetadata({
 
 export default async function CityPage({ params }: { params: Promise<Params> }) {
   const { state, city } = await params;
-  const stateName = formatSlug(state);
+  const stateName = getStateBySlug(state);
+
+  if (!stateName) {
+    notFound();
+  }
+
   const cityName = formatSlug(city);
+  const locations = await getActiveLocationsByCity(stateName, cityName);
+
   return (
-    <PlaceholderPage
-      eyebrow="City"
-      title={`Dine-In Theaters in ${cityName}, ${stateName}`}
-      description={`Every dine-in theater in ${cityName} will be listed here.`}
-    />
+    <Container className="py-16 sm:py-24">
+      <Breadcrumb
+        items={[
+          { label: "Home", href: "/" },
+          { label: stateName, href: `/dine-in-theaters-in/${slugify(stateName)}` },
+          { label: cityName },
+        ]}
+      />
+      <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
+        Dine-In Theaters in {cityName}, {stateName}
+      </h1>
+      <p className="mt-4 max-w-2xl text-lg text-ink/70">
+        Every dine-in theater in {cityName}.
+      </p>
+
+      <div className="mt-10">
+        {locations.length > 0 ? (
+          <div className="grid gap-4 sm:grid-cols-2">
+            {locations.map((location) => (
+              <TheaterCard key={location.id} location={location} />
+            ))}
+          </div>
+        ) : (
+          <EmptyState
+            title={`No theaters listed in ${cityName} yet`}
+            message="We're actively building out this directory. Check back soon, or use Add a Theater to suggest one."
+          />
+        )}
+      </div>
+    </Container>
   );
 }
