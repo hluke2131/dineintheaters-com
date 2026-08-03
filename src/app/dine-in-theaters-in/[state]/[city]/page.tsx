@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/breadcrumb";
 import { Container } from "@/components/container";
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
-import { formatSlug, slugify } from "@/lib/format-slug";
+import { formatSlug } from "@/lib/format-slug";
 import { getActiveLocationsByCity } from "@/lib/queries";
 import { getStateBySlug } from "@/lib/us-states";
 
@@ -16,7 +16,7 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { state, city } = await params;
-  const stateName = getStateBySlug(state) ?? formatSlug(state);
+  const stateName = getStateBySlug(state)?.name ?? formatSlug(state);
   const cityName = formatSlug(city);
   return {
     title: `Dine-In Theaters in ${cityName}, ${stateName}`,
@@ -26,26 +26,26 @@ export async function generateMetadata({
 
 export default async function CityPage({ params }: { params: Promise<Params> }) {
   const { state, city } = await params;
-  const stateName = getStateBySlug(state);
+  const stateInfo = getStateBySlug(state);
 
-  if (!stateName) {
+  if (!stateInfo) {
     notFound();
   }
 
   const cityName = formatSlug(city);
-  const locations = await getActiveLocationsByCity(stateName, cityName);
+  const locations = await getActiveLocationsByCity(stateInfo.code, cityName);
 
   return (
     <Container className="py-16 sm:py-24">
       <Breadcrumb
         items={[
           { label: "Home", href: "/" },
-          { label: stateName, href: `/dine-in-theaters-in/${slugify(stateName)}` },
+          { label: stateInfo.name, href: `/dine-in-theaters-in/${state}` },
           { label: cityName },
         ]}
       />
       <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
-        Dine-In Theaters in {cityName}, {stateName}
+        Dine-In Theaters in {cityName}, {stateInfo.name}
       </h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/70">
         Every dine-in theater in {cityName}.

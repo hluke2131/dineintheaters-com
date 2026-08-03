@@ -16,7 +16,7 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { state } = await params;
-  const stateName = getStateBySlug(state) ?? formatSlug(state);
+  const stateName = getStateBySlug(state)?.name ?? formatSlug(state);
   return {
     title: `Dine-In Theaters in ${stateName}`,
     description: `Find dine-in movie theaters in ${stateName}.`,
@@ -25,22 +25,22 @@ export async function generateMetadata({
 
 export default async function StatePage({ params }: { params: Promise<Params> }) {
   const { state } = await params;
-  const stateName = getStateBySlug(state);
+  const stateInfo = getStateBySlug(state);
 
-  if (!stateName) {
+  if (!stateInfo) {
     notFound();
   }
 
-  const cities = await getCitiesWithCounts(stateName);
+  const cities = await getCitiesWithCounts(stateInfo.code);
 
   return (
     <Container className="py-16 sm:py-24">
-      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: stateName }]} />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: stateInfo.name }]} />
       <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
-        Dine-In Theaters in {stateName}
+        Dine-In Theaters in {stateInfo.name}
       </h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/70">
-        Every dine-in theater in {stateName}, organized by city.
+        Every dine-in theater in {stateInfo.name}, organized by city.
       </p>
 
       <div className="mt-10">
@@ -49,7 +49,7 @@ export default async function StatePage({ params }: { params: Promise<Params> })
             {cities.map((item) => (
               <CountLinkCard
                 key={item.city}
-                href={`/dine-in-theaters-in/${slugify(stateName)}/${slugify(item.city)}`}
+                href={`/dine-in-theaters-in/${state}/${slugify(item.city)}`}
                 name={item.city}
                 count={item.count}
               />
@@ -57,7 +57,7 @@ export default async function StatePage({ params }: { params: Promise<Params> })
           </div>
         ) : (
           <EmptyState
-            title={`No theaters listed in ${stateName} yet`}
+            title={`No theaters listed in ${stateInfo.name} yet`}
             message="We're actively building out this directory. Check back soon, or use Add a Theater to suggest one."
           />
         )}
