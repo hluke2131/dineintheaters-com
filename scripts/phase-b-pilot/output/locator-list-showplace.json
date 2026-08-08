@@ -1,0 +1,11 @@
+[
+  {"metro_area":"Harrisburg","name":"Harrisburg 9","address":"701 North Commercial Street","city":"Harrisburg","state":"IL","zip":null,"phone":null},
+  {"metro_area":"Connersville","name":"Connersville 8","address":"2235 Park Road","city":"Connersville","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Evansville","name":"Evansville East 20","address":"1801 Morgan Center Drive","city":"Evansville","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Evansville","name":"Evansville North 9","address":"4200 North Third Avenue","city":"Evansville","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Jasper","name":"Jasper 8","address":"256 Brucke Strasse","city":"Jasper","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Newburgh","name":"Newburgh 10","address":"8099 Bell Oaks Drive","city":"Newburgh","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Princeton","name":"Princeton 8","address":"2691 West Broadway Street","city":"Princeton","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Seymour","name":"Seymour","address":"357 Tanger Boulevard","city":"Seymour","state":"IN","zip":null,"phone":null},
+  {"metro_area":"Henderson","name":"Henderson 8","address":"406 Walker Drive","city":"Henderson","state":"KY","zip":null,"phone":null}
+]

@@ -1,0 +1,17 @@
+[
+  {"metro_area":"Albuquerque","name":"ABQ Coors","address":"3236 La Orilla Rd NW #1 B","city":"Albuquerque","state":"NM","zip":"87120","phone":null},
+  {"metro_area":"Albuquerque","name":"ABQ Tramway","address":"12921 Indian School NE","city":"Albuquerque","state":"NM","zip":"87112","phone":"505-637-3549"},
+  {"metro_area":"Carmel","name":"Carmel","address":"2206 East 116th Street","city":"Carmel","state":"IN","zip":"46032","phone":null},
+  {"metro_area":"Des Moines","name":"Des Moines","address":"3800 Merle Hay Road","city":"Des Moines","state":"IA","zip":"50310","phone":null},
+  {"metro_area":"El Paso","name":"El Paso East","address":"12351 Pellicano Drive","city":"El Paso","state":"TX","zip":"79928","phone":null},
+  {"metro_area":"El Paso","name":"Montecillo","address":"250 Montecillo Boulevard","city":"El Paso","state":"TX","zip":"79912","phone":null},
+  {"metro_area":"El Paso","name":"West Towne","address":"6450 N Desert Boulevard","city":"El Paso","state":"TX","zip":"79912","phone":null},
+  {"metro_area":"Dallas/Fort Worth","name":"Frisco/Little Elm","address":"1660 FM 423","city":"Frisco","state":"TX","zip":"75068","phone":null},
+  {"metro_area":"Houston","name":"Katy","address":"2707 Commercial Center Boulevard","city":"Katy","state":"TX","zip":"77494","phone":null},
+  {"metro_area":"Lubbock","name":"Lubbock","address":"120 W Loop 289 Acc Rd","city":"Lubbock","state":"TX","zip":"79416","phone":null},
+  {"metro_area":"Madison","name":"Madison","address":"89 East Towne Mall","city":"Madison","state":"WI","zip":"53704","phone":null},
+  {"metro_area":"Dallas/Fort Worth","name":"Mansfield","address":"Highway 287 and East Broad Street","city":"Mansfield","state":"TX","zip":"76063","phone":"(682) 877-8001"},
+  {"metro_area":"Oklahoma City","name":"Oklahoma City","address":"8590 Broadway Extension","city":"Oklahoma City","state":"OK","zip":"73114","phone":null},
+  {"metro_area":"Austin","name":"Round Rock","address":"2200 South Interstate 35 - Hesters Crossing","city":"Round Rock","state":"TX","zip":"78681","phone":null},
+  {"metro_area":"San Antonio","name":"San Antonio","address":"845 TX-1604 Loop","city":"San Antonio","state":"TX","zip":"78245","phone":null}
+]

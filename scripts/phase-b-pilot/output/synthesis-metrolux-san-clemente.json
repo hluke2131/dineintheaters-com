@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Theatres + IMAX @ San Clemente",
+    "description": "MetroLux Theatres + IMAX at San Clemente, at the Outlets at San Clemente, open since 2022. Standard auditoriums get in-seat food and drink delivery during the film; IMAX auditoriums specifically are counter pickup only, per the chain's own site. The theater is paired with Scripted Bar & Kitchen, a standalone full-service restaurant on the second floor that doesn't require a movie ticket to visit, which several reviewers use independently of seeing a film for lunch, dinner, or date nights. Reviews consistently praise the food and staff, including a detailed account of a private event handled exceptionally well. The most consistent complaint, raised independently by multiple reviewers, is that the bar/lobby area gets uncomfortably hot in summer, with regulars bringing their own portable fans.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$",
+    "amenities": ["Full Bar", "Reserved Seating", "IMAX"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

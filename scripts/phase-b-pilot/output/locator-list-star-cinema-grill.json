@@ -1,0 +1,12 @@
+[
+  {"metro_area":"Chicago Area","name":"Bolingbrook","address":"619 E Boughton Road","city":"Bolingbrook","state":"IL","zip":"60440","phone":"630-755-3607"},
+  {"metro_area":"Chicago Area","name":"South Barrington","address":"100 W Higgins Road","city":"South Barrington","state":"IL","zip":"60010","phone":"(847) 851-6998"},
+  {"metro_area":"Houston","name":"Baybrook","address":"702 Baybrook Mall","city":"Friendswood","state":"TX","zip":"77546","phone":"281-557-9300"},
+  {"metro_area":"Houston","name":"City Centre","address":"822 Town and Country Blvd","city":"Houston","state":"TX","zip":"77024","phone":"713-277-7910"},
+  {"metro_area":"College Station","name":"College Station","address":"1037 University Dr.","city":"College Station","state":"TX","zip":"77840","phone":"979-431-3800"},
+  {"metro_area":"Houston","name":"Cypress","address":"8920 Fry Road","city":"Cypress","state":"TX","zip":"77433","phone":"832-497-5140"},
+  {"metro_area":"Houston","name":"Missouri City","address":"4811 Highway 6","city":"Missouri City","state":"TX","zip":"77459","phone":"832-539-2675"},
+  {"metro_area":"Houston","name":"Richmond","address":"22125 FM 1093","city":"Richmond","state":"TX","zip":"77407","phone":"832-913-7827"},
+  {"metro_area":"Houston","name":"Springwoods","address":"1495 Lake Plaza Drive","city":"Spring","state":"TX","zip":"77389","phone":"832-953-7827"},
+  {"metro_area":"Houston","name":"Vintage Park","address":"114 Vintage Park Blvd","city":"Houston","state":"TX","zip":"77070","phone":"713-715-4707"}
+]

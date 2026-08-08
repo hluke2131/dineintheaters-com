@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Tempe",
+    "description": "Majestic Theaters' original Tempe location (marketed as \"Majestic Tempe 7\"), a locally-owned AZ dine-in chain with a full bar and food ordered via QR code and delivered to your seat by a server. Seating is mixed here — not every seat reclines, so reviewers recommend checking the seat map when booking, and a few note some seats are showing wear. Reviews are generally positive on food and staff friendliness, with one detailed complaint about a billing discrepancy (an unexplained extra charge on top of a gift card balance) that wasn't resolved to the guest's satisfaction.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Chandler",
+    "description": "Majestic Theaters' Chandler location (\"Majestic Chandler 9\"), known for $5 Tuesday tickets, a full bar with beers on tap and a happy hour, and chairside food/drink service ordered via QR code. Reviewers consistently praise the popcorn (served with clarified butter) and friendly staff. Recurring notes include occasionally slow, understaffed service and a building reviewers describe as starting to show its age, though the overall movie-going experience is rated positively.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Gilbert",
+    "description": "Majestic Theaters' Gilbert location (\"Majestic Gilbert 8\"), a locally-owned alternative to the larger chains that reviewers frequently compare favorably to Harkins. Comfortable seating (some reviewers wish it reclined further back), a full bar, and food — including a well-reviewed clarified-butter popcorn and chicken tenders — brought to your seat by staff so you don't have to leave during the movie. One reviewer had a billing error with a bottomless-popcorn order, which Majestic corrected and refunded; ordering popcorn refills requires re-ordering through the app rather than just asking a server, which a couple of reviewers found more distracting than helpful.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

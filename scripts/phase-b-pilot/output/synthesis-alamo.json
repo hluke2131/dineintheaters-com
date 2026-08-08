@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Lakeline",
+    "description": "Alamo Drafthouse Lakeline is a dine-in multiplex in a North Austin retail center off US-183, one of five Alamo locations in the chain's hometown market. Expect reserved recliner seating, a full bar, and a menu delivered straight to your seat, plus the curated pre-show reels of trivia and clips Alamo is known for. Recent visits describe a rockier kitchen than this location's reputation would suggest, with several reports of slow food and inconsistent quality. As at every Alamo now, ordering runs through an app rather than table service, with an automatic 18%+ service charge added (and more prompted if you don't close your tab within about 20 minutes of the credits). Plan on $50-60+ for two with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Mueller",
+    "description": "Alamo Drafthouse Mueller sits in Austin's Mueller neighborhood, a few miles northeast of downtown, with a full bar, reserved recliners, and an upstairs outdoor patio to hang out on before or after a show. Parking validates at the adjacent McBee garage, a nice perk in a walkable but busy area. Food and drink orders go through the seat-side app rather than a server taking your order by hand, and like the rest of the chain, an automatic 18%+ service charge applies on top of menu prices that have climbed noticeably in the last couple of years. A casual two-person visit with food runs $60-80.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Outdoor Patio"],
+    "parking_notes": "Validated parking at the McBee garage next door.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Slaughter Lane",
+    "description": "Alamo Drafthouse Slaughter Lane, in South Austin, is one of the chain's original Austin locations and still draws longtime regulars back for its full bar and reserved dine-in seating. It's a full-menu, in-seat dining experience with food and drinks ordered via the seat-side app. Long-time customers are vocal that the switch from paper order cards and table service to app-only ordering has changed the feel of the place, alongside a mandatory 18%+ service charge that applies whether or not a server ever comes by. Management has been responsive to complaints in at least a few documented cases. Expect to spend $50-70+ per couple with food.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "South Lamar",
+    "description": "Alamo Drafthouse South Lamar, just south of downtown Austin, leans into movie-house theming (look for the Shining-inspired decor) and is one of the busiest locations in the chain's home city. It offers the standard Alamo package: reserved recliners, a full bar, and seat-side ordering via app. Parking can be tight nearby during popular showings — there are three retail garages within a short walk, but arriving early is worth it. As chain-wide, service is now app-driven with an automatic 18%+ charge added to the bill. Food and drinks for two typically run $50-70 on top of ticket prices.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": "Street parking is tight during busy showings; three retail parking garages are within walking distance.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Village",
+    "description": "Alamo Drafthouse Village, on West Anderson Lane in North Austin, is one of the chain's longer-running Austin theaters, offering full-bar service and reserved recliner seating alongside first-run films. The box office has a reputation for accommodating honest ticketing mix-ups when asked. Ordering is done through the in-seat app rather than a server taking a paper order, and the chain's automatic 18%+ service charge applies here as everywhere else, on menu prices that have risen along with reduced menu options. Budget roughly $50-70 for two with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Seaport",
+    "description": "Alamo Drafthouse Boston Seaport sits inside a mixed-use building on Seaport Blvd, with a full bar and reserved recliner seating for both new releases and repertory screenings. The curated pre-show reels of odd clips and trivia (rather than commercials) are a genuine differentiator here. One practical note: your card is charged automatically about 20 minutes before the credits roll unless you intervene, so keep contactless payment enabled through the end of the film. As chain-wide, ordering is app-based with an automatic 18%+ service charge included. Two people can expect to spend $50-70 with food.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Charlottesville",
+    "description": "Alamo Drafthouse Charlottesville, at Stonefield's Merchant Walk, brings the chain's reserved-recliner, full-bar dine-in format to central Virginia. Reviewers consistently point to the strict quiet/no-phone policy as a real reason to choose it over a standard multiplex. One important practical detail for families: for movies with an age restriction, anyone under 18 must be accompanied by an adult seated in the same auditorium, not just present elsewhere in the building — worth confirming before you buy tickets for a group. Ordering runs through the seat-side app with the chain's usual automatic 18%+ service charge. Expect to spend $50-70+ for two with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": "For age-restricted screenings, minors must be accompanied by an adult in the same auditorium, not just the building."
+  },
+  {
+    "name": "Wrigleyville",
+    "description": "Alamo Drafthouse Wrigleyville, near Wrigley Field on Chicago's North Side, pairs reserved recliner seating and a full bar with the chain's dine-in format. It's known for keeping previews to about 10 minutes and enforcing showtimes strictly, so latecomers may not be let in — plan to arrive on time. The kitchen's fried pickles and pizza get specific praise in multiple reviews. Ordering runs through the seat-side app, with the chain-wide automatic 18%+ service charge applied to food and drinks. Two people can expect to spend $50-70 on top of ticket prices.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Corpus Christi",
+    "description": "Alamo Drafthouse Corpus Christi brings the chain's dine-in format to South Texas, with reserved recliners, a full bar, and food delivered to your seat. Its no-talking, no-phone \"quiet zone\" policy is enforced strictly: a single warning, then removal without a refund for repeat offenders, and no late seating once the film starts. Themed specialty items (like movie-tie-in milkshakes) show up on the menu around big releases. As chain-wide, ordering goes through the seat-side app with an automatic 18%+ service charge, and concessions run noticeably pricier than a standard theater — a shared appetizer and drink can approach $30. Plan on $50-70+ for two with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": "Strict no-phone \"quiet zone\" policy; violators can be removed without a refund, and latecomers may not be seated."
+  },
+  {
+    "name": "Crystal City",
+    "description": "Alamo Drafthouse Crystal City sits along Crystal Drive in Arlington, VA, surrounded by restaurants and shops, with the chain's usual reserved recliners and full bar for in-seat dining. Attached garage parking is available but can be tricky to navigate the first time; it's free after 4pm and on weekends, which is worth timing a visit around. Food and drinks are ordered via the seat-side app, with the chain-wide automatic 18%+ service charge added to the bill. Two people should budget $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": "Attached parking garage is free after 4pm and on weekends; otherwise paid.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "DC Bryant Street",
+    "description": "Alamo Drafthouse DC Bryant Street, in Washington's Ivy City/Bryant Street development, offers the chain's reserved-recliner, full-bar dine-in format inside the District. If an in-seat call button doesn't get a response within a few minutes, reviewers suggest trying a neighboring seat's button, since individual buttons can be unreliable. Ordering runs through the seat-side app, and this location's automatic service charge runs around 20% on food and drinks. A couple ordering a full meal with tickets and garage parking should budget $100+ for the outing.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Cedars",
+    "description": "Alamo Drafthouse Cedars, just south of downtown Dallas, offers reserved recliners and a full bar in the chain's dine-in format. Staff here have gotten specific praise for handling a digital-menu outage by sending extra employees down to take orders by hand — a sign the location still knows how to run the old system when needed. Day to day, though, ordering goes through the seat-side app, with the chain-wide automatic 18%+ service charge on food and drinks that reviewers say has climbed noticeably in price and shrunk in menu variety. Two people can expect to spend $60-80+ with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Denton",
+    "description": "Alamo Drafthouse Denton, near the University of North Texas, brings the chain's reserved-recliner, full-bar dine-in format to the Dallas/Fort Worth area's northern edge. The Cobb wrap gets called out specifically as a strong menu pick, alongside the chain's usual scratch popcorn. Furniture here shows more wear than newer locations, so don't expect a pristine seat. Ordering is app-based with the chain-wide automatic 18%+ service charge (and a further prompt if you don't close your tab within about 20 minutes of the credits). Budget $50-70 for two with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Lake Highlands",
+    "description": "Alamo Drafthouse Lake Highlands is a neighborhood favorite in northeast Dallas, offering the chain's reserved recliners and full bar for in-seat dining. Sound levels here run notably loud — more than one visitor has left with ringing ears after an action film, so earplugs aren't a bad idea if you're sensitive to volume. Seating shows real wear in spots (peeling upholstery), something to expect rather than be surprised by. As chain-wide, ordering is app-based with an automatic 18%+ service charge. Two people should plan on $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Las Colinas",
+    "description": "Alamo Drafthouse Las Colinas, in Irving, offers the chain's reserved-recliner, full-bar format with one upgrade over some sister locations: newer fold-out seat trays that extend toward you, making it noticeably easier to eat and get in and out of your seat than the older fixed-tray design. Multiple reviewers single this location out as a reliable, well-run favorite. Ordering runs through the seat-side app, with the chain-wide automatic 18%+ service charge applied to food and drinks. Expect to spend $50-70 for two with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Richardson",
+    "description": "Alamo Drafthouse Richardson, north of downtown Dallas, runs the chain's standard reserved-recliner, full-bar dine-in format, with movie-themed specialty milkshakes and flavored popcorn tied to current releases. Ordering is through the seat-side app; this location's automatic service charge runs closer to 5% by default with the option to add more, somewhat lower than the 18-20% seen chain-wide, though menu prices are comparable. Budget $50-70 for two with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Littleton",
+    "description": "Alamo Drafthouse Littleton, south of Denver, brings the chain's reserved-recliner, full-bar format to the southwest metro. Its no-talking, no-phone policy is genuinely enforced, which repeat visitors cite as the main reason they keep coming back. Plan to arrive a full 30 minutes early — the chain's curated pre-show runs about 15 minutes and you won't be seated once it starts. Ordering is app-based with an automatic 18%+ service charge on food and drinks that reviewers say has gotten pricier for what's on the menu. Two people should budget $50-70.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Sloans Lake",
+    "description": "Alamo Drafthouse Sloans Lake, in northwest Denver, offers the chain's reserved recliners and full bar, including a live-music bar area separate from the theaters. Worth knowing before you go: seat tables here are fixed rather than fold-away, which can make getting in and out tight if you're larger-bodied or have mobility limits, and the garage parking level is stairs-only with no elevator. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge. Two people should expect to spend $50-70 with a full meal, or less at the bar alone.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": "Seat tables are fixed (non-adjustable); the parking garage's lower level is stairs-only with no elevator.",
+    "safety_notes": null
+  },
+  {
+    "name": "Westminster",
+    "description": "Alamo Drafthouse Westminster, in the north Denver suburbs, offers the chain's dine-in format with reserved recliners and a full bar, and reviewers note the on-site management team is genuinely responsive when something goes wrong. As chain-wide, ordering has moved from table service to a seat-side app, with an automatic 18%+ service charge added on top of menu prices reviewers describe as noticeably higher than they used to be. Two people should plan to spend $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Indianapolis",
+    "description": "Alamo Drafthouse Indianapolis, on the city's northwest side, offers heated reclining seats alongside the chain's full bar and reserved dine-in seating — a nice touch in colder months. The no-talking, no-phone policy is enforced consistently, a real draw for reviewers tired of chatty theaters. Ordering is app-based with the chain's automatic 18% service charge, and reviewers consistently flag food and drink prices as steep relative to portion sizes. Two tickets plus a shared order of snacks can run $70-100+.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Heated Seats"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Laredo",
+    "description": "Alamo Drafthouse Laredo, the chain's southernmost Texas location, offers a full bar and in-seat dining but has not yet been upgraded to reserved recliners — traditional theater seating is standard here for now. The room runs cold, so bringing a layer is a good idea. Multiple reviewers highlight the consistently spotless, well-maintained condition of the theater as a standout. Ordering is via the seat-side app with the chain-wide automatic 18%+ service charge. Budget $40-60 for two with food and drinks.",
+    "reserved_recliners": false,
+    "menu_price_range": "$$",
+    "amenities": ["Full Bar"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Downtown",
+    "description": "Alamo Drafthouse Downtown Los Angeles, on West 7th Street, is a smaller, art-lined multiplex with reserved recliners and a full bar, mixing new releases with classic repertory screenings. Parking validation matters here: garage rates jump from about $6 validated to $40+ without it, so keep your ticket handy. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge, on a menu reviewers say has shrunk since the chain's change in ownership. Two people should budget $60-80 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": "Validate parking at the garage — rates jump from about $6 to $40+ without validation.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Naples",
+    "description": "Alamo Drafthouse Naples, at the Mercato in North Naples, is the chain's only Florida location, opened in 2024. A large dinosaur display anchors the lobby, and a nine-hole mini-golf course themed around classic films (HappyLand) makes it a genuine before-or-after-the-movie activity, not just a theater. It offers the full Alamo package — reserved recliners, full bar, seat-side ordering via app — with the chain-wide automatic 18%+ service charge, and reviewers agree it runs pricier than other theaters in the area even by Alamo standards. Plan on $70-100+ for two with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Mini Golf"],
+    "parking_notes": "Parking garage on site.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Downtown Brooklyn",
+    "description": "Alamo Drafthouse Brooklyn, near Albee Square in Downtown Brooklyn, offers the chain's reserved recliners and full bar, plus a rewards program that regulars say pays off over time with free drinks and popcorn. One layout quirk: restrooms are located upstairs in the attached restaurant, a bit removed from the theaters themselves, so plan bathroom breaks accordingly. Ordering is app-based with the chain-wide automatic 18%+ service charge, on food reviewers say runs oversalted at times. Two people should budget $60-80 with food and drinks, or consider the membership if you're a regular.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": "Restrooms are located upstairs in the attached restaurant, not adjacent to the theaters.",
+    "safety_notes": null
+  },
+  {
+    "name": "Lower Manhattan",
+    "description": "Alamo Drafthouse Lower Manhattan, on Liberty Street, is set several floors below street level, with a bar and restaurant area up top before you head down to the theaters. It offers the chain's reserved recliners and full bar, plus an on-site movie rental library that's worth browsing if you arrive early. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge, on a menu that's gotten mixed reviews on salt levels lately. Two people should plan on $60-90 with food and drinks given Manhattan pricing.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Movie Rental Library"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Staten Island",
+    "description": "Alamo Drafthouse Staten Island, on Hylan Blvd, is the borough's only full-menu dine-in theater, with reserved recliners and a themed bar area (The Flying Guillotine) that's open to walk-in drinkers without a movie ticket. The chain's usual seat-side ordering and full bar apply in the auditoriums. As chain-wide, an automatic 18%+ service charge is added to food and drink orders, on a menu reviewers say has gotten pricier. Budget $50-70 for two with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "One Loudoun",
+    "description": "Alamo Drafthouse One Loudoun, in Ashburn's One Loudoun development, leans into Shining-inspired lobby decor and offers the chain's reserved recliners and full bar. A nice touch: candy here comes without crinkly packaging, cutting down on noise during the film. The theater enforces its start-time policy strictly, so arrive with buffer room or risk being turned away at the door. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge. Two people should budget $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": "Strict start-time policy; arrivals after the film starts may be denied entry."
+  },
+  {
+    "name": "Woodbridge",
+    "description": "Alamo Drafthouse Woodbridge, in Potomac Town Center, offers the chain's reserved recliners and full bar for in-seat dining. Fixed (non-adjustable) tables here can make it tight to get in and out of your seat, and low in-theater lighting sometimes gets used to help guests find their row, which can be a minor distraction during the film. Ordering is via the seat-side app with the chain-wide automatic 18%+ service charge. Two people should budget $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": "Seat tables are fixed and can be tight to maneuver around.",
+    "safety_notes": null
+  },
+  {
+    "name": "La Vista",
+    "description": "Alamo Drafthouse La Vista, in the Omaha metro (mapping services sometimes list it under Omaha itself, though the address is in the suburb of La Vista), offers the chain's reserved recliners and full bar with free on-site parking. Ordering runs through the seat-side app, with the chain-wide automatic 18%+ service charge added to food and drinks. Multiple recent reviews describe slower-than-expected food delivery and occasional order mix-ups, so budget some patience along with your evening. Two people should plan on $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": "Free on-site parking.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Raleigh",
+    "description": "Alamo Drafthouse Raleigh, on New Bern Ave, brings the chain's reserved-recliner, full-bar format to the Triangle, with custom pre-show reels curated per film that reviewers say are worth arriving 30 minutes early for. It also runs occasional 35mm repertory screenings alongside first-run titles. Ordering is app-based with the chain-wide automatic 18%+ service charge — and a further prompt for more if you don't close your tab within about 20 minutes of the credits — on a menu reviewers say is pricier than the food quality justifies. Two people should budget $50-70 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Park North",
+    "description": "Alamo Drafthouse Park North, on San Antonio's NW Loop 410, recently renovated its auditoriums with new reclining seats. As at every Alamo, ordering is now done via a seat-side QR code rather than a server taking your order by hand — a system some reviewers find hard to use once the lights go down. The chain's automatic 18%+ service charge applies to food and drinks here as everywhere else. Two people should budget $50-70 for a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Stone Oak",
+    "description": "Alamo Drafthouse Stone Oak, in North San Antonio, offers the chain's reserved recliners and full bar, and periodically hosts themed movie-party events for major franchise releases. As chain-wide, ordering runs through the seat-side app with an automatic 18%+ service charge, and reviewers note food quality has become inconsistent compared to this location's earlier reputation. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Mountain View",
+    "description": "Alamo Drafthouse Mountain View, on the Peninsula, offers the chain's reserved recliners and full bar across ten screens on the second floor (escalator and elevator access). Its biggest practical edge over Alamo's other two Bay Area locations: free parking, versus difficult and pricier parking in San Francisco and San Jose. Ordering runs through the seat-side app, with the chain-wide automatic 18%+ service charge on food and drinks. Two people should budget $60-90 given Bay Area pricing.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Arcade"],
+    "parking_notes": "Free parking — a real advantage over Alamo's San Francisco and San Jose-area locations.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "New Mission",
+    "description": "Alamo Drafthouse New Mission occupies a restored historic theater building on Mission Street in San Francisco, with reserved recliners (recently upgraded) and a full bar. Ordering runs through the seat-side app, with the chain-wide automatic 18%+ service charge applied to food and drinks. Reviewers say the ownership change has thinned the menu, cutting vegetarian options that were previously a draw. Two people should budget $60-90 with food and drinks given SF pricing.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Valley Fair",
+    "description": "Alamo Drafthouse Valley Fair, near the Westfield Valley Fair mall in Santa Clara, is one of the chain's newer Bay Area locations, themed around Godzilla with large statues in the decor. It offers reserved recliners and a full bar with the chain's usual seat-side app ordering and automatic 18%+ service charge. Multiple reviewers flag in-theater sound levels as uncomfortably loud here, worth a heads-up if you're sensitive to volume. Two people should budget $60-90 with food and drinks.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Springfield",
+    "description": "Alamo Drafthouse Springfield, in southwest Missouri, offers the chain's reserved recliners, full bar, and bottomless popcorn and drinks with most orders. It's available for private event rentals, with an attached lounge (The Backlot) for after-parties — worth asking about for a group screening. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge on food reviewers say is decent but not the strongest in the chain. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Event Rentals"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "City Foundry",
+    "description": "Alamo Drafthouse City Foundry sits inside the City Foundry STL development, a food-hall-and-retail complex near IKEA, with reserved recliners and a full bar across a large multi-screen layout. Restrooms here are shared/co-ed rather than separated by gender, which some visitors have found uncomfortable — worth knowing ahead of a visit. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": "Restrooms are shared/co-ed rather than separated by gender.",
+    "safety_notes": null
+  },
+  {
+    "name": "Woodbury",
+    "description": "Alamo Drafthouse Woodbury, in the Twin Cities' east metro, offers reserved recliners and a full bar across multiple screen sizes, including a large-format auditorium. Notably, several recent reviews describe this location still using notepads and call buttons for ordering rather than an app-only system seen at other Alamo locations — worth confirming if that matters to you, since chain-wide policy has shifted toward app ordering. The chain's automatic 18%+ service charge still applies here. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Winchester",
+    "description": "Alamo Drafthouse Winchester, in the Shenandoah Valley, offers reserved recliners and a full bar, with a largest auditorium seating close to 200 — big enough that it's hosted red-carpet film premieres. Ordering runs through the seat-side app with the chain-wide automatic 18%+ service charge, and reviewers note service can be slow to reach every table during a full house. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Yonkers",
+    "description": "Alamo Drafthouse Yonkers, in Westchester County just north of the Bronx, offers reserved recliners and a full bar with the chain's usual seat-side ordering. It enforces an under-3 restriction on regular screenings, but periodically runs a dedicated \"baby day\" showing for parents with infants — worth checking the schedule if that applies to you. As chain-wide, an automatic 18%+ service charge applies to food and drinks. Two people should budget $50-70 with a full meal.",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

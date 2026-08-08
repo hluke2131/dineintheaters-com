@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Mizner Park",
+    "description": "IPIC's Boca Raton location anchors the Mizner Park lifestyle center in downtown Boca. Reviewers describe reclining seats with complimentary blankets, servers who take orders in-seat and deliver food and drinks during the film, and Serena Pastificio — the on-site Italian restaurant and bar — for pre-movie dining. The kitchen turns out sliders, wings, burgers, and the theater's signature parmesan popcorn; the bar pours cocktails and wine. Free garage parking with theater validation. Under CMX Cinemas ownership since June 2026 following IPIC's Chapter 11 reorganization; the IPIC brand and in-seat dining format continue unchanged.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": "Free covered parking in the Mizner Park garage with in-theater validation.",
+    "safety_notes": null
+  },
+  {
+    "name": "Delray Beach",
+    "description": "IPIC Delray Beach sits in downtown Delray a block off Atlantic Avenue. The theater runs IPIC's full in-seat dining model: reserved recliners, blankets, servers taking food and drink orders during the movie, and a lobby bar. Menu leans premium American — sliders, wings, burgers, nachos, wine and cocktails — with the elevated pricing that comes with it. Recent reviewers are mixed on wear-and-tear and service consistency, a common thread post-Ch11; CMX Cinemas took over operations in June 2026. Parking is in the adjacent garage; validation is available but requires attention to the correct QR code at check-in.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": "Adjacent garage parking with in-theater validation (park on level 3 or above; the ParkMobile street option is not covered by validation).",
+    "safety_notes": null
+  },
+  {
+    "name": "North Miami Beach",
+    "description": "IPIC North Miami Beach on Biscayne Boulevard runs the full luxury dine-in format: reserved reclining pods, blankets, in-seat food and drink service via a call button, and The Tuck Room Gastro Lounge as the on-site restaurant and bar. Reviewers highlight comfortable seating (some describe them as \"sofas\"), attentive servers, and standout dishes like Bang Bang shrimp and nachos; feedback on food consistency and blanket freshness is mixed. Now operated by CMX Cinemas under continued IPIC branding as of June 2026.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Colony Square",
+    "description": "IPIC Atlanta at Colony Square in Midtown pairs the theater with Serena Pastificio, its on-site Italian restaurant and bar. Inside the auditorium, reclining loveseat pods, blankets, and touch-of-a-button service bring food, wood-fired pizzas, cocktails, and wine directly to the seat during the film. Reviewers consistently rate the experience as elevated and date-night worthy. Underground garage parking is validated by IPIC. Operated by CMX Cinemas under continued IPIC branding as of June 2026.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Lounge Bed Seating", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": "Underground garage parking validated by IPIC (roughly $3.50 for up to four hours per reviewer reports).",
+    "safety_notes": null
+  },
+  {
+    "name": "Pike & Rose",
+    "description": "IPIC North Bethesda anchors the Pike & Rose development just off Rockville Pike. The premium tier includes reserved reclining seats with blankets and pillows plus complimentary popcorn; standard seating still offers reclining and in-seat food and drink service delivered by a server. The on-site City Perch Kitchen + Bar serves cocktails and a full American menu (fish and chips, wings, nachos) both in the lobby and to the seat. Recent reviewers have flagged inconsistent execution — cold food, missed orders, cleanliness slips — that new CMX Cinemas ownership (June 2026) will need to address.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Hudson Lights",
+    "description": "IPIC Fort Lee at the Hudson Lights development is a short trip across the George Washington Bridge from Manhattan. Reviewers describe private pods for seating, blankets, and a call button that summons a server for in-seat food and drink orders throughout the movie. Two floors of bar service anchor the lobby experience, and on-site City Perch Kitchen + Bar is a popular pre-movie happy-hour stop. Parking is in the adjacent garage with in-theater validation. Operated by CMX Cinemas under continued IPIC branding as of June 2026.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": "Adjacent Hudson Lights garage parking with in-theater validation on exit.",
+    "safety_notes": null
+  },
+  {
+    "name": "The Domain",
+    "description": "IPIC Austin at The Domain runs the full luxury dine-in format in a smaller, intimate auditorium footprint. Reserved recliners set into private booth-style pods, complimentary blankets, table service, and a menu that runs from tandoori chicken skewers to wood-fired pizzas and fish and chips with truffle fries, plus a full cocktail bar. Reviewers describe the theater as noticeably cold — bring a jacket even with the blankets. Pool tables and bar seating in the lobby make it easy to arrive early. Operated by CMX Cinemas under continued IPIC branding as of June 2026.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Fairview",
+    "description": "IPIC Fairview (formerly branded as Gold Class) sits in the Village at Fairview north of Dallas. Reserved reclining seats, blankets, a lobby bar, and full in-seat food and drink service during the movie define the experience; menu highlights include wood-fired pizza, wings, and a bottled wine list. Reviewers consistently praise the space design and staff, though a few flag recent cleanliness and food-quality lapses that new CMX Cinemas ownership (June 2026) will need to address.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "River Oaks",
+    "description": "IPIC Houston at River Oaks pairs the theater with The Tuck Room Gastro Lounge, its on-site restaurant and bar. Inside, reserved recliners with blankets, attentive server-driven in-seat food and drink service, and a full menu including brisket, burgers, and cocktails; IPIC Access members get complimentary popcorn. Recent reviewers have flagged facility wear (escalator outages, HVAC issues in select auditoriums, worn seats) and inconsistent food quality — items that new CMX Cinemas ownership (June 2026) will need to invest in.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Wheelchair Accessible"],
+    "accessibility_notes": null,
+    "parking_notes": null,
+    "safety_notes": null
+  }
+]

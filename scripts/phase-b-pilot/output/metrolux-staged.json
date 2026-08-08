@@ -1,0 +1,50 @@
+{
+  "chain": "Metropolitan",
+  "chain_id": "7e070c05-3d97-4029-99db-a82ecdb0aa34",
+  "generated_at": "2026-08-03T01:47:47.304Z",
+  "source_counts": {
+    "locator_total": 1,
+    "outscraper_total": 1,
+    "matched": 1,
+    "locator_only": 0,
+    "outscraper_only": 0
+  },
+  "locations": [
+    {
+      "slug": "metrolux-loveland-dine-in-theatres-the-foundry",
+      "name": "MetroLux Dine-In Theatres @ The Foundry",
+      "chain_id": "7e070c05-3d97-4029-99db-a82ecdb0aa34",
+      "sub_brand": null,
+      "address": "285 East 3rd Street",
+      "city": "Loveland",
+      "state": "CO",
+      "zip": "80537",
+      "lat": 40.394556699999995,
+      "lng": -105.0733489,
+      "place_id": "ChIJHWUCpypTaYcRskZqfltN1XM",
+      "fsq_id": null,
+      "phone": "(970) 744-2076",
+      "website_url": "https://www.metrotheatres.com/theatres/x121m-metrolux-dine-in-theatres-the-foundry-downtown/",
+      "ticketing_url": "https://www.metrotheatres.com/theatres/x121m-metrolux-dine-in-theatres-the-foundry-downtown/",
+      "hours": null,
+      "delivery_style": "counter_pickup",
+      "alcohol_served": "unknown",
+      "age_restricted_auditoriums": null,
+      "reserved_recliners": null,
+      "menu_price_range": "$",
+      "amenities": [],
+      "accessibility_notes": null,
+      "parking_notes": "One reviewer notes nearby parking can be tough to find (downtown location, not specific to the theater).",
+      "safety_notes": null,
+      "description": "MetroLux Dine-In Theatres @ The Foundry, in downtown Loveland, CO, no longer delivers the dine-in experience its name and website still promise. Multiple 2026 reviews report that the seated, full food/drink menu the site advertises hasn't actually existed for years — what's served today is standard concession-stand fare (popcorn, hot dogs, pizza, candy) picked up at a counter, not ordered to your seat. Recent visitors also describe a deteriorating physical space: torn seating, uncleaned carpets, and at least one non-functioning restroom fixture. One reviewer mentions hearing talk of the location closing or changing hands. This is a marked drop from the theater's 4.2-star aggregate rating built up over 934 reviews, which reflects years of accumulated history rather than current condition — four of the five most recent reviews raise some version of these concerns, though one recent visitor who tried the food came away positive, describing the space as clean and the staff as attentive. Staff across nearly all of the recent reviews, positive and critical alike, are specifically described as friendly; reviewers are split on ticket value, with one calling prices high for the area and another calling them cheap. Google still lists the location as operational, but as of this review pull, the dine-in premise this directory is organized around does not currently hold here.",
+      "status": "active",
+      "last_verified_date": "2026-08-03",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmqJkfZdxkDXx3FqzPJe9ygpE8m1QNMnMXez_KVooOjs2QefJSW0o7NX_g-oUK-jCNM87KUHnUqT0_hzv0N2TkU5nG4mFObBuJBCYu7_tAQzHnEjOsbj5iDeoMgDQnZE7XmQLI_bw=w800-h500-k-no"
+      ],
+      "is_sponsored": false,
+      "metro_area": "Loveland",
+      "match_method": "city_and_name"
+    }
+  ]
+}

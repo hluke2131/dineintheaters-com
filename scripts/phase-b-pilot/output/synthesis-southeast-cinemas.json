@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Alamance Crossing Stadium 16",
+    "description": "A standard concession-stand theater in Burlington, NC — no in-seat food or drink service; this is not a dine-in venue despite the broader research list including it. Reviewers specifically value its indie/arthouse film programming, uncommon for the area. Seating in at least two auditoriums (4 and 5) is described as fixed, upright, and uncomfortable rather than reclining. One reviewer describes an unyielding refund policy during a personal emergency that contradicted guidance posted on the theater's own website, and another describes a sound issue in one auditorium that took roughly an hour to get corrected after repeated complaints.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": false,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Carolina Mall",
+    "description": "A standard concession-stand theater in Concord, NC — no in-seat food or drink service. Reviewers consistently value it as an affordable alternative to pricier theaters in nearby Charlotte, with friendly staff and decent concessions selection. One reviewer describes a bag search at the concession stand (framed by staff as a weapons check) where a child's own snacks were confiscated citing sanitation rules, which the reviewer felt was inconsistently applied and not actually about safety. A separate reviewer describes an in-theater volume complaint that management said they couldn't address.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Eastgate Cinemas",
+    "description": "A standard, deliberately no-frills concession-stand theater in Albemarle, NC — no in-seat food or drink service, and reviewers explicitly contrast it with fancier dine-in options elsewhere (\"if you're wanting... reclining seats where they serve you food at your beck and call, try another theatre\"). It's consistently valued as the only indoor theater in the immediate area, with unlimited self-serve popcorn refills and prices well below nearby cities. One reviewer notes the theater has only one closed-caption device, which was uncharged or broken on their visit — a real gap for anyone requiring one.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": false,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": "One reviewer notes the theater has only one closed-caption device, which was unavailable (uncharged or broken) on their visit.",
+    "safety_notes": null
+  },
+  {
+    "name": "Surf Cinema",
+    "description": "A standard concession-stand theater in Southport, NC — no in-seat food or drink service. Long-standing local favorite, with one reviewer describing multi-generational family patronage; reviews consistently praise ticket and concession prices. Menu variety is limited (one reviewer specifically requests more snack options); a separate reviewer was frustrated the theater wouldn't break a $50 or $100 bill for a purchase under $70.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Citadel Mall Stadium 16",
+    "description": "A standard concession-stand theater in Charleston, SC — no in-seat food or drink service. This is the most consistently criticized Southeast Cinemas location in recent reviews: multiple independent reviewers describe auditoriums not cleaned between showings (trash, spilled food, dirty seats), and one specifically reports restroom faucet water running uncomfortably hot with no way to adjust it (automatic fixtures). A separate review describes a bottlenecked, disorganized entry process (mandatory ticket printing, a separate ticket-check line, then a bag search, all clustered near concessions). Refund/showtime-change policy is applied rigidly even for stated medical emergencies, per two independent reviews. Some visits are positive — reclining seats and self-serve soda are called out favorably in at least one review — but the pattern of complaints here is more consistent than at the chain's other locations.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": "Multiple reviewers report the auditoriums are not consistently cleaned between showings; one reviewer reports restroom faucet water running uncomfortably hot with no adjustment possible (automatic fixtures)."
+  },
+  {
+    "name": "Northridge Cinema 10",
+    "description": "A standard concession-stand theater on Hilton Head Island, SC — no in-seat food or drink service, but unlimited self-serve popcorn and reclining seats are consistently praised. Reviews are strongly positive on staff friendliness and community involvement (one reviewer notes the theater donated to a local school's holiday outing). The most common note is that the exterior and some interior finishes could use updating, though reviewers say the inside experience exceeds what the outside suggests.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": true,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Northwoods Stadium Cinema",
+    "description": "A standard concession-stand theater in North Charleston, SC — no in-seat food or drink service. Reviews are mixed: several reviewers praise specific concession staff by name for patient, welcoming service, and reclining seats and pricing are noted positively. Two independent reviews describe real problems: one reports an unpleasant odor and dim, poorly-maintained-feeling lighting; another describes a severely understaffed, disorganized entry process where some guests didn't reach their seats until roughly 20 minutes into the film due to a single ticket-checker and slow concessions line.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": true,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Governor's Crossing 14",
+    "description": "A standard concession-stand theater in Sevierville, TN — no in-seat food or drink service. Concessions are the highlight reviewers call out specifically: a popcorn refill machine, multiple butter stations, and a flavored salt station. Ticket prices are repeatedly described as better than nearby competing chains. Recliner seat quality draws mixed reviews — comfortable for some, low-quality and uncomfortable for others — and at least one reviewer questions food/drink value relative to portion size and quality.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Twin County Cinemas III",
+    "description": "A standard concession-stand theater in Galax, VA — no in-seat food or drink service, but seating is a distinctive draw: reviewers describe comfortable rocking-chair-style seats with generous spacing (one 6'4\" reviewer specifically notes ample legroom). It's consistently positioned by reviewers as a better-value alternative to a pricier chain (Marquee Cinemas) about an hour away in Wytheville. One reviewer was frustrated that a pre-purchased, pre-selected seat wasn't held on arrival — seating reverted to first-come-first-served.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": true,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

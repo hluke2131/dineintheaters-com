@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Scene Restaurant & Lounge",
+    "city": "Huntsville",
+    "state": "AL",
+    "googlePlaceId": "ChIJ_Res4rpuYogRho5Sw_V9wTs"
+  },
+  {
+    "name": "Studio Eats Lancaster",
+    "city": "Lancaster",
+    "state": "CA",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Reserve Kitchen & Bar - Playa Vista",
+    "city": "Playa Vista",
+    "state": "CA",
+    "googlePlaceId": "ChIJhUKNmQuxwoARgsj4kn5rZYI"
+  },
+  {
+    "name": "Movie Bistro - Rialto Renaissance Marketplace",
+    "city": "Rialto",
+    "state": "CA",
+    "googlePlaceId": "ChIJ4byQUW1Nw4AR0S-eGhF4cfw"
+  },
+  {
+    "name": "Studio Eats Roseville Galleria Mall",
+    "city": "Roseville",
+    "state": "CA",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Carefree Circle",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Colorado Springs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Movie Bistro - Fort Collins",
+    "city": "Fort Collins",
+    "state": "CO",
+    "googlePlaceId": "ChIJyQUwyKlLaYcRs6K6PhA97-8"
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Manchester Buckland Hills",
+    "city": "Manchester",
+    "state": "CT",
+    "googlePlaceId": "ChIJuyHrfpRX5okRaPwBzxrsZH0"
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Milford",
+    "city": "Milford",
+    "state": "CT",
+    "googlePlaceId": "ChIJ0fDMvaB16IkRAH45y7MVkc4"
+  },
+  {
+    "name": "Movie Bistro - Boca Raton",
+    "city": "Boca Raton",
+    "state": "FL",
+    "googlePlaceId": "ChIJObNeOxEe2YgRpD37ojqkn2c"
+  },
+  {
+    "name": "The Premier - Boynton Beach",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "googlePlaceId": "ChIJa95331bf2IgRJKPVApT80ck"
+  },
+  {
+    "name": "Studio Eats Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Universal Cinemark at CityWalk",
+    "city": "Orlando",
+    "state": "FL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Durbin Park",
+    "city": "St Johns",
+    "state": "FL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Melrose Park",
+    "city": "Melrose Park",
+    "state": "IL",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Merriam",
+    "city": "Merriam",
+    "state": "KS",
+    "googlePlaceId": null
+  },
+  {
+    "name": "The Premier - Florence",
+    "city": "Florence",
+    "state": "KY",
+    "googlePlaceId": "ChIJ6e22DYzHQYgRHrSxaGi3PxU"
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Louisville Preston Crossings",
+    "city": "Louisville",
+    "state": "KY",
+    "googlePlaceId": "ChIJa0F-xRwJaYgR4uB_yln1DlQ"
+  },
+  {
+    "name": "Studio Eats Louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Movie Bistro - Lake Charles",
+    "city": "Lake Charles",
+    "state": "LA",
+    "googlePlaceId": "ChIJa9mHvUuBO4YRdxBLx0IvNYw"
+  },
+  {
+    "name": "Reserve Kitchen & Bar - Towson",
+    "city": "Towson",
+    "state": "MD",
+    "googlePlaceId": "ChIJGwezRgsPyIkRW9O254-m2Bo"
+  },
+  {
+    "name": "Studio Eats  Southland Center",
+    "city": "Taylor",
+    "state": "MI",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Gulfport",
+    "city": "Gulfport",
+    "state": "MS",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Movie Bistro - Asheville",
+    "city": "Asheville",
+    "state": "NC",
+    "googlePlaceId": "ChIJ96LFdTXzWYgRPwytZ1fT6AI"
+  },
+  {
+    "name": "Movie Bistro - Charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "googlePlaceId": "ChIJ0_W5VpAhVIgRYOPd13w2x1Q"
+  },
+  {
+    "name": "Movie Bistro - Raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "googlePlaceId": "ChIJP9Mf2kL3rIkR5BipR7iRHb8"
+  },
+  {
+    "name": "Studio Eats Rockingham Park",
+    "city": "Salem",
+    "state": "NH",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Willowbrook Mall",
+    "city": "Wayne",
+    "state": "NJ",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Beavercreek",
+    "city": "Beavercreek",
+    "state": "OH",
+    "googlePlaceId": "ChIJFT3ml--FQIgRIYbltlkzQ-Y"
+  },
+  {
+    "name": "Studio Eats Milford",
+    "city": "Milford",
+    "state": "OH",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Movie Bistro - North Canton",
+    "city": "North Canton",
+    "state": "OH",
+    "googlePlaceId": "ChIJJ85wscvRNogROTBQbJRAB8o"
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Toledo Franklin Park",
+    "city": "Toledo",
+    "state": "OH",
+    "googlePlaceId": "ChIJTcLaiqB_PIgRmqSl8F51y1E"
+  },
+  {
+    "name": "Studio Eats Valley View",
+    "city": "Valley View",
+    "state": "OH",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats  Dayton South",
+    "city": "West Carrollton",
+    "state": "OH",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Tulsa",
+    "city": "Tulsa",
+    "state": "OK",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Erie",
+    "city": "Erie",
+    "state": "PA",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Montage Mountain",
+    "city": "Moosic",
+    "state": "PA",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats College Station",
+    "city": "College Station",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "The Kitchen at CUT! - Cypress",
+    "city": "Cypress",
+    "state": "TX",
+    "googlePlaceId": "ChIJk3gyyFMrQYYRtO29DRtAAqM"
+  },
+  {
+    "name": "Studio Eats Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Movie Bistro - Edinburg",
+    "city": "Edinburg",
+    "state": "TX",
+    "googlePlaceId": "ChIJ-V9Hhj6hZYYRuD86N4ja6VY"
+  },
+  {
+    "name": "Gamescape by Cinemark at El Paso",
+    "city": "El Paso",
+    "state": "TX",
+    "googlePlaceId": "ChIJ3yuvAgBD54YR_lbSRGadZWI"
+  },
+  {
+    "name": "Studio Eats Las Palmas",
+    "city": "El Paso",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "The Kitchen at CUT! - Frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "googlePlaceId": "ChIJEVhjrhM_TIYRmqZ8ElKqr0M"
+  },
+  {
+    "name": "Studio Eats Kitchen - Grapevine",
+    "city": "Grapevine",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Gamescape by Cinemark at Greenville",
+    "city": "Greenville",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Harlingen",
+    "city": "Harlingen",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Houston",
+    "city": "Houston",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Katy",
+    "city": "Katy",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Missouri City",
+    "city": "Missouri City",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Reserve Kitchen & Bar - West Plano",
+    "city": "Plano",
+    "state": "TX",
+    "googlePlaceId": "ChIJpYMEAWojTIYRmBiXFW0eCQM"
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Legacy",
+    "city": "Plano",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats The Woodlands",
+    "city": "The Woodlands",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Waco",
+    "city": "Waco",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats NASA",
+    "city": "Webster",
+    "state": "TX",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Riverton",
+    "city": "Riverton",
+    "state": "UT",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats  Jordan Landing",
+    "city": "West Jordan",
+    "state": "UT",
+    "googlePlaceId": null
+  },
+  {
+    "name": "Studio Eats Kitchen & Bar - Fairfax",
+    "city": "Fairfax",
+    "state": "VA",
+    "googlePlaceId": "ChIJKdrKWAFPtokRSi4p1gQAAEw"
+  },
+  {
+    "name": "Reserve Restaurant & Bar | Pizzeria",
+    "city": "Newport News",
+    "state": "VA",
+    "googlePlaceId": "ChIJcwwcpZF4sIkRrKJhi5SavCA"
+  },
+  {
+    "name": "Reserve Kitchen & Bar - Bellevue Lincoln Square",
+    "city": "Bellevue",
+    "state": "WA",
+    "googlePlaceId": "ChIJa_p0BPttkFQRbc8racy6iaI"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Williamsburg",
+    "description": "Nitehawk Cinema's original Williamsburg, Brooklyn location, known for repertory programming and private event hosting (proposals, birthdays) that reviewers specifically praise as well-coordinated. Food and drinks are ordered from your seat and delivered during the film. Reviews are more mixed here than at the newer Prospect Park location — one recent visitor felt the food service had become less discreet and reported seating delays that cost part of a screening, while others describe good food in a distinctively small, intimate theater. Seats run snug given the building's original footprint.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Prospect Park",
+    "description": "Nitehawk Cinema's Prospect Park location, in a building dating to the 1920s (originally the Sanders Theatre, later the Pavilion Theatre) with reviewers specifically calling out the historic, ornate atmosphere. Reclining seats with side tables and an order pad, a concession bar with self-serve water, and food reviewers describe as gourmet-level (truffle popcorn and a soft pretzel with dip get specific praise) delivered to your seat. Cocktails are well-reviewed. Tickets run about $18.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

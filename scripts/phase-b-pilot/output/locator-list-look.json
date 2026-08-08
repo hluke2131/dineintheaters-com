@@ -1,0 +1,9 @@
+[
+  {"metro_area":"Los Angeles Area","name":"Glendale","address":"128 Artsakh Ave","city":"Glendale","state":"CA","zip":"91206","phone":"747-228-0135"},
+  {"metro_area":"Atlanta Area","name":"Brookhaven","address":"1004 Town Blvd","city":"Brookhaven","state":"GA","zip":"30319","phone":"470-805-3962"},
+  {"metro_area":"New York City Area","name":"Dobbs Ferry","address":"1 Hamilton St","city":"Dobbs Ferry","state":"NY","zip":"10522","phone":"914-517-0227"},
+  {"metro_area":"Dallas/Fort Worth","name":"Bedford","address":"2204 Airport Fwy Suite 450","city":"Bedford","state":"TX","zip":"76022","phone":null},
+  {"metro_area":"Dallas/Fort Worth","name":"Arlington","address":"5727 W Interstate 20","city":"Arlington","state":"TX","zip":"76017","phone":"682-816-0113"},
+  {"metro_area":"DC Metro Area","name":"Reston","address":"11940 Market St","city":"Reston","state":"VA","zip":"20190","phone":"571-464-6535"},
+  {"metro_area":"DC Metro Area","name":"Tysons at the Boro","address":"1667 Silver Hill Dr","city":"McLean","state":"VA","zip":"22102","phone":"703-462-5804"}
+]

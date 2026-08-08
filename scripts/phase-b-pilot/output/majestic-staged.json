@@ -1,0 +1,131 @@
+{
+  "chain": "Majestic",
+  "chain_id": "50b7eb4a-d72a-475e-a349-fe99a5b19764",
+  "generated_at": "2026-08-03T01:47:47.178Z",
+  "source_counts": {
+    "locator_total": 3,
+    "outscraper_total": 3,
+    "matched": 3,
+    "locator_only": 0,
+    "outscraper_only": 0
+  },
+  "locations": [
+    {
+      "slug": "majestic-tempe-tempe",
+      "name": "Majestic Theaters Tempe",
+      "chain_id": "50b7eb4a-d72a-475e-a349-fe99a5b19764",
+      "sub_brand": null,
+      "address": "1140 East Baseline Road",
+      "city": "Tempe",
+      "state": "AZ",
+      "zip": "85283",
+      "lat": 33.378639,
+      "lng": -111.922495,
+      "place_id": "ChIJNxdu9eQHK4cR26gj0munQZQ",
+      "fsq_id": null,
+      "phone": null,
+      "website_url": "https://www.majestictheatersaz.com/",
+      "ticketing_url": "https://www.majestictheatersaz.com/",
+      "hours": null,
+      "delivery_style": "in_seat_delivery",
+      "alcohol_served": "full_bar",
+      "age_restricted_auditoriums": null,
+      "reserved_recliners": null,
+      "menu_price_range": "$$$",
+      "amenities": [
+        "Full Bar",
+        "Reserved Seating"
+      ],
+      "accessibility_notes": null,
+      "parking_notes": null,
+      "safety_notes": null,
+      "description": "Majestic Theaters' original Tempe location (marketed as \"Majestic Tempe 7\"), a locally-owned AZ dine-in chain with a full bar and food ordered via QR code and delivered to your seat by a server. Seating is mixed here — not every seat reclines, so reviewers recommend checking the seat map when booking, and a few note some seats are showing wear. Reviews are generally positive on food and staff friendliness, with one detailed complaint about a billing discrepancy (an unexplained extra charge on top of a gift card balance) that wasn't resolved to the guest's satisfaction.",
+      "status": "active",
+      "last_verified_date": "2026-08-03",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIwPXxRHmUbSCJFO6XYzUdx_MdOfy0kAlKexNJZMzLtXRCApN_UitYSttolLnpJ--don6QD5OmRXJ1S1AUoEqeni2_mX91mBa9KrjyJ6ii5KFmXUrutmqdnNaM5-8mvJ9bf0MG=w800-h500-k-no"
+      ],
+      "is_sponsored": false,
+      "metro_area": "Phoenix Area",
+      "match_method": "city_and_name"
+    },
+    {
+      "slug": "majestic-chandler-chandler",
+      "name": "Majestic Theaters Chandler",
+      "chain_id": "50b7eb4a-d72a-475e-a349-fe99a5b19764",
+      "sub_brand": null,
+      "address": "4955 S Arizona Ave",
+      "city": "Chandler",
+      "state": "AZ",
+      "zip": "85248",
+      "lat": 33.234275,
+      "lng": -111.839033,
+      "place_id": "ChIJJUtp9SWrK4cRZlESprnRcEw",
+      "fsq_id": null,
+      "phone": null,
+      "website_url": "https://www.majestictheatersaz.com/",
+      "ticketing_url": "https://www.majestictheatersaz.com/",
+      "hours": null,
+      "delivery_style": "in_seat_delivery",
+      "alcohol_served": "full_bar",
+      "age_restricted_auditoriums": null,
+      "reserved_recliners": null,
+      "menu_price_range": "$$$",
+      "amenities": [
+        "Full Bar",
+        "Reserved Seating"
+      ],
+      "accessibility_notes": null,
+      "parking_notes": null,
+      "safety_notes": null,
+      "description": "Majestic Theaters' Chandler location (\"Majestic Chandler 9\"), known for $5 Tuesday tickets, a full bar with beers on tap and a happy hour, and chairside food/drink service ordered via QR code. Reviewers consistently praise the popcorn (served with clarified butter) and friendly staff. Recurring notes include occasionally slow, understaffed service and a building reviewers describe as starting to show its age, though the overall movie-going experience is rated positively.",
+      "status": "active",
+      "last_verified_date": "2026-08-03",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCvnfRZr7ccktQPmrgB7mh7lAUiirU42R6mF7fKlhnZlnU3gDGWp5ee8aLVk2aF1u4KKuvAVst13_EwQe7i5Dvxt8Fn-sWmRl6nMAy6FnYLnNK6bxKqLd02_QYU4HqFAhNO6Ib=w800-h500-k-no"
+      ],
+      "is_sponsored": false,
+      "metro_area": "Phoenix Area",
+      "match_method": "city_and_name"
+    },
+    {
+      "slug": "majestic-gilbert-gilbert",
+      "name": "Majestic Theaters Gilbert",
+      "chain_id": "50b7eb4a-d72a-475e-a349-fe99a5b19764",
+      "sub_brand": null,
+      "address": "5478 S Power Rd",
+      "city": "Gilbert",
+      "state": "AZ",
+      "zip": "85295",
+      "lat": 33.317108,
+      "lng": -111.688454,
+      "place_id": "ChIJudk1BH6tK4cRR0S2kNL1Yic",
+      "fsq_id": null,
+      "phone": null,
+      "website_url": "https://www.majestictheatersaz.com/",
+      "ticketing_url": "https://www.majestictheatersaz.com/",
+      "hours": null,
+      "delivery_style": "in_seat_delivery",
+      "alcohol_served": "full_bar",
+      "age_restricted_auditoriums": null,
+      "reserved_recliners": null,
+      "menu_price_range": "$$$",
+      "amenities": [
+        "Full Bar",
+        "Reserved Seating"
+      ],
+      "accessibility_notes": null,
+      "parking_notes": null,
+      "safety_notes": null,
+      "description": "Majestic Theaters' Gilbert location (\"Majestic Gilbert 8\"), a locally-owned alternative to the larger chains that reviewers frequently compare favorably to Harkins. Comfortable seating (some reviewers wish it reclined further back), a full bar, and food — including a well-reviewed clarified-butter popcorn and chicken tenders — brought to your seat by staff so you don't have to leave during the movie. One reviewer had a billing error with a bottomless-popcorn order, which Majestic corrected and refunded; ordering popcorn refills requires re-ordering through the app rather than just asking a server, which a couple of reviewers found more distracting than helpful.",
+      "status": "active",
+      "last_verified_date": "2026-08-03",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntFAvxiFBMCBP6LkkBcdjKoTALPcBUGJgveettZaZ7QiVovzz2Ggs1yGN8RQrlcIskiCCIuQq5w4zPZ5fBN6QZ3clauj4npw77l_MxOPRZx13rHiBqoprkVUtNDuZkKQ3Noa0M=w800-h500-k-no"
+      ],
+      "is_sponsored": false,
+      "metro_area": "Phoenix Area",
+      "match_method": "city_and_name"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "a-3bfea6bc-82f6-450a-a8f7-4f89804c37a9",
+  "status": "Success",
+  "data": [
+    {
+      "query": "MetroLux Dine-In Theatres @ The Foundry, 285 East 3rd Street, Loveland, CO",
+      "name": "Metropolitan MetroLux Dine-In Theatres",
+      "name_for_emails": "Metropolitan Metrolux Dine In Theatres",
+      "place_id": "ChIJHWUCpypTaYcRskZqfltN1XM",
+      "google_id": "0x8769532aa702651d:0x73d54d5b7e6a46b2",
+      "kgmid": "/g/11gx_qzm2z",
+      "address": "Loveland, CO 80537",
+      "county": null,
+      "street": null,
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "80537",
+      "city": "Loveland",
+      "state": "Colorado",
+      "state_code": "CO",
+      "plus_code": "85GP9WVG+RM",
+      "latitude": 40.394556699999995,
+      "longitude": -105.0733489,
+      "h3": "8926aa4320fffff",
+      "time_zone": "America/Denver",
+      "popular_times": null,
+      "website": "https://www.metrotheatres.com/theatres/x121m-metrolux-dine-in-theatres-the-foundry-downtown/",
+      "phone": "+1 970-744-2076",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-8g9jSuTj7_E/AAAAAAAAAAI/AAAAAAAAAAA/usCz8xZqgqw/s44-p-k-no-ns-nd/photo.jpg",
+      "description": null,
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "heated seats",
+        "food trays",
+        "pretzel bites",
+        "comfortable seating",
+        "app ordering",
+        "new theater",
+        "wait time",
+        "clean theater",
+        "monster nachos"
+      ],
+      "rating": 4.2,
+      "reviews": 934,
+      "photos_count": 237,
+      "cid": "8346662539759339186",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJHWUCpypTaYcRskZqfltN1XM&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "8346662539759339186",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmqJkfZdxkDXx3FqzPJe9ygpE8m1QNMnMXez_KVooOjs2QefJSW0o7NX_g-oUK-jCNM87KUHnUqT0_hzv0N2TkU5nG4mFObBuJBCYu7_tAQzHnEjOsbj5iDeoMgDQnZE7XmQLI_bw=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ivWSpBac38r5-pBM3f1AAQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=69.67056&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 75,
+        "2": 37,
+        "3": 68,
+        "4": 172,
+        "5": 582
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "117541201805713345878",
+      "verified": true,
+      "owner_title": "Metropolitan MetroLux Dine-In Theatres",
+      "owner_link": "https://www.google.com/maps/contrib/117541201805713345878",
+      "location_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+Dine-In+Theatres/@40.394556699999995,-105.0733489,14z/data=!4m8!1m2!2m1!1sMetropolitan+MetroLux+Dine-In+Theatres!3m4!1s0x8769532aa702651d:0x73d54d5b7e6a46b2!8m2!3d40.394556699999995!4d-105.0733489",
+      "location_reviews_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+Dine-In+Theatres/@40.394556699999995,-105.0733489,13.99z/data=!4m16!1m7!3m6!1s0x8769532aa702651d:0x73d54d5b7e6a46b2!2sMetropolitan+MetroLux+Dine-In+Theatres!8m2!3d40.394556699999995!4d-105.0733489!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8769532aa702651d:0x73d54d5b7e6a46b2!8m2!3d40.394556699999995!4d-105.0733489!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    }
+  ]
+}

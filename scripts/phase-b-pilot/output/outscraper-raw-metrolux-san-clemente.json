@@ -1,0 +1,935 @@
+{
+  "id": "a-b9b4f2a8-3299-4c67-87ef-4c5b2baa672b",
+  "status": "Success",
+  "data": [
+    {
+      "query": "Metropolitan MetroLux San Clemente, 101 W Avenida Vista Hermosa, San Clemente, CA",
+      "name": "Metropolitan MetroLux Theatres at San Clemente",
+      "name_for_emails": "Metropolitan Metrolux Theatres At San Clemente",
+      "place_id": "ChIJR7GvHnHz3IARc2OsfCy4qmU",
+      "google_id": "0x80dcf3711eafb147:0x65aab82c7cac6373",
+      "kgmid": "/g/11plcd_4xy",
+      "address": "101 W Avenida Vista Hermosa Unit 144, San Clemente, CA 92672",
+      "county": null,
+      "street": "101 W Avenida Vista Hermosa Unit 144",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "92672",
+      "city": "San Clemente",
+      "state": "California",
+      "state_code": "CA",
+      "plus_code": "8554C9QF+M7",
+      "latitude": 33.4392369,
+      "longitude": -117.62686339999999,
+      "h3": "8929a096ed7ffff",
+      "time_zone": "America/Los_Angeles",
+      "popular_times": [
+        {
+          "day": 7,
+          "day_text": "Sunday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 67,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 87,
+              "title": "Usually as busy as it gets",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 100,
+              "title": "Usually as busy as it gets",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 97,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 87,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 72,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 64,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "day_text": "Monday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 19,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 19,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 13,
+              "title": "Usually not busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "day_text": "Tuesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 45,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 45,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 53,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 58,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 38,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "day_text": "Wednesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 44,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 44,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 38,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 20,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "day_text": "Thursday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 22,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 30,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 30,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 30,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 34,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "day_text": "Friday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 34,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 45,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 45,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 65,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 61,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 51,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "day_text": "Saturday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 76,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 90,
+              "title": "Usually as busy as it gets",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 95,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 95,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 94,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 94,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 90,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 71,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": "live",
+          "percentage": 58,
+          "title": "A little busy",
+          "time": 16
+        }
+      ],
+      "website": "https://www.metrotheatres.com/theatres/g017w-metrolux-theatres-imax-san-clemente/",
+      "phone": "+1 949-226-8034",
+      "type": "Movie theater",
+      "logo": "https://lh4.googleusercontent.com/-hKzYrD6Y9YA/AAAAAAAAAAI/AAAAAAAAAAA/459r5xi11eE/s44-p-k-no-ns-nd/photo.jpg",
+      "description": null,
+      "typical_time_spent": null,
+      "located_in": "Outlets at San Clemente",
+      "located_google_id": "0x80dcf3f7ad8c9b8b:0xb9b2db81e8a6b89c",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": [
+        {
+          "body": "Become a Scripted Bar & Kitchen Brand Ambassador!  Learn more...",
+          "timestamp": 1772659220,
+          "link": "https://search.google.com/local/posts?q=Metropolitan+MetroLux+Theatres+at+San+Clemente&ludocid=7325870245081277299&lpsid=CIHM0ogKEMPci5im4tWnsgE&source=sh/x/loc/post&lsig=AB86z5XbCyywzWiVqn-GheqGVyzK",
+          "image": "https://lh3.googleusercontent.com/geougc/AF1QipOFHOYf7d5OgjUkJ_L8hW9wtgYR6_2g3MbH4l0D=h400-no"
+        },
+        {
+          "body": "Scripted Bar & Kitchen Special Coupon Offer.  Save 20% for a limited time. See coupon T&C for details.",
+          "timestamp": 1771956961,
+          "link": "https://search.google.com/local/posts?q=Metropolitan+MetroLux+Theatres+at+San+Clemente&ludocid=7325870245081277299&lpsid=CIHM0ogKEJvZrfmo98yOWA&source=sh/x/loc/post&lsig=AB86z5XbCyywzWiVqn-GheqGVyzK",
+          "image": "https://lh3.googleusercontent.com/geougc/AF1QipOMMI2aM2qYPDwxPQlUtGV2Xaps7-g9jolVGB0i=h400-no"
+        }
+      ],
+      "reviews_tags": [
+        "reclining seats",
+        "imax",
+        "comfortable seats",
+        "big screen",
+        "clean theater",
+        "luxury theater",
+        "new theatre",
+        "friendly staff",
+        "clean bathroom",
+        "kind staff"
+      ],
+      "rating": 4.2,
+      "reviews": 279,
+      "photos_count": 98,
+      "cid": "7325870245081277299",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJR7GvHnHz3IARc2OsfCy4qmU&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "7325870245081277299",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8l979W4jmM0oevTFQzj48rJ52qU2g-U0PadrTIzB1JTiFcxg8b6Je6_mlWsSNoOGRsapUtc9xMHZjhFMXbPoPwJvThnR0LMnTVOwh7Q-AOavIgBZJWj0RxpfbQcxGTFpPzlLYUw=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWly6PSVGGf6lCBtjrQhSjo1edvVZQeljN3wezofHRN-JWjlpp0hSTnfdWq8CQwEOPahKVizVjkzuBKPJuRj7tUeRy4wZ3GZgVIy-JJRBCvm4CCYTTaMF3NYMlZxiXyAn3xMk1s=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking garage": true,
+          "Free parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 28,
+        "2": 17,
+        "3": 13,
+        "4": 32,
+        "5": 189
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "116271035160715723515",
+      "verified": true,
+      "owner_title": "Metropolitan MetroLux Theatres at San Clemente",
+      "owner_link": "https://www.google.com/maps/contrib/116271035160715723515",
+      "location_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+Theatres+at+San+Clemente/@33.4392369,-117.62686339999999,14z/data=!4m8!1m2!2m1!1sMetropolitan+MetroLux+Theatres+at+San+Clemente!3m4!1s0x80dcf3711eafb147:0x65aab82c7cac6373!8m2!3d33.4392369!4d-117.62686339999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+Theatres+at+San+Clemente/@33.4392369,-117.62686339999999,13.99z/data=!4m16!1m7!3m6!1s0x80dcf3711eafb147:0x65aab82c7cac6373!2sMetropolitan+MetroLux+Theatres+at+San+Clemente!8m2!3d33.4392369!4d-117.62686339999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x80dcf3711eafb147:0x65aab82c7cac6373!8m2!3d33.4392369!4d-117.62686339999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bolingbrook",
+    "description": "Star Cinema Grill's Bolingbrook location, in the Chicago suburbs, offers private pod seating with reclining chairs, plus a lobby bar and pool tables to enjoy before showtime. Food and drinks are ordered through a server and delivered to your seat, with an automatic 18% gratuity added on top of premium pricing. Reviews are mixed: several call out standout individual staff (one manager draws consistent praise), but there are specific complaints about lukewarm food, slow drink delivery, and one server whose in-theater check-ins were loud and disruptive during a film.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "South Barrington",
+    "description": "Star Cinema Grill's South Barrington location, north of Chicago. Clean and comfortable with a full-night-out feel — reviewers note it's accommodated large private group bookings (one for over 40 kids) with dedicated servers per section. Food and drinks are ordered via server and delivered to your seat. Experience appears to hinge heavily on which staff are working: multiple reviews praise attentive servers and event coordination, but there are also specific complaints about being ignored at the bar and a general manager described as dismissive during a seating dispute.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Baybrook",
+    "description": "Star Cinema Grill's location at Baybrook Mall in Friendswood, in the Houston area. Reserved reclining seating (including a VIP pod option with blankets and free popcorn) with food and drinks ordered via server. Service is consistently praised as attentive, and staff are noted for accommodating food allergies by looping in a manager directly. The recurring complaint across multiple reviews is seating condition in some auditoriums — several mention torn or worn seats needing replacement.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "City Centre",
+    "description": "Star Cinema Grill's City Centre location in Houston, known among reviewers for elegant decor, chandeliers, and heated seats in some sections — a standout amenity versus the chain's other Houston-area locations. Reclining seats and food/drink delivered via server, with the standard automatic gratuity. The location has hosted inclusive programming like sensory-friendly screenings. One reviewer using handicap plates noted limited accessible parking relative to demand; a separate incident review describes a seating mix-up (a section sold in error) that was handled poorly by one manager, though a second manager resolved it with vouchers.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Heated Seats"],
+    "parking_notes": "Paid VIP parking is available; reviewers describe it as pricey, and accessible parking can be limited.",
+    "accessibility_notes": "One reviewer using handicap plates noted few accessible parking spaces.",
+    "safety_notes": null
+  },
+  {
+    "name": "College Station",
+    "description": "Star Cinema Grill's College Station location, with free garage parking noted repeatedly by reviewers as a standout perk. Large menu with food ordered via server and delivered to your seat, plus discount Tuesday tickets. Reviews are generally positive on food quality, though there are specific complaints about slow drink refills and confusion over gratuity being applied to non-food purchases like souvenir merchandise.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": "Free garage parking.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Cypress",
+    "description": "Star Cinema Grill's Cypress location, northwest of Houston, offers comfortable reclining faux-leather seating and a full bar that also serves THC-infused beverages alongside alcohol. Food and drinks are ordered via server; reviewers consistently describe the food as restaurant-quality, with parmesan popcorn and half-and-half wings both called out by name. The main caveat noted is price — a two-person meal with popcorn can run $80-90 — and service quality varies somewhat by which staff member is working.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "THC Beverages"],
+    "parking_notes": "Reviewers note ample on-site parking.",
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Missouri City",
+    "description": "Star Cinema Grill's Missouri City location, notable for a Samsung Onyx premium large-format screen reviewers call the biggest of its kind at the chain. Plush reclining pod seating with blankets, full bar including THC drinks, and food delivered via server. Reviews are strongly positive on comfort and service, though a few mention recliners that have gone loose or displaced over time and carpets due for cleaning.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods", "Premium Large-Format Screen", "THC Beverages"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Richmond",
+    "description": "Star Cinema Grill's Richmond (District West) location, which reviewers who lost their previous Alamo Drafthouse describe as a strong replacement. Private couples seating with reclining seats, a blanket, and a small popcorn per person; a subscription plan is available for frequent visitors. Unlike some other Star Cinema locations, there's no app-based ordering here — food and drinks are ordered directly through a server, which reviewers say is a worthwhile trade-off given the food quality. One reviewer described a server's conduct as unprofessional and discriminatory during a slow-service incident; other reviews describe attentive, well-organized service.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Springwoods",
+    "description": "Star Cinema Grill's Springwoods location in Spring, TX, a large-format theater reviewers describe as comfortable with generous food portions delivered via server. Runs a $3 summer kids' movie series and $8 Tuesday tickets. The most notable recurring complaint, across multiple recent reviews, is picture brightness — several reviewers say the screens run noticeably dimmer than other Star Cinema or standard theater screens, an issue that reportedly persisted even after a complimentary return visit.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Vintage Park",
+    "description": "Star Cinema Grill's Vintage Park location in Houston, offering premium pod seating alongside standard reserved seats, with food and drinks ordered via server. Staff are specifically praised for food-allergy accommodation, including a general manager who personally walked a family through ingredient concerns. Complaints are concentrated in the premium pod section: below-average picture/sound quality for the upcharge, servers not clearing plates or offering refills, and one report of a stale cigarette smell in an auditorium.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Private Pods"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

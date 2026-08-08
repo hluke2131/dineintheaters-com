@@ -1,0 +1,2575 @@
+{
+  "id": "ab-19b2f1e0-6fc1-458f-96c7-c026b901194f",
+  "status": "Success",
+  "data": [
+    {
+      "query": "Showplace Cinemas Harrisburg 9, 701 North Commercial Street, Harrisburg, IL",
+      "name": "Showplace Cinemas Harrisburg",
+      "name_for_emails": "Showplace Cinemas Harrisburg",
+      "place_id": "ChIJ8Soaya_DcIgREqnnGby_bxs",
+      "google_id": "0x8870c3afc91a2af1:0x1b6fbfbc19e7a912",
+      "kgmid": "/g/11c0rpq_gd",
+      "address": "701 N Commercial St, Harrisburg, IL 62946",
+      "county": null,
+      "street": "701 N Commercial St",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "62946",
+      "city": "Harrisburg",
+      "state": "Illinois",
+      "state_code": "IL",
+      "plus_code": "869HPFXG+7P",
+      "latitude": 37.7481522,
+      "longitude": -88.52313579999999,
+      "h3": "8926418c0d3ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://www.showplacecinemas.com/movie-theater/harrisburg9",
+      "phone": "+1 618-252-9253",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "royal suite",
+        "rocking chairs",
+        "arcade games",
+        "reclining seats",
+        "comfortable seats",
+        "clean theater",
+        "leg room",
+        "clean bathrooms",
+        "stadium seating",
+        "friendly staff"
+      ],
+      "rating": 4.5,
+      "reviews": 706,
+      "photos_count": 57,
+      "cid": "1977009576048306450",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ8Soaya_DcIgREqnnGby_bxs&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "1977009576048306450",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOepC3LHv-BxNusZsLXdB_7uft5SUKO1HXrj_0nMUL3o5qnQSPCfMUCgHyGI9u_9gF31YAYGi1rV6uHwth0aYStnsdKOsXsAw-GaOjrtBbf02Y941TDX38-CXhPE3po-iiKJCkBQ=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk8h7CXKLwSKp-s5AnHJxbjQAdP3H5VA3Lt01LlNAeLB-YlP9gJXzuxnZ52Ai-feNlvdFB0oE-1QGfwSgB9owQ4vY5uim3HxSk31-FvjogeeHPPprEkWRMAK30QMiXQ1YCybLUe=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 20,
+        "2": 15,
+        "3": 33,
+        "4": 143,
+        "5": 495
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Showplace Cinemas Harrisburg",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+Harrisburg/@37.7481522,-88.52313579999999,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+Harrisburg!3m4!1s0x8870c3afc91a2af1:0x1b6fbfbc19e7a912!8m2!3d37.7481522!4d-88.52313579999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+Harrisburg/@37.7481522,-88.52313579999999,13.99z/data=!4m16!1m7!3m6!1s0x8870c3afc91a2af1:0x1b6fbfbc19e7a912!2sShowplace+Cinemas+Harrisburg!8m2!3d37.7481522!4d-88.52313579999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8870c3afc91a2af1:0x1b6fbfbc19e7a912!8m2!3d37.7481522!4d-88.52313579999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Connersville 8, 2235 Park Road, Connersville, IN",
+      "name": "Showtime Cinemas",
+      "name_for_emails": "Showtime Cinemas",
+      "place_id": "ChIJ7ajNChe7aogRAGRrNEnMFmI",
+      "google_id": "0x886abb170acda8ed:0x6216cc49346b6400",
+      "kgmid": "/g/1td4kw88",
+      "address": "2235 N Pk Rd, Connersville, IN 47331",
+      "county": null,
+      "street": "2235 N Pk Rd",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47331",
+      "city": "Connersville",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "86FPMV69+PX",
+      "latitude": 39.6617987,
+      "longitude": -85.1300014,
+      "h3": "892a9222297ffff",
+      "time_zone": "America/Indianapolis",
+      "popular_times": null,
+      "website": "http://www.showplacecinemas.com/",
+      "phone": "+1 765-827-1830",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-KywgYiMrvPA/AAAAAAAAAAI/AAAAAAAAAAA/kSCNgRvebaQ/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "snack assortment",
+        "free popcorn",
+        "small movie theater",
+        "clean theater",
+        "comfy chairs",
+        "spacious seating",
+        "clean bathrooms",
+        "cozy theater",
+        "polite staff",
+        "crowd size"
+      ],
+      "rating": 4.6,
+      "reviews": 620,
+      "photos_count": 73,
+      "cid": "7068061279988704256",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ7ajNChe7aogRAGRrNEnMFmI&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "7068061279988704256",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkolrUfFhSwpl1_2S9DyNu0LMt5dl1v7-AWf9bU4qXLgnqXIKfghe1-eN2tmL3FU0gzBz7Yvpbo84u4Op5J7IR6GOa-U3cHBh9hvz-yFLFxtNpT2O4Tif-GB_udPwBvdiUW3c1y=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCZuxAgpax3AkzYXQRxHp3MbxjIU0yqE_pSgISoRb-pqYBU4AcT5MtC6Kn6o9MxgS8jAMdx9YIZPAFKkJYvqt6dp8_5F1C9OvDnEHjHjfjk-_IX228_KH8CqKVsVIWjdiw9NU=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Restaurant": false
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 12,
+        "2": 6,
+        "3": 36,
+        "4": 129,
+        "5": 437
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "114162505704916835511",
+      "verified": true,
+      "owner_title": "Showtime Cinemas",
+      "owner_link": "https://www.google.com/maps/contrib/114162505704916835511",
+      "location_link": "https://www.google.com/maps/place/Showtime+Cinemas/@39.6617987,-85.1300014,14z/data=!4m8!1m2!2m1!1sShowtime+Cinemas!3m4!1s0x886abb170acda8ed:0x6216cc49346b6400!8m2!3d39.6617987!4d-85.1300014",
+      "location_reviews_link": "https://www.google.com/maps/place/Showtime+Cinemas/@39.6617987,-85.1300014,13.99z/data=!4m16!1m7!3m6!1s0x886abb170acda8ed:0x6216cc49346b6400!2sShowtime+Cinemas!8m2!3d39.6617987!4d-85.1300014!16s%2Fg%2F11ckvg1dmb!3m7!1s0x886abb170acda8ed:0x6216cc49346b6400!8m2!3d39.6617987!4d-85.1300014!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Evansville East 20, 1801 Morgan Center Drive, Evansville, IN",
+      "name": "Showplace Cinemas Evansville East 20",
+      "name_for_emails": "Showplace Cinemas Evansville East 20",
+      "place_id": "ChIJ66AqY8nVcYgRc3igl5TKSro",
+      "google_id": "0x8871d5c9632aa0eb:0xba4aca9497a07873",
+      "kgmid": "/g/1hbpwsbcs",
+      "address": "1801 Morgan Center Dr, Evansville, IN 47715",
+      "county": null,
+      "street": "1801 Morgan Center Dr",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47715",
+      "city": "Evansville",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "869JXGV4+77",
+      "latitude": 37.993155,
+      "longitude": -87.4943369,
+      "h3": "89266a1334bffff",
+      "time_zone": "America/Chicago",
+      "popular_times": [
+        {
+          "day": 7,
+          "day_text": "Sunday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 24,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 38,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 53,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 60,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 61,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 55,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 54,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 49,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 0,
+              "title": "",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "day_text": "Monday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 7,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 10,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 13,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 14,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 16,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 17,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 17,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 0,
+              "title": "",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "day_text": "Tuesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 19,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 29,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 53,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 64,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 76,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 80,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 0,
+              "title": "",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "day_text": "Wednesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 10,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 13,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 14,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 14,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 17,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 19,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 0,
+              "title": "",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "day_text": "Thursday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 8,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 11,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 14,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 16,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 0,
+              "title": "",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "day_text": "Friday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 13,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 65,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 77,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 77,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 49,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "day_text": "Saturday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 61,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 68,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 73,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 79,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 86,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 97,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 100,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 94,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 81,
+              "title": "Usually as busy as it gets",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 57,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": "live",
+          "percentage": 100,
+          "title": "As busy as it gets",
+          "time": 19
+        }
+      ],
+      "website": "https://www.showplacecinemas.com/movie-theater/evansvilleeast20",
+      "phone": "+1 812-479-9732",
+      "type": "Movie theater",
+      "logo": "https://lh5.googleusercontent.com/-zpcnJaaEh6o/AAAAAAAAAAI/AAAAAAAAAAA/6QhTjoiYvN8/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "imax",
+        "clean restrooms",
+        "friendly employees",
+        "clean theater",
+        "royal suite",
+        "popcorn and drink combo",
+        "sound of freedom",
+        "dirty seats",
+        "leather seats"
+      ],
+      "rating": 4.4,
+      "reviews": 2607,
+      "photos_count": 469,
+      "cid": "13423764378879031411",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ66AqY8nVcYgRc3igl5TKSro&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-5022979694830520205",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnN0awD9lRb6WSX_pJV2xC27wlA6iWdDFciRRUop0Exr6InZ8lHYvjVYD3_YVBB-IKYHlVLZzu2lYJn-oVBOnG3CYwPPjp3x5Nfa07-FjrzZje4L-2rItEqfc97zTLAVRF_dwo2X5v2C3p2=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=u-xNQctRJLT1vhwJVBWV4w&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=69.804756&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Highlights": {
+          "3D movies": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 100,
+        "2": 74,
+        "3": 166,
+        "4": 659,
+        "5": 1608
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "102178307223497814346",
+      "verified": true,
+      "owner_title": "Showplace Cinemas Evansville East 20",
+      "owner_link": "https://www.google.com/maps/contrib/102178307223497814346",
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+Evansville+East+20/@37.993155,-87.4943369,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+Evansville+East+20!3m4!1s0x8871d5c9632aa0eb:0xba4aca9497a07873!8m2!3d37.993155!4d-87.4943369",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+Evansville+East+20/@37.993155,-87.4943369,13.99z/data=!4m16!1m7!3m6!1s0x8871d5c9632aa0eb:0xba4aca9497a07873!2sShowplace+Cinemas+Evansville+East+20!8m2!3d37.993155!4d-87.4943369!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8871d5c9632aa0eb:0xba4aca9497a07873!8m2!3d37.993155!4d-87.4943369!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Evansville North 9, 4200 North Third Avenue, Evansville, IN",
+      "name": "Showplace Cinemas North",
+      "name_for_emails": "Showplace Cinemas North",
+      "place_id": "ChIJS-JITrXVcYgRwg-dCEngkqA",
+      "google_id": "0x8871d5b54e48e24b:0xa092e049089d0fc2",
+      "kgmid": "/g/1tgzc2lx",
+      "address": "4200 N 3rd Ave, Evansville, IN 47710",
+      "county": null,
+      "street": "4200 N 3rd Ave",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47710",
+      "city": "Evansville",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "86CJ2C8C+FG",
+      "latitude": 38.016240499999995,
+      "longitude": -87.57874269999999,
+      "h3": "89266ac4a57ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.showplacecinemas.com/",
+      "phone": "+1 812-425-1386",
+      "type": "Movie theater",
+      "logo": "https://lh4.googleusercontent.com/-p3Uugw4NJ8k/AAAAAAAAAAI/AAAAAAAAAAA/lEbKDtKpju0/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "free popcorn",
+        "reclining seats",
+        "arcade",
+        "stadium seating",
+        "not overcrowded",
+        "leather recliners",
+        "leg room",
+        "comfy chairs",
+        "clean facility",
+        "small theater"
+      ],
+      "rating": 4.5,
+      "reviews": 956,
+      "photos_count": 93,
+      "cid": "11570556996949970882",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJS-JITrXVcYgRwg-dCEngkqA&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-6876187076759580734",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAlsmhZ0TSaemwfvQO7mUMC_G7x1uKCV3np1jdibyII4mdwHGiZZgxE7w78iXBjlVP9M4xKrXVv63H2X-CvFXiq0BBLGxORDmXY3IcUYeJLGNiwNsoS3TmUm4fkZiUJQB7fh3mmw=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qGKyi6l7Y9qqgxyL3IJk9g&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=255.69183&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Stadium seating": true,
+          "Restaurant": false
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true,
+          "Playground": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 24,
+        "2": 10,
+        "3": 59,
+        "4": 221,
+        "5": 642
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "101056438134777998282",
+      "verified": true,
+      "owner_title": "Showplace Cinemas North",
+      "owner_link": "https://www.google.com/maps/contrib/101056438134777998282",
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+North/@38.016240499999995,-87.57874269999999,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+North!3m4!1s0x8871d5b54e48e24b:0xa092e049089d0fc2!8m2!3d38.016240499999995!4d-87.57874269999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+North/@38.016240499999995,-87.57874269999999,13.99z/data=!4m16!1m7!3m6!1s0x8871d5b54e48e24b:0xa092e049089d0fc2!2sShowplace+Cinemas+North!8m2!3d38.016240499999995!4d-87.57874269999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8871d5b54e48e24b:0xa092e049089d0fc2!8m2!3d38.016240499999995!4d-87.57874269999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Jasper 8, 256 Brucke Strasse, Jasper, IN",
+      "name": "Showplace Cinemas Jasper 8",
+      "name_for_emails": "Showplace Cinemas Jasper 8",
+      "place_id": "ChIJuRlI8UZibogRCFze0r-GgZ4",
+      "google_id": "0x886e6246f14819b9:0x9e8186bfd2de5c08",
+      "kgmid": "/g/1thl6598",
+      "address": "256 Brucke Strasse, Jasper, IN 47546",
+      "county": null,
+      "street": "256 Brucke Strasse",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47546",
+      "city": "Jasper",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "86CM93PC+45",
+      "latitude": 38.3853314,
+      "longitude": -86.92953539999999,
+      "h3": "89266e2564bffff",
+      "time_zone": "America/Indiana/Vincennes",
+      "popular_times": [
+        {
+          "day": 7,
+          "day_text": "Sunday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 22,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 51,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 29,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "day_text": "Monday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 0,
+              "title": "",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 12,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 11,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 9,
+              "title": "Usually not busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 8,
+              "title": "Usually not busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "day_text": "Tuesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 19,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 29,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 39,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 55,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 68,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 86,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 94,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 85,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 62,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "day_text": "Wednesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 0,
+              "title": "",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 16,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 20,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "day_text": "Thursday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 0,
+              "title": "",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 0,
+              "title": "",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 15,
+              "title": "Usually not busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 21,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 22,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "day_text": "Friday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 16,
+              "title": "Usually not busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 20,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 24,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 57,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 81,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 90,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 86,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 67,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 21,
+              "title": "Usually not too busy",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "day_text": "Saturday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 58,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 73,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 81,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 86,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 100,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 97,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 85,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 73,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 51,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": "live",
+          "percentage": 100,
+          "title": "As busy as it gets",
+          "time": 20
+        }
+      ],
+      "website": "https://www.showplacecinemas.com/movie-theater/jasper8",
+      "phone": "+1 812-556-0323",
+      "type": "Movie theater",
+      "logo": "https://lh5.googleusercontent.com/-8l6oCE-eeqA/AAAAAAAAAAI/AAAAAAAAAAA/AcTrC42_9zs/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater, Video arcade",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "snack selection",
+        "arcade games",
+        "clean location",
+        "online seat reservation",
+        "friendly crew",
+        "free refills",
+        "small theater",
+        "crowd size",
+        "Has stadium seating"
+      ],
+      "rating": 4.2,
+      "reviews": 795,
+      "photos_count": 52,
+      "cid": "11421558288422951944",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJuRlI8UZibogRCFze0r-GgZ4&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-7025185785286599672",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl2oJN1qsn4_dyph13VCGv15qZDrEQb4iceyHu0epFnlmcRG9bCVIvF3ohFSC55gcc_UVp-kMeiqoLnxX2pywq7SPbnsqtPjQ3nfYi3B9hoIcgkznXulA7bbYf9obpesM0Aw4P2=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MDAgInFfA07CjimzZPdfbg&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=237.97183&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Highlights": {
+          "3D movies": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Stadium seating": true,
+          "Restaurant": false
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 41,
+        "2": 28,
+        "3": 84,
+        "4": 212,
+        "5": 430
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "102112295738718283899",
+      "verified": true,
+      "owner_title": "Showplace Cinemas Jasper 8",
+      "owner_link": "https://www.google.com/maps/contrib/102112295738718283899",
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+Jasper+8/@38.3853314,-86.92953539999999,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+Jasper+8!3m4!1s0x886e6246f14819b9:0x9e8186bfd2de5c08!8m2!3d38.3853314!4d-86.92953539999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+Jasper+8/@38.3853314,-86.92953539999999,13.99z/data=!4m16!1m7!3m6!1s0x886e6246f14819b9:0x9e8186bfd2de5c08!2sShowplace+Cinemas+Jasper+8!8m2!3d38.3853314!4d-86.92953539999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x886e6246f14819b9:0x9e8186bfd2de5c08!8m2!3d38.3853314!4d-86.92953539999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Newburgh 10, 8099 Bell Oaks Drive, Newburgh, IN",
+      "name": "Showplace Cinema Newburgh 12",
+      "name_for_emails": "Showplace Cinema Newburgh 12",
+      "place_id": "ChIJn6rFgmstbogRZwCNVljvWP0",
+      "google_id": "0x886e2d6b82c5aa9f:0xfd58ef58568d0067",
+      "kgmid": "/g/11ftl5311q",
+      "address": "8099 Bell Oaks Dr, Newburgh, IN 47630",
+      "county": null,
+      "street": "8099 Bell Oaks Dr",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47630",
+      "city": "Newburgh",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "869JXJF2+RV",
+      "latitude": 37.974542899999996,
+      "longitude": -87.3977918,
+      "h3": "89266a12e57ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://www.showplacecinemas.com/movie-theater/newburgh10",
+      "phone": "+1 812-422-3456",
+      "type": "Movie theater",
+      "logo": null,
+      "description": null,
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "recliner seats",
+        "arcade",
+        "kind staff",
+        "bowling",
+        "manager",
+        "questions",
+        "seats",
+        "seating",
+        "popcorn"
+      ],
+      "rating": 3.9,
+      "reviews": 50,
+      "photos_count": 8,
+      "cid": "18255604252234547303",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJn6rFgmstbogRZwCNVljvWP0&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-191139821475004313",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmzwrHy98aa3uUVI0shA5OnnEOQzHHvTan2uAMnymFvLPR5h1glwy32t0IrbOH0Bddvv4lIW2aAYZ_8X0d9ZgBOtra_VP7vohNW-zmqIedjRQ-f_2SHlhHC4dfpPlksKzqU8UwYq4UcOjE=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwibTpaBXKCCirjEIlvbouvWZ_dG8Xfn0jemjuuceqJXnjEItvOatefpcfTEpig7G2r4HPpEW3KfEDgblfGTUFoZO6reZZb5mpZASZEizV5qBZUTgySSlsc7Kq36sdhX9H68lg3uPyhcg=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 10,
+        "2": 0,
+        "3": 4,
+        "4": 5,
+        "5": 31
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Showplace Cinema Newburgh 12",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinema+Newburgh+12/@37.974542899999996,-87.3977918,14z/data=!4m8!1m2!2m1!1sShowplace+Cinema+Newburgh+12!3m4!1s0x886e2d6b82c5aa9f:0xfd58ef58568d0067!8m2!3d37.974542899999996!4d-87.3977918",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinema+Newburgh+12/@37.974542899999996,-87.3977918,13.99z/data=!4m16!1m7!3m6!1s0x886e2d6b82c5aa9f:0xfd58ef58568d0067!2sShowplace+Cinema+Newburgh+12!8m2!3d37.974542899999996!4d-87.3977918!16s%2Fg%2F11ckvg1dmb!3m7!1s0x886e2d6b82c5aa9f:0xfd58ef58568d0067!8m2!3d37.974542899999996!4d-87.3977918!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Princeton 8, 2691 West Broadway Street, Princeton, IN",
+      "name": "Showplace Cinemas Princeton 8",
+      "name_for_emails": "Showplace Cinemas Princeton 8",
+      "place_id": "ChIJPXJxsmzhcYgRH1f-INAszM0",
+      "google_id": "0x8871e16cb271723d:0xcdcc2cd020fe571f",
+      "kgmid": "/g/11b5mvpnsg",
+      "address": "Town Fair Shopping Center, 2691 W Broadway St, Princeton, IN 47670",
+      "county": null,
+      "street": "Town Fair Shopping Center, 2691 W Broadway St",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47670",
+      "city": "Princeton",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "86CJ993W+HH",
+      "latitude": 38.3539856,
+      "longitude": -87.6035945,
+      "h3": "89266ad2c9bffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://www.showplacecinemas.com/",
+      "phone": "+1 812-635-9102",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": "Town Fair Shopping Center",
+      "located_google_id": "0x8871e16cadbdb999:0xfb1f7be84bd2a64",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "kids pack",
+        "clean theater",
+        "clean bathrooms",
+        "polite staff",
+        "screens",
+        "friendly staff",
+        "comfortable seats",
+        "snacks",
+        "reclining",
+        "movie selection"
+      ],
+      "rating": 4.4,
+      "reviews": 405,
+      "photos_count": 17,
+      "cid": "14829276945442559775",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJPXJxsmzhcYgRH1f-INAszM0&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-3617467128266991841",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnbWjA1Aw85_bofcmw19EpsMAu6RRS-7PMWhQ3-H1ObLlL-BQsi6IwPcACSxFGyB7PLPer9Lxwj7bs7QEDJf0H10JSSOHjMagybMCabl5h757MEEQ3mwbEmsP5uonhv1bJqcmy0ZQ=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3B0JBOvT22GgkuZ7xs0Ymw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=168.12668&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true
+        },
+        "Offerings": {
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Restaurant": false
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 11,
+        "2": 5,
+        "3": 29,
+        "4": 111,
+        "5": 249
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Showplace Cinemas Princeton 8",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+Princeton+8/@38.3539856,-87.6035945,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+Princeton+8!3m4!1s0x8871e16cb271723d:0xcdcc2cd020fe571f!8m2!3d38.3539856!4d-87.6035945",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+Princeton+8/@38.3539856,-87.6035945,13.99z/data=!4m16!1m7!3m6!1s0x8871e16cb271723d:0xcdcc2cd020fe571f!2sShowplace+Cinemas+Princeton+8!8m2!3d38.3539856!4d-87.6035945!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8871e16cb271723d:0xcdcc2cd020fe571f!8m2!3d38.3539856!4d-87.6035945!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Seymour, 357 Tanger Boulevard, Seymour, IN",
+      "name": "Showplace Cinemas",
+      "name_for_emails": "Showplace Cinemas",
+      "place_id": "ChIJjVFiTAC5a4gRYGWhxNbk5IY",
+      "google_id": "0x886bb9004c62518d:0x86e4e4d6c4a16560",
+      "kgmid": "/g/11wp7fhxd7",
+      "address": "357 Tanger Blvd, Seymour, IN 47274",
+      "county": null,
+      "street": "357 Tanger Blvd",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "47274",
+      "city": "Seymour",
+      "state": "Indiana",
+      "state_code": "IN",
+      "plus_code": "86CPX576+74",
+      "latitude": 38.9631914,
+      "longitude": -85.83974549999999,
+      "h3": "89266c019c7ffff",
+      "time_zone": "America/Indianapolis",
+      "popular_times": null,
+      "website": "https://www.showplacecinemas.com/movie-theater/seymour",
+      "phone": null,
+      "type": "Movie theater",
+      "logo": null,
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": "Shops at Seymour",
+      "located_google_id": "0x886bb92ee9b7770b:0x814f933387367423",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "scream 7",
+        "broken seats",
+        "nostalgic vibe",
+        "welcoming employees",
+        "planned remodel",
+        "free refills",
+        "rewards program",
+        "clean theater",
+        "concessions",
+        "friendly staff"
+      ],
+      "rating": 4.1,
+      "reviews": 58,
+      "photos_count": 19,
+      "cid": "9720145506845418848",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJjVFiTAC5a4gRYGWhxNbk5IY&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-8726598566864132768",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJFYEQCdgiO6EO5by1ivex_dCS5TKORZfGXy4pPtiGrnqcMNYZRFNkxH9uT8JObwHh3nSmS3H9hCiJu_LibIeKgiRYv1uoV5O25dvHeLP_VV2-qXq4wDUnk2mYk3SdyTk7Hk8953cuY-YL=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrLkDczFwFuG2gqdWjshKltZ0m0vyt7OymhmsCZjvjpVfDNtb7ULicFtnh2lasLrWJ1_24fr5Su0KD6lSb2QrEbPTJ6etNSYTjhHXbdNVx7TNsS0cdNpvh3riLbj5HNVZ_d0qgmJVqXSJ4=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Restaurant": false
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 6,
+        "2": 3,
+        "3": 5,
+        "4": 7,
+        "5": 37
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Showplace Cinemas",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas/@38.9631914,-85.83974549999999,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas!3m4!1s0x886bb9004c62518d:0x86e4e4d6c4a16560!8m2!3d38.9631914!4d-85.83974549999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas/@38.9631914,-85.83974549999999,13.99z/data=!4m16!1m7!3m6!1s0x886bb9004c62518d:0x86e4e4d6c4a16560!2sShowplace+Cinemas!8m2!3d38.9631914!4d-85.83974549999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x886bb9004c62518d:0x86e4e4d6c4a16560!8m2!3d38.9631914!4d-85.83974549999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Showplace Cinemas Henderson 8, 406 Walker Drive, Henderson, KY",
+      "name": "Showplace Cinemas Henderson 8",
+      "name_for_emails": "Showplace Cinemas Henderson 8",
+      "place_id": "ChIJLWjCDygqcIgRZR7wYvjHcpg",
+      "google_id": "0x88702a280fc2682d:0x9872c7f862f01e65",
+      "kgmid": "/g/119t_9nbj",
+      "address": "406 Cs-1117, Henderson, KY 42420",
+      "county": null,
+      "street": "406 Cs-1117",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "42420",
+      "city": "Henderson",
+      "state": "Kentucky",
+      "state_code": "KY",
+      "plus_code": "869JVC9J+CH",
+      "latitude": 37.868611099999995,
+      "longitude": -87.5686111,
+      "h3": "89266a18d6fffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://www.showplacecinemas.com/movie-theater/henderson8",
+      "phone": "+1 270-212-0523",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "Multiplex theater presenting mainstream Hollywood movies with standard amenities & bargain matinees.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "clean area",
+        "recliner style seating",
+        "quiet atmosphere",
+        "popcorn refills",
+        "clean theater",
+        "friendly people",
+        "clean facilities",
+        "polite staff",
+        "family fun",
+        "cleanliness"
+      ],
+      "rating": 4.5,
+      "reviews": 590,
+      "photos_count": 19,
+      "cid": "10985062310735781477",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJLWjCDygqcIgRZR7wYvjHcpg&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-7461681762973770139",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnIzHgwPEMmlYlSCSwAdntOYzpGSJz6wmmQT8DEo4Gv9oTWWu2wCWYpipbAHQ62lF1ELjglDRVLEDjEz0WkjG5dsKIlfF5p2ECvbEXAxyEbFqpBVVvBxvD3xoZ-WgvCOJg15q20kA=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgbwRqqNT1DfisUbBf5N4F8pvVlrXM00Q0KC4Up0mzSZXWG8_o9lFr2fJsq3ChplU8a_b19wOPfqctMwq3PRocAZojeuqvEvwE5ElhVhS5stIOzm45LSlKKRufrkqe2WnyPQGkMQ=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Arcade games": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Restroom": true,
+          "Restaurant": false
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 14,
+        "2": 10,
+        "3": 36,
+        "4": 144,
+        "5": 386
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Showplace Cinemas Henderson 8",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Showplace+Cinemas+Henderson+8/@37.868611099999995,-87.5686111,14z/data=!4m8!1m2!2m1!1sShowplace+Cinemas+Henderson+8!3m4!1s0x88702a280fc2682d:0x9872c7f862f01e65!8m2!3d37.868611099999995!4d-87.5686111",
+      "location_reviews_link": "https://www.google.com/maps/place/Showplace+Cinemas+Henderson+8/@37.868611099999995,-87.5686111,13.99z/data=!4m16!1m7!3m6!1s0x88702a280fc2682d:0x9872c7f862f01e65!2sShowplace+Cinemas+Henderson+8!8m2!3d37.868611099999995!4d-87.5686111!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88702a280fc2682d:0x9872c7f862f01e65!8m2!3d37.868611099999995!4d-87.5686111!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "chain": "Metropolitan Centerra",
+  "generated_at": "2026-08-07T23:58:53.944Z",
+  "counts": {
+    "locator_total": 1,
+    "outscraper_total": 1,
+    "matched": 1,
+    "locator_only": 0,
+    "outscraper_only": 0
+  },
+  "matched": [
+    {
+      "locator": {
+        "metro_area": "Loveland",
+        "name": "12 Theatres + IMAX @ Centerra",
+        "address": "6085 Sky Pond Drive",
+        "city": "Loveland",
+        "state": "CO",
+        "zip": "80538",
+        "phone": "970-593-3140"
+      },
+      "outscraper": {
+        "query": "Metropolitan MetroLux 12 Theatres + IMAX @ Centerra, 6085 Sky Pond Drive, Loveland, CO",
+        "name": "Metropolitan MetroLux 12 Theatres + IMAX @ The Promenade Shops at Centerra",
+        "name_for_emails": "Metropolitan Metrolux 12 Theatres + Imax @ The Promenade Shops At Centerra",
+        "place_id": "ChIJtQOnOvisbocRr5BHXL3k5IY",
+        "google_id": "0x876eacf83aa703b5:0x86e4e4bd5c4790af",
+        "kgmid": "/g/1tg_xl5d",
+        "address": "6085 Sky Pond Dr, Loveland, CO 80538",
+        "county": "Centerra",
+        "street": "6085 Sky Pond Dr",
+        "area_service": false,
+        "country_code": "US",
+        "country": "United States of America",
+        "postal_code": "80538",
+        "city": "Loveland",
+        "state": "Colorado",
+        "state_code": "CO",
+        "plus_code": "85GQC2C5+3M",
+        "latitude": 40.420247499999995,
+        "longitude": -104.990782,
+        "h3": "8926aa4260fffff",
+        "time_zone": "America/Denver",
+        "popular_times": null,
+        "website": "https://www.metrotheatres.com/theatres/x01re-metrolux-12-theatres-imax-centerra/",
+        "phone": "+1 970-593-3140",
+        "type": "Movie theater",
+        "logo": "https://lh5.googleusercontent.com/-QTO3T7Lg-4c/AAAAAAAAAAI/AAAAAAAAAAA/iSQEldpxHE0/s44-p-k-no-ns-nd/photo.jpg",
+        "description": null,
+        "typical_time_spent": null,
+        "located_in": "The Promenade Shops at Centerra",
+        "located_google_id": "0x876eacf9840a3611:0x9878ba39f3e7fb35",
+        "category": "attractions",
+        "subtypes": "Movie theater, Cocktail bar",
+        "posts": null,
+        "reviews_tags": [
+          "reclining seats",
+          "heated seats",
+          "comfortable seats",
+          "sound of freedom",
+          "worn seats",
+          "filthy theater",
+          "friendly employees",
+          "imax theater",
+          "fresh popcorn",
+          "lux seating"
+        ],
+        "rating": 4,
+        "reviews": 1911,
+        "photos_count": 247,
+        "cid": "9720145397720518831",
+        "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtQOnOvisbocRr5BHXL3k5IY&q=*&authuser=0&hl=en&gl=US",
+        "reviews_id": "-8726598675989032785",
+        "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkx1GPlOoVIxZ8GfDl_kmoIfkQ_cSxsegIcIWSCF2Ja0R5kN2DfvcNiZaS31nccfTITnwAYj9Y6UTCGc0tvlUyH_LW_B5d5zXEhhTjxs-hGsaxaMCht-K5b6M1DERUUM4I9jpyA=w800-h500-k-no",
+        "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=hwtfrZv5bbbhcgNmRNpo6Q&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=17.746801&pitch=0&thumbfov=100",
+        "working_hours": null,
+        "working_hours_csv_compatible": null,
+        "other_hours": null,
+        "business_status": "OPERATIONAL",
+        "about": {
+          "Service options": {
+            "Onsite services": true
+          },
+          "Highlights": {
+            "3D movies": true
+          },
+          "Accessibility": {
+            "Wheelchair accessible entrance": true,
+            "Wheelchair accessible parking lot": true,
+            "Wheelchair accessible restroom": true,
+            "Wheelchair accessible seating": true
+          },
+          "Offerings": {
+            "Alcohol": true,
+            "Arcade games": true,
+            "Food": true
+          },
+          "Amenities": {
+            "Bar onsite": true,
+            "Restroom": true,
+            "Stadium seating": true,
+            "Wi-Fi": true,
+            "Restaurant": false
+          },
+          "Payments": {
+            "Credit cards": true,
+            "Debit cards": true,
+            "NFC mobile payments": true
+          },
+          "Children": {
+            "Good for kids": true
+          },
+          "Parking": {
+            "Free parking lot": true,
+            "Free street parking": true
+          }
+        },
+        "range": null,
+        "prices": null,
+        "reviews_per_score": {
+          "1": 201,
+          "2": 117,
+          "3": 178,
+          "4": 455,
+          "5": 960
+        },
+        "reservation_links": null,
+        "booking_appointment_link": null,
+        "menu_link": null,
+        "order_links": null,
+        "owner_id": "116576701024191551627",
+        "verified": true,
+        "owner_title": "Metropolitan MetroLux 12 Theatres + IMAX @ The Promenade Shops at Centerra",
+        "owner_link": "https://www.google.com/maps/contrib/116576701024191551627",
+        "location_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+12+Theatres+%2B+IMAX+%40+The+Promenade+Shops+at+Centerra/@40.420247499999995,-104.990782,14z/data=!4m8!1m2!2m1!1sMetropolitan+MetroLux+12+Theatres+%2B+IMAX+%40+The+Promenade+Shops+at+Centerra!3m4!1s0x876eacf83aa703b5:0x86e4e4bd5c4790af!8m2!3d40.420247499999995!4d-104.990782",
+        "location_reviews_link": "https://www.google.com/maps/place/Metropolitan+MetroLux+12+Theatres+%2B+IMAX+%40+The+Promenade+Shops+at+Centerra/@40.420247499999995,-104.990782,13.99z/data=!4m16!1m7!3m6!1s0x876eacf83aa703b5:0x86e4e4bd5c4790af!2sMetropolitan+MetroLux+12+Theatres+%2B+IMAX+%40+The+Promenade+Shops+at+Centerra!8m2!3d40.420247499999995!4d-104.990782!16s%2Fg%2F11ckvg1dmb!3m7!1s0x876eacf83aa703b5:0x86e4e4bd5c4790af!8m2!3d40.420247499999995!4d-104.990782!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+      },
+      "match_method": "city_and_name"
+    }
+  ],
+  "locator_only": [],
+  "outscraper_only": []
+}

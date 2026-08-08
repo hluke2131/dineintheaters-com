@@ -1,0 +1,20 @@
+[
+  {"metro_area":"Bakersfield","name":"Bakersfield","address":"2733 Calloway Dr.","city":"Bakersfield","state":"CA","zip":"93312","phone":"661-535-2292"},
+  {"metro_area":"Sacramento Area","name":"Rocklin","address":"5140 Commons Dr.","city":"Rocklin","state":"CA","zip":"95677","phone":"279-999-7632"},
+  {"metro_area":"Los Angeles Area","name":"Simi Valley","address":"1555 Simi Town Center Way","city":"Simi Valley","state":"CA","zip":"93065","phone":"805-422-7100"},
+  {"metro_area":"Tampa Bay Area","name":"Seminole","address":"7718 113th St. North","city":"Seminole","state":"FL","zip":"33772","phone":"727-894-2200"},
+  {"metro_area":"Orlando Area","name":"Sunset Walk","address":"3204 Margaritaville Blvd.","city":"Orlando-Kissimmee","state":"FL","zip":"34747","phone":"321-333-4450"},
+  {"metro_area":"Atlanta Area","name":"Duluth","address":"3850 Venture Dr.","city":"Duluth","state":"GA","zip":"30096","phone":"770-381-7352"},
+  {"metro_area":"Atlanta Area","name":"Marietta","address":"40 Powers Ferry Rd.","city":"Marietta","state":"GA","zip":"30067","phone":"678-273-3558"},
+  {"metro_area":"Atlanta Area","name":"North Point","address":"7730 North Point Pkwy.","city":"Alpharetta","state":"GA","zip":"30022","phone":"470-657-0300"},
+  {"metro_area":"Chicago Area","name":"Wheaton","address":"301 Rice Lake Sq.","city":"Wheaton","state":"IL","zip":"60189","phone":"331-236-0728"},
+  {"metro_area":"Dallas/Fort Worth","name":"Arlington Highlands","address":"225 Merchants Row","city":"Arlington","state":"TX","zip":"76018","phone":"682-267-9461"},
+  {"metro_area":"Dallas/Fort Worth","name":"Arlington Lincoln Square","address":"452 Lincoln Sq.","city":"Arlington","state":"TX","zip":"76011","phone":"682-267-9465"},
+  {"metro_area":"Dallas/Fort Worth","name":"Chisholm Trail","address":"5413 Sierra Springs Ln.","city":"Fort Worth","state":"TX","zip":"76123","phone":"682-348-4355"},
+  {"metro_area":"Dallas/Fort Worth","name":"Dallas Royal Lane","address":"11170 N. Central Expy.","city":"Dallas","state":"TX","zip":"75243","phone":"469-405-8523"},
+  {"metro_area":"Houston","name":"Pearland","address":"8440 South Sam Houston East","city":"Houston","state":"TX","zip":"77075","phone":"346-299-6453"},
+  {"metro_area":"Dallas/Fort Worth","name":"Plano","address":"4721 W. Park Blvd.","city":"Plano","state":"TX","zip":"75093","phone":"469-405-8527"},
+  {"metro_area":"Dallas/Fort Worth","name":"Spring Valley","address":"13933 N. Central Expy.","city":"Dallas","state":"TX","zip":"75243","phone":"469-405-8521"},
+  {"metro_area":"Dallas/Fort Worth","name":"The Colony","address":"4800 State Hwy. 121","city":"The Colony","state":"TX","zip":"75056","phone":"469-405-8530"},
+  {"metro_area":"Tyler","name":"Tyler","address":"8954 S. Broadway Ave.","city":"Tyler","state":"TX","zip":"75703","phone":"430-205-8709"}
+]

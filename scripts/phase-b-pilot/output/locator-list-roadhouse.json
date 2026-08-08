@@ -1,0 +1,5 @@
+[
+  {"metro_area":"Phoenix Area","name":"Scottsdale","address":"9090 E Talking Stick Way","city":"Scottsdale","state":"AZ","zip":"85250","phone":"(480) 750-7295"},
+  {"metro_area":"Tucson","name":"Tucson","address":"4811 E Grant Rd #150","city":"Tucson","state":"AZ","zip":"85712","phone":"(520) 209-2728"},
+  {"metro_area":"Colorado Springs","name":"Colorado Springs","address":"3030 N Nevada Ave","city":"Colorado Springs","state":"CO","zip":"80907","phone":"(719) 627-8586"}
+]

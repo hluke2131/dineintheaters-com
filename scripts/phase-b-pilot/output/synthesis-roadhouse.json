@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Scottsdale",
+    "description": "RoadHouse Cinemas' Scottsdale location, a longtime favorite for reviewers who've been coming for years, including with young kids. Reclining seats, a full bar, and food ordered via a seat-side call button or app and delivered during the movie. Reviews are consistently strong on cleanliness, comfort, and staff friendliness, including praise for hosting private events. The main caveat noted is price — around $17 for a burger — typical of the chain's restaurant-quality, full-service positioning.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Tucson",
+    "description": "RoadHouse Cinemas' Tucson location, with heated reclining leather seats, a VIP lounge (about 15 seats) and a smaller private screening room, plus food and drinks ordered via a pull-out table QR code and delivered during the movie. It's part of a larger complex that includes Roadies, an adjacent bowling/arcade/ax-throwing venue under the same ownership. One detailed review from a wheelchair user notes real friction points — no push-button front door, and one auditorium's fixed table didn't accommodate a wheelchair as well as another's movable table — alongside genuinely helpful staff who offered a refund when the fit wasn't working. Reviews are otherwise strongly positive on food quality and atmosphere.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Heated Seats", "Private Screening Room"],
+    "parking_notes": null,
+    "accessibility_notes": "One wheelchair-using visitor reported no push-button front door and inconsistent table clearance between auditoriums (one theater's fixed table was too low, another's movable table worked well); staff were reported as attentive and offered a refund when seating didn't fit well.",
+    "safety_notes": null
+  },
+  {
+    "name": "Colorado Springs",
+    "description": "RoadHouse Cinemas' Colorado Springs location, with heated reclining seats, individual tables, and a seat-side call button for food and drink orders throughout the movie. It's connected to an arcade/gastropub area, which reviewers note can make nearby auditoriums noisier than a standalone theater. Service is consistently praised as attentive, and ticket policies (refunds/swaps up to an hour before showtime) are called out as reasonable. The main complaints are on the food side — prices are high for portion size, at least one dish arrived below par on a specific visit, and one reviewer found a specific auditorium unexpectedly cold.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Heated Seats"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

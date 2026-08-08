@@ -1,0 +1,11 @@
+[
+  {"metro_area":"Burlington","name":"Alamance Crossing Stadium 16","address":"1090 Piper Lane","city":"Burlington","state":"NC","zip":"27215","phone":"336-585-2585"},
+  {"metro_area":"Concord","name":"Carolina Mall","address":"120 Country Club Drive","city":"Concord","state":"NC","zip":"28025","phone":"704-788-2404"},
+  {"metro_area":"Albemarle","name":"Eastgate Cinemas","address":"823 Highway 24/27 East","city":"Albemarle","state":"NC","zip":"28001","phone":"704-982-8811"},
+  {"metro_area":"Southport","name":"Surf Cinema","address":"4836 Old Long Beach Rd SE","city":"Southport","state":"NC","zip":"28461","phone":"910-457-0420"},
+  {"metro_area":"Charleston","name":"Citadel Mall Stadium 16","address":"2072 Sam Rittenberg Boulevard","city":"Charleston","state":"SC","zip":"29407","phone":"843-769-7600"},
+  {"metro_area":"Hilton Head Island","name":"Northridge Cinema 10","address":"435 William Hilton Parkway #15","city":"Hilton Head Island","state":"SC","zip":"29926","phone":"843-342-3800"},
+  {"metro_area":"North Charleston","name":"Northwoods Stadium Cinema","address":"2181 Northwoods Boulevard","city":"North Charleston","state":"SC","zip":"29406","phone":"843-300-4190"},
+  {"metro_area":"Sevierville","name":"Governor's Crossing 14","address":"1402 Hurley Drive","city":"Sevierville","state":"TN","zip":"37862","phone":"865-366-1752"},
+  {"metro_area":"Galax","name":"Twin County Cinemas III","address":"957 E Stuart Dr","city":"Galax","state":"VA","zip":"24333","phone":"276-236-0044"}
+]

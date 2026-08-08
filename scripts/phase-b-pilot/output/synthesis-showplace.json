@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Harrisburg 9",
+    "description": "A standard concession-stand theater in Harrisburg, IL — despite the chain's own site header reading \"Showplace Cinemas | Dine-In Movie Theater,\" nothing in the site's actual page content or in real reviews confirms in-seat food/drink delivery here. One auditorium has reclining seats with swivel trays, described by a regular as nicer than the standard seating elsewhere in the building. The theater did serve alcohol at a restaurant counter at one point, but a reviewer directly confirms service was discontinued during COVID and never resumed, as of that review. Staff friendliness is described as inconsistent by a longtime patron; concession prices draw repeated complaints as high (nearly $9 for a soda).",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Connersville 8",
+    "description": "A standard concession-stand theater in Connersville, IN, operating under the name \"Showtime Cinemas\" on its own Google listing rather than the Showplace brand — no in-seat food or drink service. Reviewers consistently praise it as a clean, well-maintained small-town theater with reasonable prices, especially discount Tuesdays, and note it as a rare independently-run alternative to larger chains.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": "One reviewer notes handicap-accessible seating is available but limited, requiring early arrival to secure it.",
+    "safety_notes": null
+  },
+  {
+    "name": "Evansville East 20",
+    "description": "A large 20-screen multiplex with an IMAX auditorium in Evansville, IN — a standard concession-stand theater, no in-seat food or drink service. Reclining seats in the IMAX auditorium are praised for comfort, and the building includes restroom and drink-refill stations spread throughout. Cleanliness is inconsistently reviewed: one visitor found the concessions area filthy with stained, broken seats in the auditorium, while others describe it as clean; a separate reviewer flagged dusty TV screens directly above the food-topping station as an sanitation concern worth addressing.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Evansville North 9",
+    "description": "A standard concession-stand theater in Evansville, IN, distinguished mainly by a large attached arcade — several reviewers describe the lobby as feeling like an arcade in its own right, a decades-long tradition at this location. No in-seat food or drink service. Reviews consistently praise value (free small popcorn with admission, low prices for grandkids) and friendly staff; one longtime patron notes the seats are traditional rather than recliners, which they prefer.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": ["Arcade"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Jasper 8",
+    "description": "A standard concession-stand theater in Jasper, IN — no in-seat food or drink service. Reclining seats are consistently praised as very comfortable, and $5 Tuesday / half-price ticket deals come up often in reviews. One reviewer specifically notes the aisle accommodated a mobility walker without needing to fold or store it. A separate reviewer reported an auditorium sound issue (side speakers not active) that staff didn't resolve during the screening.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": true,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": "One reviewer noted the aisle accommodated a mobility walker without needing to fold or store it.",
+    "safety_notes": null
+  },
+  {
+    "name": "Newburgh 10",
+    "description": "The Showplace Cinemas Newburgh Entertainment Center in Newburgh, IN — the one location in this chain with real additional dining infrastructure: Burgh House, a full restaurant and bar with a dedicated dining room and outdoor patio, plus bowling lanes and an arcade, all attached to the theater. Reviewers specifically praise the restaurant's pizza. Neither the venue's own site nor reviews confirm food is delivered to your theater seat during a film, though — Burgh House reads as a standalone dine-before-or-after venue rather than in-seat movie service, so this is staged as counter pickup for the theater itself pending clearer confirmation. Reviews otherwise split on value (concession prices draw a specific complaint) and on one detailed account of a guest being repeatedly and publicly accused by a staff member of illegally recording a film while wearing ordinary prescription smart glasses that weren't in use.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": true,
+    "menu_price_range": "$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Bowling", "Arcade"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Princeton 8",
+    "description": "A standard concession-stand theater in Princeton, IN, with an attached grill (guacamole grill and wings mentioned by name) that reviewers describe visiting before a film rather than being served in-seat — no in-seat food or drink service confirmed. Reviews are mixed: some praise cleanliness and staff friendliness, while others describe a cold hot dog and an unwelcoming interaction with a manager. One reviewer reports being denied entry to an R-rated film despite being 18, per the general manager's judgment call at the door.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "unknown",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Seymour",
+    "description": "A standard concession-stand theater in Seymour, IN — no in-seat food or drink service. This location's reviews are the most negative in the chain: one detailed 1-star account describes a musty odor, visibly stained and dirty seats found only by checking with a phone flashlight in a deliberately dark auditorium, and a visibly miscalibrated projector with a color tint. Other reviews are considerably more positive, describing a clean, nostalgic, well-run small theater, and at least one reviewer references the location having recently reopened after a temporary closure, suggesting the negative account may predate a changeover in management or upkeep — worth independent reconfirmation before relying on either account alone.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Henderson 8",
+    "description": "A standard concession-stand theater in Henderson, KY — no in-seat food or drink service. Reviews skew more critical than the rest of the chain: recurring complaints include sticky lobby floors, inappropriate music playing before a children's showing, a screen reported out of focus across three separate visits, and thin staffing (the popcorn stand reportedly closes early). At least one recent visit was positive, describing clean facilities and good food.",
+    "delivery_style": "counter_pickup",
+    "alcohol_served": "none",
+    "reserved_recliners": null,
+    "menu_price_range": "$",
+    "amenities": [],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

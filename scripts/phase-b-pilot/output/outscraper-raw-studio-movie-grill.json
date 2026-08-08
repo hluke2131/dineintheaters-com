@@ -1,0 +1,3696 @@
+{
+  "id": "ab-597898ca-d38f-4e70-b5bd-5361460bdef3",
+  "status": "Success",
+  "data": [
+    {
+      "query": "Studio Movie Grill Bakersfield, 2733 Calloway Dr., Bakersfield, CA",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJUypxH6FD6oARXdnzaB8GZhc",
+      "google_id": "0x80ea43a11f712a53:0x1766061f68f3d95d",
+      "kgmid": "/g/11c72x2mhh",
+      "address": "2733 Calloway Dr, Bakersfield, CA 93312",
+      "county": "Polo Grounds",
+      "street": "2733 Calloway Dr",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "93312",
+      "city": "Bakersfield",
+      "state": "California",
+      "state_code": "CA",
+      "plus_code": "85729VPQ+35",
+      "latitude": 35.3851924,
+      "longitude": -119.1121046,
+      "h3": "8929aeb755bffff",
+      "time_zone": "America/Los_Angeles",
+      "popular_times": [
+        {
+          "day": 7,
+          "day_text": "Sunday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 58,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 78,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 82,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 84,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 81,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 75,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 62,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "day_text": "Monday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 24,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 35,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "day_text": "Tuesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 39,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 44,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 51,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 68,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 62,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "day_text": "Wednesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 35,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 43,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 44,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 30,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "day_text": "Thursday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 53,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 58,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 59,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 53,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "day_text": "Friday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 46,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 54,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 63,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 77,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 90,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 98,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 91,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 78,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 56,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "day_text": "Saturday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 51,
+              "title": "Usually a little busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 69,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 81,
+              "title": "Usually as busy as it gets",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 89,
+              "title": "Usually as busy as it gets",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 94,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 96,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 99,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 100,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 97,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 88,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 76,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 57,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": "live",
+          "percentage": 0,
+          "title": "Less busy than usual",
+          "time": 19
+        }
+      ],
+      "website": "http://www.studiomoviegrill.com/bakersfield%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dbakersfield",
+      "phone": "+1 661-535-2292",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Rosedale Village",
+      "located_google_id": "0x80ea43a0dec40089:0x78ee199bae22e10e",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "sliders",
+        "comfortable seats",
+        "pretzel bites",
+        "comfortable chairs",
+        "sticky floors",
+        "dirty seats",
+        "food quality",
+        "clean theater",
+        "food ordering"
+      ],
+      "rating": 4.3,
+      "reviews": 3286,
+      "photos_count": 609,
+      "cid": "1686041842471393629",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJUypxH6FD6oARXdnzaB8GZhc&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "1686041842471393629",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2BexKi0IW0SPPcYg1CE4jYafg82BIxTVDlJtSfhOk2Q6embeMdZwl2lbAgZJt83SnXJ2ZVJtw58s3kBq78a11Mpuw_MTWusHnOAEthh19xur-zzDGLNL6xOYWoTqihgZbsmmlEcT8rBHZ=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2vEjuFDJL3s0LNMf4FNvOQ&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=298.48648&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Highlights": {
+          "Active military discounts": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 236,
+        "2": 131,
+        "3": 241,
+        "4": 641,
+        "5": 2037
+      },
+      "reservation_links": [
+        "/url?q=https://www.studiomoviegrill.com/locations/california/bakersfield/&opi=79508299&sa=U&ved=0ahUKEwjAkb3CroOWAxV2yOYEHWihOvgQ2ZABCBYoEA&usg=AOvVaw1aRkRKTc_ymuvYw33-bHPX"
+      ],
+      "booking_appointment_link": "https://www.studiomoviegrill.com/locations/california/bakersfield/",
+      "menu_link": "/url?q=https://www.studiomoviegrill.com/menu/bakersfield&opi=79508299&sa=U&ved=0ahUKEwjAkb3CroOWAxV2yOYEHWihOvgQqRkIFSgP&usg=AOvVaw0ZivH-bHh1H5o8FhKvzWkA",
+      "order_links": [
+        "https://www.studiomoviegrill.com/locations/california/bakersfield/"
+      ],
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@35.3851924,-119.1121046,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x80ea43a11f712a53:0x1766061f68f3d95d!8m2!3d35.3851924!4d-119.1121046",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@35.3851924,-119.1121046,13.99z/data=!4m16!1m7!3m6!1s0x80ea43a11f712a53:0x1766061f68f3d95d!2sStudio+Movie+Grill!8m2!3d35.3851924!4d-119.1121046!16s%2Fg%2F11ckvg1dmb!3m7!1s0x80ea43a11f712a53:0x1766061f68f3d95d!8m2!3d35.3851924!4d-119.1121046!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Rocklin, 5140 Commons Dr., Rocklin, CA",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJBX77Md0em4ARjuUb5sH37dg",
+      "google_id": "0x809b1edd31fb7e05:0xd8edf7c1e61be58e",
+      "kgmid": "/g/11b6p20ygd",
+      "address": "5140 Commons Dr, Rocklin, CA 95677",
+      "county": null,
+      "street": "5140 Commons Dr",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "95677",
+      "city": "Rocklin",
+      "state": "California",
+      "state_code": "CA",
+      "plus_code": "84CWRQ2R+76",
+      "latitude": 38.800737399999996,
+      "longitude": -121.20941669999999,
+      "h3": "8928320649bffff",
+      "time_zone": "America/Los_Angeles",
+      "popular_times": [
+        {
+          "day": 7,
+          "day_text": "Sunday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 35,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 50,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 62,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 71,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 66,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 64,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 56,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 45,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 29,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 1,
+          "day_text": "Monday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 17,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 21,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 24,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 29,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 28,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 21,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "day_text": "Tuesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 23,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 58,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 66,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 62,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 47,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "day_text": "Wednesday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 16,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 22,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 31,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 34,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 41,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 37,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 26,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "day_text": "Thursday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 18,
+              "title": "Usually not busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 25,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 32,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 42,
+              "title": "Usually not too busy",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 30,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "day_text": "Friday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 21,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 27,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 33,
+              "title": "Usually not too busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 36,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 44,
+              "title": "Usually not too busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 57,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 73,
+              "title": "Usually a little busy",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 83,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 82,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 71,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 49,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "day_text": "Saturday",
+          "popular_times": [
+            {
+              "hour": 6,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 7,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 8,
+              "percentage": 0,
+              "title": "",
+              "time": "6a"
+            },
+            {
+              "hour": 9,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 10,
+              "percentage": 0,
+              "title": "",
+              "time": "9a"
+            },
+            {
+              "hour": 11,
+              "percentage": 40,
+              "title": "Usually not too busy",
+              "time": "9a"
+            },
+            {
+              "hour": 12,
+              "percentage": 52,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 13,
+              "percentage": 57,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 14,
+              "percentage": 66,
+              "title": "Usually a little busy",
+              "time": "12p"
+            },
+            {
+              "hour": 15,
+              "percentage": 70,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 16,
+              "percentage": 79,
+              "title": "Usually a little busy",
+              "time": "3p"
+            },
+            {
+              "hour": 17,
+              "percentage": 87,
+              "title": "Usually as busy as it gets",
+              "time": "3p"
+            },
+            {
+              "hour": 18,
+              "percentage": 96,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 19,
+              "percentage": 100,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 20,
+              "percentage": 91,
+              "title": "Usually as busy as it gets",
+              "time": "6p"
+            },
+            {
+              "hour": 21,
+              "percentage": 74,
+              "title": "Usually a little busy",
+              "time": "9p"
+            },
+            {
+              "hour": 22,
+              "percentage": 48,
+              "title": "Usually not too busy",
+              "time": "9p"
+            },
+            {
+              "hour": 23,
+              "percentage": 0,
+              "title": "",
+              "time": "9p"
+            }
+          ]
+        },
+        {
+          "day": "live",
+          "percentage": 45,
+          "title": "Not too busy",
+          "time": 19
+        }
+      ],
+      "website": "http://www.studiomoviegrill.com/rocklin",
+      "phone": "+1 279-999-7632",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-g03dfqjtJQc/AAAAAAAAAAI/AAAAAAAAAAA/fdtU50AuiIs/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Rocklin Commons",
+      "located_google_id": "0x809b1eddb3dd0023:0x2d8f1e826dc48f61",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": null,
+      "rating": 4.3,
+      "reviews": 4981,
+      "photos_count": 1182,
+      "cid": "15631422293834196366",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJBX77Md0em4ARjuUb5sH37dg&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-2815321779875355250",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnRunfVQ8miZa_AaUHRq1ANeqL72OjYRXqx3O0wXHipQBq_JgHYuPa-mxn-GDaqLWyykxWLkbei-YfJ5EcXRjtghtblp5GCASlDsVcQwZzPtWF_oJWJxQ2Ax6cu8k5GKrHPXV7A=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnj0TLtZQPsXLV3yUJP3Hb8nTrXSTJVdbkh6dFJO4SQlWqDPvqJKceGciaxiLNnXdo-b_OnndsDsd6irG1ltwxXDIEtlnrWNhW1OAs0BG51hl2o1efaiQFWQQuqd1JT-l1V_VA=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Highlights": {
+          "3D movies": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 229,
+        "2": 202,
+        "3": 422,
+        "4": 1181,
+        "5": 2947
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/california/rocklin/&opi=79508299&sa=U&ved=0ahUKEwiRgOfBroOWAxVRJkQIHaQ7IN8Q2ZABCBUoDw&usg=AOvVaw21jEE6gZTwsBDVNYnoQ5md"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/california/rocklin/",
+      "menu_link": null,
+      "order_links": [
+        "https://studiomoviegrill.com/locations/california/rocklin/"
+      ],
+      "owner_id": "116938385682065853189",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/116938385682065853189",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@38.800737399999996,-121.20941669999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x809b1edd31fb7e05:0xd8edf7c1e61be58e!8m2!3d38.800737399999996!4d-121.20941669999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@38.800737399999996,-121.20941669999999,13.99z/data=!4m16!1m7!3m6!1s0x809b1edd31fb7e05:0xd8edf7c1e61be58e!2sStudio+Movie+Grill!8m2!3d38.800737399999996!4d-121.20941669999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x809b1edd31fb7e05:0xd8edf7c1e61be58e!8m2!3d38.800737399999996!4d-121.20941669999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Simi Valley, 1555 Simi Town Center Way, Simi Valley, CA",
+      "name": "Studio Movie Grill Simi Valley",
+      "name_for_emails": "Studio Movie Grill Simi Valley",
+      "place_id": "ChIJi9BNn7Uu6IARwy1e_KlBVR4",
+      "google_id": "0x80e82eb59f4dd08b:0x1e5541a9fc5e2dc3",
+      "kgmid": "/g/11bwh8lwkt",
+      "address": "1555 Simi Town Center Way, Simi Valley, CA 93065",
+      "county": null,
+      "street": "1555 Simi Town Center Way",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "93065",
+      "city": "Simi Valley",
+      "state": "California",
+      "state_code": "CA",
+      "plus_code": "856376MH+X5",
+      "latitude": 34.284905,
+      "longitude": -118.7720713,
+      "h3": "8929a1ba24fffff",
+      "time_zone": "America/Los_Angeles",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/simi-valley%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dsimi-valley",
+      "phone": "+1 805-422-7100",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-sZN7kUZy8Pw/AAAAAAAAAAI/AAAAAAAAAAA/4pkorpnGt4Q/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Simi Valley Town Center",
+      "located_google_id": "0x80e82eb509203877:0xfd5bcb05ac6e51af",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "comfortable seats",
+        "chocolate chip cookies",
+        "comfortable chairs",
+        "clean theater",
+        "clean facility",
+        "conscientious staff",
+        "screen size",
+        "kind staff",
+        "quietness"
+      ],
+      "rating": 4.5,
+      "reviews": 1994,
+      "photos_count": 922,
+      "cid": "2185725392497552835",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJi9BNn7Uu6IARwy1e_KlBVR4&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "2185725392497552835",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyRF0RKHbqXN9Qf_RgavWGxy_9DZXe7lspKkClawIpRaNu72CSR9Q1-RprTOJlfRggUUUbxvb2_6rznd9C3TWDZRq0Caio_xCtc4P3YX5Z-xWAUp4h4opN1om8cKizCX_sIFKhSENOEwo=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlbmvE7m_Hq1wIVBms42clWqKSbofn1r6u7sX3RxFHPnt13JA1Nw7rpYATYkQ9gpeMDCA3baJGBMWjm-qB9NIPVwypCEy945sOrJU-rBgvNBc-4AtSzi4YcL2sy0NHByRPLpqWccg=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 71,
+        "2": 52,
+        "3": 109,
+        "4": 426,
+        "5": 1336
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/california/simi-valley&opi=79508299&sa=U&ved=0ahUKEwjR5r3CroOWAxVPhP0HHVMyDYsQ2ZABCBYoEA&usg=AOvVaw2bNKBkdMACaOGyKQKNA3LQ"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/california/simi-valley",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/simi-valley&opi=79508299&sa=U&ved=0ahUKEwjR5r3CroOWAxVPhP0HHVMyDYsQqRkIFSgP&usg=AOvVaw0nIThIOiqDcaxLcRRu3upI",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/california/simi-valley"
+      ],
+      "owner_id": "104817075913258847927",
+      "verified": true,
+      "owner_title": "Studio Movie Grill Simi Valley",
+      "owner_link": "https://www.google.com/maps/contrib/104817075913258847927",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill+Simi+Valley/@34.284905,-118.7720713,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill+Simi+Valley!3m4!1s0x80e82eb59f4dd08b:0x1e5541a9fc5e2dc3!8m2!3d34.284905!4d-118.7720713",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill+Simi+Valley/@34.284905,-118.7720713,13.99z/data=!4m16!1m7!3m6!1s0x80e82eb59f4dd08b:0x1e5541a9fc5e2dc3!2sStudio+Movie+Grill+Simi+Valley!8m2!3d34.284905!4d-118.7720713!16s%2Fg%2F11ckvg1dmb!3m7!1s0x80e82eb59f4dd08b:0x1e5541a9fc5e2dc3!8m2!3d34.284905!4d-118.7720713!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Seminole, 7718 113th St. North, Seminole, FL",
+      "name": "Studio Movie Grill - Seminole",
+      "name_for_emails": "Studio Movie Grill Seminole",
+      "place_id": "ChIJg0S1jI37wogRLLC5ybxRJi4",
+      "google_id": "0x88c2fb8d8cb54483:0x2e2651bcc9b9b02c",
+      "kgmid": "/g/11f0kw0rwj",
+      "address": "7718 113th St N, Seminole, FL 33772",
+      "county": null,
+      "street": "7718 113th St N",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "33772",
+      "city": "Seminole",
+      "state": "Florida",
+      "state_code": "FL",
+      "plus_code": "76VVR6V5+85",
+      "latitude": 27.8433165,
+      "longitude": -82.7920568,
+      "h3": "89441a95c07ffff",
+      "time_zone": "America/New_York",
+      "popular_times": null,
+      "website": "https://www.studiomoviegrill.com/",
+      "phone": "+1 727-894-2200",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Seminole City Center",
+      "located_google_id": "0x88c2fb91dfc54f65:0xc28ce5e6eb1f28b7",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "automatic gratuity",
+        "comfy chairs",
+        "pretzel bites",
+        "comfortable seats",
+        "sliders",
+        "worn seats",
+        "uncomfortable seats",
+        "seat cleanliness",
+        "polite staff"
+      ],
+      "rating": 4.2,
+      "reviews": 3795,
+      "photos_count": 909,
+      "cid": "3325435246139781164",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJg0S1jI37wogRLLC5ybxRJi4&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "3325435246139781164",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHYX_-CoqokbRqYNkATQq2vYG94K6Gl-Zt0lXH51kL6OaQlFwD4Zsc39FB5jcm6I1sqz0t3w5bkLDooARnSY9GZQ6zrmeN_Fv0bmSWqsYGJ_xklkVudEwJP_NDErXrj--OThjl=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloK_8ddPZsEaMKXUN39Amdjg8R_WVfnp5pucbQBkctFnn0OrdR4a_-e-oOKbbPXwKzacd0NR0cHV86G4sRUP_UOJD5igT9ReZTWoGECYuvtcRMceH3dCOWsZe5KXgff3H7QVcm=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 327,
+        "2": 174,
+        "3": 322,
+        "4": 658,
+        "5": 2314
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/florida/seminole&opi=79508299&sa=U&ved=0ahUKEwi29p_EroOWAxUHhIkEHY29OIUQ2ZABCBYoEA&usg=AOvVaw3-RaghpYB_njam-4zjQnGK"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/florida/seminole",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/seminole&opi=79508299&sa=U&ved=0ahUKEwi29p_EroOWAxUHhIkEHY29OIUQqRkIFSgP&usg=AOvVaw3dqqPCMXHMwP-75h5haB07",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/florida/seminole"
+      ],
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Studio Movie Grill - Seminole",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Seminole/@27.8433165,-82.7920568,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill+-+Seminole!3m4!1s0x88c2fb8d8cb54483:0x2e2651bcc9b9b02c!8m2!3d27.8433165!4d-82.7920568",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Seminole/@27.8433165,-82.7920568,13.99z/data=!4m16!1m7!3m6!1s0x88c2fb8d8cb54483:0x2e2651bcc9b9b02c!2sStudio+Movie+Grill+-+Seminole!8m2!3d27.8433165!4d-82.7920568!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88c2fb8d8cb54483:0x2e2651bcc9b9b02c!8m2!3d27.8433165!4d-82.7920568!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Sunset Walk, 3204 Margaritaville Blvd., Orlando-Kissimmee, FL",
+      "name": "Studio Movie Grill - Sunset Walk",
+      "name_for_emails": "Studio Movie Grill Sunset Walk",
+      "place_id": "ChIJ0ZpwdKF93YgRYa8LGMrpwWc",
+      "google_id": "0x88dd7da174709ad1:0x67c1e9ca180baf61",
+      "kgmid": "/g/11gxtlgyyq",
+      "address": "3204 Margaritaville Blvd, Kissimmee, FL 34747",
+      "county": null,
+      "street": "3204 Margaritaville Blvd",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "34747",
+      "city": "Kissimmee",
+      "state": "Florida",
+      "state_code": "FL",
+      "plus_code": "76WW89VR+84",
+      "latitude": 28.3432647,
+      "longitude": -81.60965999999999,
+      "h3": "8944a9bb2afffff",
+      "time_zone": "America/New_York",
+      "popular_times": null,
+      "website": "https://www.studiomoviegrill.com/locations/florida/sunset-walk/2021/9/9",
+      "phone": "+1 321-333-4450",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "broken seats",
+        "sliders",
+        "pretzel bites",
+        "comfortable chairs",
+        "automatic gratuity",
+        "comfortable seating",
+        "sticky floors",
+        "clean theater",
+        "clean bathrooms"
+      ],
+      "rating": 4.2,
+      "reviews": 3724,
+      "photos_count": 1609,
+      "cid": "7476513910607818593",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ0ZpwdKF93YgRYa8LGMrpwWc&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "7476513910607818593",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnG1Hrl9gVyd4fcWFrtxjwuf46OBYvLpHJLlrSlKJKXcnb0TQ8XHjGOXpTJWv5B-Jbqi6fozn_exUL_IZKq2_ysfutNN_eCYnoooaTCJ0NAudzpmtdPxnBy8KuUvInBaP0TFhEP=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnxmX1K5T7WL3ExPk3XLctLVDbie-Ws-koiCIwi9QFjC0I_Rg8WLaGCe9mIapnrtDu7HdzRftxN20I31LNYOpQKRm3FBIyd13AvLxpwUyh_AmEu2HQwFdJu5aujriJcRW1qYBZqIg=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 378,
+        "2": 188,
+        "3": 258,
+        "4": 536,
+        "5": 2364
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Studio Movie Grill - Sunset Walk",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Sunset+Walk/@28.3432647,-81.60965999999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill+-+Sunset+Walk!3m4!1s0x88dd7da174709ad1:0x67c1e9ca180baf61!8m2!3d28.3432647!4d-81.60965999999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Sunset+Walk/@28.3432647,-81.60965999999999,13.99z/data=!4m16!1m7!3m6!1s0x88dd7da174709ad1:0x67c1e9ca180baf61!2sStudio+Movie+Grill+-+Sunset+Walk!8m2!3d28.3432647!4d-81.60965999999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88dd7da174709ad1:0x67c1e9ca180baf61!8m2!3d28.3432647!4d-81.60965999999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Duluth, 3850 Venture Dr., Duluth, GA",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJvx3lEQuj9YgRhF5Nqf-_87c",
+      "google_id": "0x88f5a30b11e51dbf:0xb7f3bfffa94d5e84",
+      "kgmid": "/g/1hg4wjp7x",
+      "address": "3850 Venture Dr, Duluth, GA 30096",
+      "county": "Gwinnett Place",
+      "street": "3850 Venture Dr",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "30096",
+      "city": "Duluth",
+      "state": "Georgia",
+      "state_code": "GA",
+      "plus_code": "865QWVX6+P2",
+      "latitude": 33.9492591,
+      "longitude": -84.1398926,
+      "h3": "8944c139c37ffff",
+      "time_zone": "America/New_York",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/duluth",
+      "phone": "+1 770-381-7352",
+      "type": "Movie theater",
+      "logo": "https://lh5.googleusercontent.com/-6-QPz2R7xOs/AAAAAAAAAAI/AAAAAAAAAAA/6R9FrQIRfPg/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Venture Pointe",
+      "located_google_id": "0x88f5a30ae2708319:0x1cb7616a9361b9d1",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "wheelchair accessibility",
+        "sliders",
+        "torn seats",
+        "automatic gratuity",
+        "clean theater",
+        "clean bathrooms",
+        "kiosk ordering",
+        "popcorn",
+        "order accuracy"
+      ],
+      "rating": 3.8,
+      "reviews": 4894,
+      "photos_count": 766,
+      "cid": "13255149233059487364",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJvx3lEQuj9YgRhF5Nqf-_87c&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-5191594840650064252",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMsCzDY3nZGywMZEmygTJ_wHhIowCPguFkioI0pwUNsnCNb1jEuvMlE6lEDdcDsw0JUpISVE2eyqymGxSl3ph6pubqkJx7h_K-O2MVMLSz1taduC2KWTmScd3AwAaFjpSXUgAtAA=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=a9gUOgqnJhUVyi7d8sWw-g&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=152.7814&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 612,
+        "2": 299,
+        "3": 593,
+        "4": 1144,
+        "5": 2246
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/georgia/duluth&opi=79508299&sa=U&ved=0ahUKEwjVqajCroOWAxVSDjQIHaOWOawQ2ZABCBYoEA&usg=AOvVaw2hb8vkjqhDVgkR2gEQ-aQ1"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/georgia/duluth",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/duluth&opi=79508299&sa=U&ved=0ahUKEwjVqajCroOWAxVSDjQIHaOWOawQqRkIFSgP&usg=AOvVaw3XfHwiOi_3qbVCrc7ZgEzx",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/georgia/duluth"
+      ],
+      "owner_id": "108257677019647747527",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/108257677019647747527",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.9492591,-84.1398926,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x88f5a30b11e51dbf:0xb7f3bfffa94d5e84!8m2!3d33.9492591!4d-84.1398926",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.9492591,-84.1398926,13.99z/data=!4m16!1m7!3m6!1s0x88f5a30b11e51dbf:0xb7f3bfffa94d5e84!2sStudio+Movie+Grill!8m2!3d33.9492591!4d-84.1398926!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88f5a30b11e51dbf:0xb7f3bfffa94d5e84!8m2!3d33.9492591!4d-84.1398926!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Marietta, 40 Powers Ferry Rd., Marietta, GA",
+      "name": "Studio Movie Grill - Marietta",
+      "name_for_emails": "Studio Movie Grill Marietta",
+      "place_id": "ChIJK1-sL_sT9YgR44nz9HBmaMo",
+      "google_id": "0x88f513fb2fac5f2b:0xca686670f4f389e3",
+      "kgmid": "/g/11g7z7qw49",
+      "address": "40 Powers Ferry Rd, Marietta, GA 30067",
+      "county": null,
+      "street": "40 Powers Ferry Rd",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "30067",
+      "city": "Marietta",
+      "state": "Georgia",
+      "state_code": "GA",
+      "plus_code": "865QWFXP+H6",
+      "latitude": 33.9489835,
+      "longitude": -84.51443019999999,
+      "h3": "8944c13652bffff",
+      "time_zone": "America/New_York",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/marietta%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dmarietta",
+      "phone": "+1 678-273-3558",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "peeling seats",
+        "reclining seats",
+        "torn seats",
+        "sliders",
+        "pretzel bites",
+        "comfortable seats",
+        "automatic gratuity",
+        "wait time",
+        "kiosk ordering",
+        "sticky seats"
+      ],
+      "rating": 3.7,
+      "reviews": 4800,
+      "photos_count": 1204,
+      "cid": "14585020028571322851",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJK1-sL_sT9YgR44nz9HBmaMo&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-3861724045138228765",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkw-rl5r2KL1ZFi2zdFSzqEdzZdDnkx4EXn12_54gwCiuWhWok8rtaZCnacBxHKyds3BwHqbEGnjOpryWs07rB4knBGldIV6AFINFx0u5KoLBiwACoHBHG_x6fSF5KtcS6d0h0=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9PKkiHI53RJ1b33EpvuOdw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=226.95734&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 765,
+        "2": 411,
+        "3": 519,
+        "4": 921,
+        "5": 2184
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/georgia/marietta&opi=79508299&sa=U&ved=0ahUKEwjRvcDCroOWAxU5T0EAHV7VIW0Q2ZABCBYoEA&usg=AOvVaw1roVZtext4dGTRRKX6m4k4"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/georgia/marietta",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/marietta&opi=79508299&sa=U&ved=0ahUKEwjRvcDCroOWAxU5T0EAHV7VIW0QqRkIFSgP&usg=AOvVaw2oYPilcZ5_zzxnq19JkIQD",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/georgia/marietta"
+      ],
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Studio Movie Grill - Marietta",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Marietta/@33.9489835,-84.51443019999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill+-+Marietta!3m4!1s0x88f513fb2fac5f2b:0xca686670f4f389e3!8m2!3d33.9489835!4d-84.51443019999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Marietta/@33.9489835,-84.51443019999999,13.99z/data=!4m16!1m7!3m6!1s0x88f513fb2fac5f2b:0xca686670f4f389e3!2sStudio+Movie+Grill+-+Marietta!8m2!3d33.9489835!4d-84.51443019999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88f513fb2fac5f2b:0xca686670f4f389e3!8m2!3d33.9489835!4d-84.51443019999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill North Point, 7730 North Point Pkwy., Alpharetta, GA",
+      "name": "Studio Movie Grill - Alpharetta",
+      "name_for_emails": "Studio Movie Grill Alpharetta",
+      "place_id": "ChIJq4_rOqd19YgRgYMk8BlrESk",
+      "google_id": "0x88f575a73aeb8fab:0x29116b19f0248381",
+      "kgmid": "/g/11fskrq1b8",
+      "address": "7730 North Point Pkwy, Alpharetta, GA 30022",
+      "county": null,
+      "street": "7730 North Point Pkwy",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "30022",
+      "city": "Alpharetta",
+      "state": "Georgia",
+      "state_code": "GA",
+      "plus_code": "866Q2MQW+HG",
+      "latitude": 34.038981299999996,
+      "longitude": -84.3036577,
+      "h3": "8944c1201c7ffff",
+      "time_zone": "America/New_York",
+      "popular_times": null,
+      "website": "https://www.studiomoviegrill.com/",
+      "phone": "+1 470-657-0300",
+      "type": "Movie theater",
+      "logo": null,
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Mansell Crossing",
+      "located_google_id": "0x88f57517f6c9e253:0xb87958bc7fc62dcf",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "clean theater",
+        "pretzel bites",
+        "automatic gratuity",
+        "kind staff",
+        "comfortable chairs",
+        "special needs screening",
+        "leather recliners",
+        "seat cleanliness",
+        "clean restrooms"
+      ],
+      "rating": 4.1,
+      "reviews": 731,
+      "photos_count": 263,
+      "cid": "2959264189306405761",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJq4_rOqd19YgRgYMk8BlrESk&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "2959264189306405761",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnurx9pczMkk90wl68h_3VF_wwawevOKCW7zm4OLxrbS1cQFlJ_ua_b32vomhUcekVYTguyTcVhKicW0VmRXMuG9c1TWJCulLmSO-r1hS0jnynyVfHE31ItPQTkB2Eeq1t6eG9ChQ=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m4e-eWRtk0dz7Lchmxke6A&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=122.24931&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 79,
+        "2": 37,
+        "3": 53,
+        "4": 113,
+        "5": 449
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": null,
+      "verified": false,
+      "owner_title": "Studio Movie Grill - Alpharetta",
+      "owner_link": null,
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Alpharetta/@34.038981299999996,-84.3036577,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill+-+Alpharetta!3m4!1s0x88f575a73aeb8fab:0x29116b19f0248381!8m2!3d34.038981299999996!4d-84.3036577",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill+-+Alpharetta/@34.038981299999996,-84.3036577,13.99z/data=!4m16!1m7!3m6!1s0x88f575a73aeb8fab:0x29116b19f0248381!2sStudio+Movie+Grill+-+Alpharetta!8m2!3d34.038981299999996!4d-84.3036577!16s%2Fg%2F11ckvg1dmb!3m7!1s0x88f575a73aeb8fab:0x29116b19f0248381!8m2!3d34.038981299999996!4d-84.3036577!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Wheaton, 301 Rice Lake Sq., Wheaton, IL",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJH5yyjQRUDogRkFzDCORJA0k",
+      "google_id": "0x880e54048db29c1f:0x490349e408c35c90",
+      "kgmid": "/g/119v_lds2",
+      "address": "301 Rice Lake Square, Wheaton, IL 60189",
+      "county": null,
+      "street": "301 Rice Lake Square",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "60189",
+      "city": "Wheaton",
+      "state": "Illinois",
+      "state_code": "IL",
+      "plus_code": "86HHRWJ3+P6",
+      "latitude": 41.8317924,
+      "longitude": -88.0969223,
+      "h3": "8927592e88bffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/wheaton%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dwheaton",
+      "phone": "+1 331-236-0728",
+      "type": "Movie theater",
+      "logo": "https://lh3.googleusercontent.com/-q2rKNo8gVDM/AAAAAAAAAAI/AAAAAAAAAAA/WDp1-Q-3vCk/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Rice Lake Square",
+      "located_google_id": "0x880e5404aeda2543:0x77acb89bbfd1df8e",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "comfortable seats",
+        "pretzel bites",
+        "brisket sliders",
+        "automatic gratuity",
+        "clean theater",
+        "video quality",
+        "office chairs",
+        "polite staff",
+        "clean bathrooms"
+      ],
+      "rating": 4.2,
+      "reviews": 2144,
+      "photos_count": 347,
+      "cid": "5261130033447263376",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJH5yyjQRUDogRkFzDCORJA0k&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "5261130033447263376",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnNp75Bxuak87_0Ews_e-dnFnAnVrNEGGoLBPWzDS4FR2CFJl1EZfxKpCMj2oI5eAqqFkQyNgN-yLVG17zr9ybiA8SLZtQ6hUXHIfYGntfdBdRul0whybUbtfQeqieps_eAzE9T=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oneQvdtO0LZNSxRJ0erVbw&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=353.947&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 132,
+        "2": 79,
+        "3": 189,
+        "4": 562,
+        "5": 1182
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/illinois/wheaton&opi=79508299&sa=U&ved=0ahUKEwiCrInEroOWAxVSnK8BHQX0FiMQ2ZABCBYoEA&usg=AOvVaw3uUAs8A4R6N-8IM1_9iZSr"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/illinois/wheaton",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/wheaton&opi=79508299&sa=U&ved=0ahUKEwiCrInEroOWAxVSnK8BHQX0FiMQqRkIFSgP&usg=AOvVaw098b6g2DRaajThLc8WissK",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/illinois/wheaton"
+      ],
+      "owner_id": "113918512783505199949",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/113918512783505199949",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@41.8317924,-88.0969223,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x880e54048db29c1f:0x490349e408c35c90!8m2!3d41.8317924!4d-88.0969223",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@41.8317924,-88.0969223,13.99z/data=!4m16!1m7!3m6!1s0x880e54048db29c1f:0x490349e408c35c90!2sStudio+Movie+Grill!8m2!3d41.8317924!4d-88.0969223!16s%2Fg%2F11ckvg1dmb!3m7!1s0x880e54048db29c1f:0x490349e408c35c90!8m2!3d41.8317924!4d-88.0969223!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Arlington Highlands, 225 Merchants Row, Arlington, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJk_lG3rhiToYRyz7g4O12Cpo",
+      "google_id": "0x864e62b8de46f993:0x9a0a76ede0e03ecb",
+      "kgmid": "/m/0lq7xfc",
+      "address": "225 Merchants Row, Arlington, TX 76018",
+      "county": "East Arlington",
+      "street": "225 Merchants Row",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "76018",
+      "city": "Arlington",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "8644MVJR+V7",
+      "latitude": 32.6821523,
+      "longitude": -97.10927009999999,
+      "h3": "8926cbd54afffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/arlington%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Darlington%2520highlands",
+      "phone": "+1 682-267-9461",
+      "type": "Movie theater",
+      "logo": "https://lh4.googleusercontent.com/-OiOEFuoxEWQ/AAAAAAAAAAI/AAAAAAAAAAA/y7yJcxkYmkE/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Arlington Highlands",
+      "located_google_id": "0x864e62b8e0e5807d:0xe19e89fed2be6444",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "automatic gratuity",
+        "wait time",
+        "clean theater",
+        "dirty chairs",
+        "kind staff",
+        "outdated seats",
+        "short staffed",
+        "bathroom cleanliness",
+        "order accuracy"
+      ],
+      "rating": 3.8,
+      "reviews": 4622,
+      "photos_count": 692,
+      "cid": "11099814995660127947",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJk_lG3rhiToYRyz7g4O12Cpo&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-7346929078049423669",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvzJQzycza3c8hgy7KPCLsFjjlTCbxmARJrorCE452VbEd3NXL288YjRIanGexBbo3Glxkn7om_xKs5DaN87lBMUH67XLdcPonhmEAlT4N1ob5m4SqvbSk3pwDoHHmeiZ91do=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHLR0I8LXlq63J9w10QeuXXFTlakXuB4vWpvmKhG1CDfaLGofHRsAuLBKRAksrHGPPc59V1ew47NpSih2ScsxAxkhBKIGnpVqjwfRaxoT9WuyHigWSzTpYWCSAWEVLz1UTk5M=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true,
+          "On-site parking": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 628,
+        "2": 288,
+        "3": 524,
+        "4": 977,
+        "5": 2205
+      },
+      "reservation_links": [
+        "/url?q=https://www.studiomoviegrill.com/locations/texas/arlington&opi=79508299&sa=U&ved=0ahUKEwjbkqXEroOWAxVi3jgGHTeSAiEQ2ZABCBYoEA&usg=AOvVaw2msf5WkfLm4uilL9KMbwgh"
+      ],
+      "booking_appointment_link": "https://www.studiomoviegrill.com/locations/texas/arlington",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/arlington&opi=79508299&sa=U&ved=0ahUKEwjbkqXEroOWAxVi3jgGHTeSAiEQqRkIFSgP&usg=AOvVaw3dAcgu-NdCmBfNkrxn8Q0G",
+      "order_links": [
+        "https://www.studiomoviegrill.com/locations/texas/arlington"
+      ],
+      "owner_id": "113538120604887490474",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/113538120604887490474",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.6821523,-97.10927009999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864e62b8de46f993:0x9a0a76ede0e03ecb!8m2!3d32.6821523!4d-97.10927009999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.6821523,-97.10927009999999,13.99z/data=!4m16!1m7!3m6!1s0x864e62b8de46f993:0x9a0a76ede0e03ecb!2sStudio+Movie+Grill!8m2!3d32.6821523!4d-97.10927009999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864e62b8de46f993:0x9a0a76ede0e03ecb!8m2!3d32.6821523!4d-97.10927009999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Arlington Lincoln Square, 452 Lincoln Sq., Arlington, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJKWRy2o59ToYRRhcUUB5ApCE",
+      "google_id": "0x864e7d8eda726429:0x21a4401e50141746",
+      "kgmid": "/g/11c5rtwtnm",
+      "address": "452 Lincoln Square, Arlington, TX 76011",
+      "county": "Central Arlington",
+      "street": "452 Lincoln Square",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "76011",
+      "city": "Arlington",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "8644QW42+R9",
+      "latitude": 32.757118,
+      "longitude": -97.0990559,
+      "h3": "8926cbd29bbffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/lincoln-square",
+      "phone": "+1 682-267-9465",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-g-e4-HdxjVE/AAAAAAAAAAI/AAAAAAAAAAA/cm-HL8bN6Ew/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Anthem Arlington",
+      "located_google_id": "0x864e7d8923e9ce47:0x102bdc0ef85f497e",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "pretzel bites",
+        "sliders",
+        "automatic gratuity",
+        "clean theater",
+        "comfortable seats",
+        "dirty seats",
+        "friendly employees",
+        "sticky floors",
+        "uncomfortable chairs"
+      ],
+      "rating": 4.2,
+      "reviews": 3624,
+      "photos_count": 606,
+      "cid": "2424132998368859974",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJKWRy2o59ToYRRhcUUB5ApCE&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "2424132998368859974",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ9BCf4BU3gbNGOE1n4g8ZUDE8xsAhHQXuGEQVkjZnLd7C9dOFIrFChPUPfe1_srfTydcspcEbxS8891Ayk8t-MMad7GsXcJ3O-3woJqH3xJK69gDg1XDlZdyw2TFLYJlsLAQ=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=S4jCGtMjy3uGZKFGka_ImA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=245.88762&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 311,
+        "2": 165,
+        "3": 290,
+        "4": 696,
+        "5": 2162
+      },
+      "reservation_links": [
+        "/url?q=https://www.studiomoviegrill.com/locations/texas/lincoln-square&opi=79508299&sa=U&ved=0ahUKEwiw8J7EroOWAxVlGFkFHbKYO3gQ2ZABCBYoEA&usg=AOvVaw0rh2Y44Dsiu5laqH-4DVuX"
+      ],
+      "booking_appointment_link": "https://www.studiomoviegrill.com/locations/texas/lincoln-square",
+      "menu_link": "/url?q=https://www.studiomoviegrill.com/menu/lincoln-square&opi=79508299&sa=U&ved=0ahUKEwiw8J7EroOWAxVlGFkFHbKYO3gQqRkIFSgP&usg=AOvVaw0clmnIfn_LyLfy2ikHtIXT",
+      "order_links": [
+        "https://www.studiomoviegrill.com/locations/texas/lincoln-square"
+      ],
+      "owner_id": "105640893418213835039",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/105640893418213835039",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.757118,-97.0990559,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864e7d8eda726429:0x21a4401e50141746!8m2!3d32.757118!4d-97.0990559",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.757118,-97.0990559,13.99z/data=!4m16!1m7!3m6!1s0x864e7d8eda726429:0x21a4401e50141746!2sStudio+Movie+Grill!8m2!3d32.757118!4d-97.0990559!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864e7d8eda726429:0x21a4401e50141746!8m2!3d32.757118!4d-97.0990559!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Chisholm Trail, 5413 Sierra Springs Ln., Fort Worth, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJ895ZlhBtToYRKFw1deFTb8M",
+      "google_id": "0x864e6d109659def3:0xc36f53e175355c28",
+      "kgmid": "/g/11fsm3nlqn",
+      "address": "5413 Sierra Springs Ln, Fort Worth, TX 76123",
+      "county": "Chisholm Trail Ranch",
+      "street": "5413 Sierra Springs Ln",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "76123",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "8644JH3R+HR",
+      "latitude": 32.6039792,
+      "longitude": -97.4079093,
+      "h3": "8926cbca2dbffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://www.studiomoviegrill.com/quicktickets/texas/fort-worth-chisholm-trail/2025/5/12",
+      "phone": "+1 682-348-4355",
+      "type": "Movie theater",
+      "logo": "https://lh3.googleusercontent.com/-Xvj9Ed1zzxc/AAAAAAAAAAI/AAAAAAAAAAA/mI-VKwP9Wpw/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "automatic gratuity",
+        "comfortable chairs",
+        "sticky floors",
+        "double charging",
+        "polite staff",
+        "wait time",
+        "comfortable seats",
+        "comfortable theater",
+        "clean theater",
+        "screen size"
+      ],
+      "rating": 4.1,
+      "reviews": 1052,
+      "photos_count": 74,
+      "cid": "14082566787610008616",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ895ZlhBtToYRKFw1deFTb8M&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-4364177286099543000",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqXBNhXChOsx1euf-tpDagK0ZSi5Zlcm5lPlabOwUZO6qsSgo34k6SI6NR3rUQx0091ZfBKa5WUyRMFHg8iTWy_6xX_EhoU-eQMtwcZ26a5CHuYdbkJgl1kno_gtSuonXpjRkgN1AHgOQv=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=83wLGfHc6ppRx5lZtoky6w&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=223.11894&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 125,
+        "2": 71,
+        "3": 56,
+        "4": 102,
+        "5": 698
+      },
+      "reservation_links": null,
+      "booking_appointment_link": null,
+      "menu_link": null,
+      "order_links": null,
+      "owner_id": "105308808526233134452",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/105308808526233134452",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.6039792,-97.4079093,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864e6d109659def3:0xc36f53e175355c28!8m2!3d32.6039792!4d-97.4079093",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.6039792,-97.4079093,13.99z/data=!4m16!1m7!3m6!1s0x864e6d109659def3:0xc36f53e175355c28!2sStudio+Movie+Grill!8m2!3d32.6039792!4d-97.4079093!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864e6d109659def3:0xc36f53e175355c28!8m2!3d32.6039792!4d-97.4079093!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Dallas Royal Lane, 11170 N. Central Expy., Dallas, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJN4TfvQsgTIYR6fPx5yu3ETU",
+      "google_id": "0x864c200bbddf8437:0x3511b72be7f1f3e9",
+      "kgmid": "/g/11x98jnj5",
+      "address": "11170 N Central Expy, Dallas, TX 75243",
+      "county": null,
+      "street": "11170 N Central Expy",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "75243",
+      "city": "Dallas",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "8645W62M+25",
+      "latitude": 32.9001227,
+      "longitude": -96.76709,
+      "h3": "8926c866c77ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "https://studiomoviegrill.com/locations/texas/dallas-royal-ln",
+      "phone": "+1 469-405-8523",
+      "type": "Movie theater",
+      "logo": "https://lh3.googleusercontent.com/-_UeSQoGugDQ/AAAAAAAAAAI/AAAAAAAAAAA/XM-SGKWKG8M/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "dirty seats",
+        "brisket sliders",
+        "comfortable seats",
+        "upgraded seats",
+        "sticky floors",
+        "cold popcorn",
+        "remodel",
+        "free passes",
+        "screen size"
+      ],
+      "rating": 4,
+      "reviews": 3234,
+      "photos_count": 639,
+      "cid": "3824038957817132009",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJN4TfvQsgTIYR6fPx5yu3ETU&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "3824038957817132009",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNy3RIApqC1xXnCEwvNQ3A2jhJ4jxK81GeZY-FRkBHuEDMxXeXi6-w_DueBXGwW-WfnnPqx9XJC7wwzTmQz3ZZRKYSRQQmbFAKdM-Gzrn2YvdmiJA3RW_aILihbjFrqmxq3v65=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFUTzIWCqLLvhrJv55JtvvaxN0zmdgIlwWuI13Dlaa3OWaYHcVK6kMLSgO7Xbldmaj0Q1gVBFNJD6xL4hlMn1sEK_w4D1doszZbbXenLBTHZpgaT5NCuXd-TodjrE6oklKzEA=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 369,
+        "2": 166,
+        "3": 355,
+        "4": 665,
+        "5": 1679
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/dallas-royal-ln&opi=79508299&sa=U&ved=0ahUKEwj5i_3EroOWAxVMnWoFHT5VIX8Q2ZABCBcoEQ&usg=AOvVaw30TLw5W35ydLuOhjBNKT2U"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/dallas-royal-ln",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/dallas-royal-ln&opi=79508299&sa=U&ved=0ahUKEwj5i_3EroOWAxVMnWoFHT5VIX8QqRkIFigQ&usg=AOvVaw2wV59dq2DTvO8ZBvO3AdjY",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/dallas-royal-ln"
+      ],
+      "owner_id": "104880500932751881179",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/104880500932751881179",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.9001227,-96.76709,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864c200bbddf8437:0x3511b72be7f1f3e9!8m2!3d32.9001227!4d-96.76709",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.9001227,-96.76709,13.99z/data=!4m16!1m7!3m6!1s0x864c200bbddf8437:0x3511b72be7f1f3e9!2sStudio+Movie+Grill!8m2!3d32.9001227!4d-96.76709!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864c200bbddf8437:0x3511b72be7f1f3e9!8m2!3d32.9001227!4d-96.76709!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Pearland, 8440 South Sam Houston East, Houston, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJpwqy2SmXQIYRSYCRqtalISM",
+      "google_id": "0x86409729d9b20aa7:0x2321a5d6aa918049",
+      "kgmid": "/g/11cm9rpf8z",
+      "address": "8440 S Sam Houston Pkwy E, Houston, TX 77075",
+      "county": "Greater Hobby Area",
+      "street": "8440 S Sam Houston Pkwy E",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "77075",
+      "city": "Houston",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "76X6HPXH+46",
+      "latitude": 29.5978033,
+      "longitude": -95.27188149999999,
+      "h3": "89446c1418bffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/pearland",
+      "phone": "+1 346-299-6453",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-QsYXvYYBfqw/AAAAAAAAAAI/AAAAAAAAAAA/6-OT3xhdW1w/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": null,
+      "rating": 4.2,
+      "reviews": 7026,
+      "photos_count": 1324,
+      "cid": "2531486806962176073",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJpwqy2SmXQIYRSYCRqtalISM&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "2531486806962176073",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmbSGu-Por-_no3VYRQWZKDxtruwO148Yxk_I5V1RIP_7Yrjek6Dykoxxn5pTj6TCfwmphciDOvQBflDeX4gy6Df31kLOqG3OCKeU3DX8VhDxTebNqCbLPGq9QHxlK6HE0rpg=w800-h500-k-no",
+      "street_view": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RhmmTOu5552I7JcT8O0WzA&cb_client=search.gws-prod.gps&w=1600&h=1000&yaw=251.50496&pitch=0&thumbfov=100",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 533,
+        "2": 328,
+        "3": 625,
+        "4": 1548,
+        "5": 3992
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/pearland&opi=79508299&sa=U&ved=0ahUKEwiu4ObBroOWAxXwH0QIHcr7GW8Q2ZABCBYoEA&usg=AOvVaw375X4R8QW-lIOB07zVNex0"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/pearland",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/pearland&opi=79508299&sa=U&ved=0ahUKEwiu4ObBroOWAxXwH0QIHcr7GW8QqRkIFSgP&usg=AOvVaw0oLOxa15oR6qiOYuH-DyFp",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/pearland"
+      ],
+      "owner_id": "113541654704556820751",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/113541654704556820751",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@29.5978033,-95.27188149999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x86409729d9b20aa7:0x2321a5d6aa918049!8m2!3d29.5978033!4d-95.27188149999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@29.5978033,-95.27188149999999,13.99z/data=!4m16!1m7!3m6!1s0x86409729d9b20aa7:0x2321a5d6aa918049!2sStudio+Movie+Grill!8m2!3d29.5978033!4d-95.27188149999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x86409729d9b20aa7:0x2321a5d6aa918049!8m2!3d29.5978033!4d-95.27188149999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Plano, 4721 W. Park Blvd., Plano, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJGx8Cr1UiTIYRCvPiSETHs_0",
+      "google_id": "0x864c2255af021f1b:0xfdb3c74448e2f30a",
+      "kgmid": "/m/0ln59tx",
+      "address": "4721 W Park Blvd, Plano, TX 75093",
+      "county": null,
+      "street": "4721 W Park Blvd",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "75093",
+      "city": "Plano",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "865526H6+5C",
+      "latitude": 33.027985699999995,
+      "longitude": -96.78887929999999,
+      "h3": "8926c8741abffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/plano",
+      "phone": "+1 469-405-8527",
+      "type": "Movie theater",
+      "logo": "https://lh4.googleusercontent.com/-9nwyqS7SrME/AAAAAAAAAAI/AAAAAAAAAAA/bivBOLgQ9Lc/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Berkeley Square",
+      "located_google_id": "0x864c225596ae144d:0x664f4aa5a37cc394",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "dirty seats",
+        "automatic gratuity",
+        "clean theater",
+        "comfortable seats",
+        "vegetarian options",
+        "sticky tables",
+        "screen size",
+        "courteous staff",
+        "ballpark chicken nachos"
+      ],
+      "rating": 3.9,
+      "reviews": 3371,
+      "photos_count": 692,
+      "cid": "18281174408521511690",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJGx8Cr1UiTIYRCvPiSETHs_0&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-165569665188039926",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmS892IGPkcOWyylIubtPBg9qT4Y4KMO_Rz24ivY_fqFsv2h7SLnEHEfHjJsERT9_Wy9RkCKt18hnT1QMPEqK9hduOVZjNuvzzyeN8PmK3w0perz3_6eLILdrmdCIDAUyyXQcbX=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTz5oTHiFhzVVT_cTslyJy0swGe-NsfF48G6M-2foTekRgUKsl1aEszE78ZJlr2w7k0b0k2Bs9GjnD0LLeTGzakVnlkp658IXfyUYU0ZIEUp-LmgjhSAUdVMw5OTtd3ePxhQHfcQ=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 366,
+        "2": 197,
+        "3": 421,
+        "4": 844,
+        "5": 1543
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/plano&opi=79508299&sa=U&ved=0ahUKEwj-k5rCroOWAxXbATQIHZLkFVwQ2ZABCBYoEA&usg=AOvVaw0bMb09o3pmLNfuGmVNfZto"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/plano",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/plano&opi=79508299&sa=U&ved=0ahUKEwj-k5rCroOWAxXbATQIHZLkFVwQqRkIFSgP&usg=AOvVaw1C19mQotN6YOH6oAW_NWgG",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/plano"
+      ],
+      "owner_id": "102495309624103656667",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/102495309624103656667",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.027985699999995,-96.78887929999999,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864c2255af021f1b:0xfdb3c74448e2f30a!8m2!3d33.027985699999995!4d-96.78887929999999",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.027985699999995,-96.78887929999999,13.99z/data=!4m16!1m7!3m6!1s0x864c2255af021f1b:0xfdb3c74448e2f30a!2sStudio+Movie+Grill!8m2!3d33.027985699999995!4d-96.78887929999999!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864c2255af021f1b:0xfdb3c74448e2f30a!8m2!3d33.027985699999995!4d-96.78887929999999!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Spring Valley, 13933 N. Central Expy., Dallas, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJkSyOXyogTIYRqXvrUJEndic",
+      "google_id": "0x864c202a5f8e2c91:0x2776279150eb7ba9",
+      "kgmid": "/m/0l23bfl",
+      "address": "13933 N Central Expy, Dallas, TX 75243",
+      "county": "Far North Dallas",
+      "street": "13933 N Central Expy",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "75243",
+      "city": "Dallas",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "8645W6QX+HM",
+      "latitude": 32.9388889,
+      "longitude": -96.7508333,
+      "h3": "8926c82905bffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/spring-valley%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dspring%2520valley",
+      "phone": "+1 469-405-8521",
+      "type": "Movie theater",
+      "logo": "https://lh4.googleusercontent.com/-K5cYN16uKQA/AAAAAAAAAAI/AAAAAAAAAAA/UoElSz6Dx0c/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": null,
+      "located_google_id": null,
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": [
+        "reclining seats",
+        "automatic gratuity",
+        "comfortable seats",
+        "pretzel bites",
+        "double charging",
+        "wait time",
+        "clean seats",
+        "dirty tables",
+        "clean theater",
+        "kind staff"
+      ],
+      "rating": 3.9,
+      "reviews": 5599,
+      "photos_count": 1169,
+      "cid": "2843503719812397993",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJkSyOXyogTIYRqXvrUJEndic&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "2843503719812397993",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEUaLcMlAIfIDFeYh-FnRStCLiOB9enNLKv6Fiz0nvCga2NbtYOQdV3VY_2K7xNHlcEJBS-cGxrnms2Ib-CLQOgpVU3WIaxOQtRwT7jfSwSXq43ISMR1Sfiel0s3aIhWBMVt2h=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlj9Hf6SGzsu3FptkZgOe4110WjzCE1FbO6PbxdgWVLr6S3y_OApiGNl6H1zbrnJPckkg5rVtmnKk3L8-Ddk0NDwyAgsU6uk_Cqp62e_8chUsvCkBEuzPbS1o-ftM-SIQhXSl8o=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Highlights": {
+          "Active military discounts": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true,
+          "Paid parking lot": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 666,
+        "2": 331,
+        "3": 635,
+        "4": 1282,
+        "5": 2685
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/spring-valley&opi=79508299&sa=U&ved=0ahUKEwjW1KnCroOWAxWXmmoFHe_7LBMQ2ZABCBYoEA&usg=AOvVaw0I_ogPSO0hR-yJjnWDh-3r"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/spring-valley",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/spring-valley&opi=79508299&sa=U&ved=0ahUKEwjW1KnCroOWAxWXmmoFHe_7LBMQqRkIFSgP&usg=AOvVaw3iMcXqYIFM00nQcLXc1NRN",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/spring-valley"
+      ],
+      "owner_id": "107742211191977280510",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/107742211191977280510",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.9388889,-96.7508333,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864c202a5f8e2c91:0x2776279150eb7ba9!8m2!3d32.9388889!4d-96.7508333",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.9388889,-96.7508333,13.99z/data=!4m16!1m7!3m6!1s0x864c202a5f8e2c91:0x2776279150eb7ba9!2sStudio+Movie+Grill!8m2!3d32.9388889!4d-96.7508333!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864c202a5f8e2c91:0x2776279150eb7ba9!8m2!3d32.9388889!4d-96.7508333!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill The Colony, 4800 State Hwy. 121, The Colony, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJtbHEnCwlTIYR-BMWRPNXnG8",
+      "google_id": "0x864c252c9cc4b1b5:0x6f9c57f3441613f8",
+      "kgmid": "/g/11b81s56t6",
+      "address": "4800 State Hwy 121, The Colony, TX 75056",
+      "county": null,
+      "street": "4800 State Hwy 121",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "75056",
+      "city": "The Colony",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "86553488+QG",
+      "latitude": 33.0669733,
+      "longitude": -96.8836353,
+      "h3": "8926c875413ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/the-colony%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb%26utm_content%3Dthe%2520colony",
+      "phone": "+1 469-405-8530",
+      "type": "Movie theater",
+      "logo": "https://lh3.googleusercontent.com/-krlcR_R3vMI/AAAAAAAAAAI/AAAAAAAAAAA/qx5pPr92bho/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "Lewisville Towne Crossing",
+      "located_google_id": "0x864c252e80ec7ad5:0x7a618f73c6e0b87b",
+      "category": "attractions",
+      "subtypes": "Movie theater, Bar, Restaurant",
+      "posts": null,
+      "reviews_tags": null,
+      "rating": 4.1,
+      "reviews": 3694,
+      "photos_count": 744,
+      "cid": "8042399736907830264",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtbHEnCwlTIYR-BMWRPNXnG8&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "8042399736907830264",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlpJg6n1iNF0UB5F-WXSGMo18TTuULfUk8cgNxPK_vmDQLqY-7nOyh--o6T64WrzrEkS9JXL7v-SBuoQ-e-j9SRh1ZFXHaBuHxyijSdz8CHTBe6V57kqOhJCWx-M2N0RLHL04rh6g=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnoGUrrfnYnF41k9-nQcNPhBCcHdc3DXqh0fLQfkIKgeZiL1Qi6j-hZjhN35d2ZNqyDxTvzut1ayenIgulwe9VMrQYUKcuUX02Q04ZXNnCQT_BUkqyFDAfOhPsCuc1r4qS4UjyVjA=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Stadium seating": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true
+        },
+        "Children": {
+          "Good for kids": true
+        },
+        "Parking": {
+          "Free parking lot": true,
+          "Free street parking": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 265,
+        "2": 185,
+        "3": 395,
+        "4": 922,
+        "5": 1927
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/the-colony&opi=79508299&sa=U&ved=0ahUKEwih9OXBroOWAxW5IUQIHUdKAhYQ2ZABCBYoEA&usg=AOvVaw12RTAm0i7g9pMVSfsGj4kf"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/the-colony",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/the-colony&opi=79508299&sa=U&ved=0ahUKEwih9OXBroOWAxW5IUQIHUdKAhYQqRkIFSgP&usg=AOvVaw0_m350HgHd7Nv5SCCvKWzF",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/the-colony"
+      ],
+      "owner_id": "103675086240133110214",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/103675086240133110214",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.0669733,-96.8836353,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x864c252c9cc4b1b5:0x6f9c57f3441613f8!8m2!3d33.0669733!4d-96.8836353",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@33.0669733,-96.8836353,13.99z/data=!4m16!1m7!3m6!1s0x864c252c9cc4b1b5:0x6f9c57f3441613f8!2sStudio+Movie+Grill!8m2!3d33.0669733!4d-96.8836353!16s%2Fg%2F11ckvg1dmb!3m7!1s0x864c252c9cc4b1b5:0x6f9c57f3441613f8!8m2!3d33.0669733!4d-96.8836353!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    },
+    {
+      "query": "Studio Movie Grill Tyler, 8954 S. Broadway Ave., Tyler, TX",
+      "name": "Studio Movie Grill",
+      "name_for_emails": "Studio Movie Grill",
+      "place_id": "ChIJjRkIUajMSYYRhscb1cXvEN4",
+      "google_id": "0x8649cca85108198d:0xde10efc5d51bc786",
+      "kgmid": "/g/11bc73pgch",
+      "address": "8954 S Broadway Ave, Tyler, TX 75703",
+      "county": null,
+      "street": "8954 S Broadway Ave",
+      "area_service": false,
+      "country_code": "US",
+      "country": "United States of America",
+      "postal_code": "75703",
+      "city": "Tyler",
+      "state": "Texas",
+      "state_code": "TX",
+      "plus_code": "86466MXX+X2",
+      "latitude": 32.249958299999996,
+      "longitude": -95.3023778,
+      "h3": "8926c935bc3ffff",
+      "time_zone": "America/Chicago",
+      "popular_times": null,
+      "website": "http://www.studiomoviegrill.com/tyler",
+      "phone": "+1 430-205-8709",
+      "type": "Movie theater",
+      "logo": "https://lh6.googleusercontent.com/-V3U4pxVdwW0/AAAAAAAAAAI/AAAAAAAAAAA/KX9yJRqeOhs/s44-p-k-no-ns-nd/photo.jpg",
+      "description": "First-run, classic & kids' films, plus a varied American menu & cocktails brought to guests' seats.",
+      "typical_time_spent": null,
+      "located_in": "The Village at Cumberland Park",
+      "located_google_id": "0x8649cca88cc30bf9:0x2002529e8cba7b03",
+      "category": "attractions",
+      "subtypes": "Movie theater",
+      "posts": null,
+      "reviews_tags": [
+        "automatic gratuity",
+        "recliners",
+        "worn out seats",
+        "pretzel bites",
+        "dirty tables",
+        "comfortable chairs",
+        "clean theater",
+        "movie theater smell",
+        "mold",
+        "southwest egg rolls"
+      ],
+      "rating": 3.9,
+      "reviews": 2737,
+      "photos_count": 565,
+      "cid": "16001553109010335622",
+      "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJjRkIUajMSYYRhscb1cXvEN4&q=*&authuser=0&hl=en&gl=US",
+      "reviews_id": "-2445190964699215994",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl-10RsJMfrDhXOUV2KLrZBh1E5eSPcbSTsaQmB9y2Suj6TNokQwnGbDSM5ng3fHI4r7UFKXTwoexPtnA5AGUTULBWSj8vub1GsAMBUJsBD3xgQJKM59E8KaJWX05U98i7TqCkjbA=w800-h500-k-no",
+      "street_view": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZcDPhGlWKDN5uS1fyRCVMLA8wo2DFISI34RfXWMu1d1_QZ7iacsawf22QZN__r_A3fHqc5_DUwkyoXL4XAd9gSkFb4DF7VjixHznmdjfDmvb_2Mmbnw2M6Il_DND7ddcLco6HHQ=w1600-h1000-k-no",
+      "working_hours": null,
+      "working_hours_csv_compatible": null,
+      "other_hours": null,
+      "business_status": "OPERATIONAL",
+      "about": {
+        "Service options": {
+          "Onsite services": true
+        },
+        "Accessibility": {
+          "Assisted listening devices": true,
+          "Wheelchair accessible entrance": true,
+          "Wheelchair accessible parking lot": true,
+          "Wheelchair accessible restroom": true,
+          "Wheelchair accessible seating": true
+        },
+        "Offerings": {
+          "Alcohol": true,
+          "Food": true
+        },
+        "Amenities": {
+          "Bar onsite": true,
+          "Restaurant": true,
+          "Restroom": true,
+          "Wi-Fi": true
+        },
+        "Crowd": {
+          "Family-friendly": true
+        },
+        "Payments": {
+          "Credit cards": true,
+          "Debit cards": true,
+          "NFC mobile payments": true
+        },
+        "Children": {
+          "Good for kids": true
+        }
+      },
+      "range": null,
+      "prices": null,
+      "reviews_per_score": {
+        "1": 407,
+        "2": 185,
+        "3": 233,
+        "4": 488,
+        "5": 1424
+      },
+      "reservation_links": [
+        "/url?q=https://studiomoviegrill.com/locations/texas/tyler&opi=79508299&sa=U&ved=0ahUKEwisgKjCroOWAxWTmSYFHa94PNYQ2ZABCBYoEA&usg=AOvVaw00oAO9rw3Vw_eQ7bZPBSvv"
+      ],
+      "booking_appointment_link": "https://studiomoviegrill.com/locations/texas/tyler",
+      "menu_link": "/url?q=https://studiomoviegrill.com/menu/tyler&opi=79508299&sa=U&ved=0ahUKEwisgKjCroOWAxWTmSYFHa94PNYQqRkIFSgP&usg=AOvVaw3SFIVnTC1Eikf3iajJG5Lu",
+      "order_links": [
+        "https://studiomoviegrill.com/locations/texas/tyler"
+      ],
+      "owner_id": "106421928276445324372",
+      "verified": true,
+      "owner_title": "Studio Movie Grill",
+      "owner_link": "https://www.google.com/maps/contrib/106421928276445324372",
+      "location_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.249958299999996,-95.3023778,14z/data=!4m8!1m2!2m1!1sStudio+Movie+Grill!3m4!1s0x8649cca85108198d:0xde10efc5d51bc786!8m2!3d32.249958299999996!4d-95.3023778",
+      "location_reviews_link": "https://www.google.com/maps/place/Studio+Movie+Grill/@32.249958299999996,-95.3023778,13.99z/data=!4m16!1m7!3m6!1s0x8649cca85108198d:0xde10efc5d51bc786!2sStudio+Movie+Grill!8m2!3d32.249958299999996!4d-95.3023778!16s%2Fg%2F11ckvg1dmb!3m7!1s0x8649cca85108198d:0xde10efc5d51bc786!8m2!3d32.249958299999996!4d-95.3023778!9m1!1b1!16s%2Fg%2F11ckvg1dmb?entry=ttu"
+    }
+  ]
+}

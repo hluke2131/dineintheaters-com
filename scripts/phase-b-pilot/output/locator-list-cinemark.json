@@ -1,0 +1,569 @@
+[
+  {
+    "metro_area": "Huntsville",
+    "name": "Scene Restaurant & Lounge",
+    "address": "370 The Bridge Street",
+    "city": "Huntsville",
+    "state": "AL",
+    "zip": "35806",
+    "phone": "2563278340"
+  },
+  {
+    "metro_area": "Lancaster",
+    "name": "Studio Eats Lancaster",
+    "address": "2600 West Avenue I",
+    "city": "Lancaster",
+    "state": "CA",
+    "zip": "93536",
+    "phone": "6619407086"
+  },
+  {
+    "metro_area": "Playa Vista",
+    "name": "Reserve Kitchen & Bar - Playa Vista",
+    "address": "12746 W. Jefferson Blvd.",
+    "city": "Playa Vista",
+    "state": "CA",
+    "zip": "90094",
+    "phone": "3108625668"
+  },
+  {
+    "metro_area": "Rialto",
+    "name": "Movie Bistro - Rialto Renaissance Marketplace",
+    "address": "1355 W Renaissance Pkwy",
+    "city": "Rialto",
+    "state": "CA",
+    "zip": "92376",
+    "phone": "9093502007"
+  },
+  {
+    "metro_area": "Roseville",
+    "name": "Studio Eats Roseville Galleria Mall",
+    "address": "1191 Galleria Blvd",
+    "city": "Roseville",
+    "state": "CA",
+    "zip": "95678",
+    "phone": "9167712750"
+  },
+  {
+    "metro_area": "Colorado Springs",
+    "name": "Studio Eats Carefree Circle",
+    "address": "3305 Cinema Point",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "zip": "80922",
+    "phone": "7195962173"
+  },
+  {
+    "metro_area": "Colorado Springs",
+    "name": "Studio Eats Colorado Springs",
+    "address": "1545 E Cheyenne Mountain Blvd.",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "zip": "80906",
+    "phone": "7195765082"
+  },
+  {
+    "metro_area": "Fort Collins",
+    "name": "Movie Bistro - Fort Collins",
+    "address": "335 E. Foothills Parkway",
+    "city": "Fort Collins",
+    "state": "CO",
+    "zip": "80525",
+    "phone": "9702074009"
+  },
+  {
+    "metro_area": "Manchester",
+    "name": "Studio Eats Kitchen & Bar - Manchester Buckland Hills",
+    "address": "99  RedStone Rd",
+    "city": "Manchester",
+    "state": "CT",
+    "zip": "06042",
+    "phone": "8606464555"
+  },
+  {
+    "metro_area": "Milford",
+    "name": "Studio Eats Kitchen & Bar - Milford",
+    "address": "1201 Boston Post Rd",
+    "city": "Milford",
+    "state": "CT",
+    "zip": "06460",
+    "phone": "2038788037"
+  },
+  {
+    "metro_area": "Boca Raton",
+    "name": "Movie Bistro - Boca Raton",
+    "address": "3200 Airport Road",
+    "city": "Boca Raton",
+    "state": "FL",
+    "zip": "33431",
+    "phone": "5613954695"
+  },
+  {
+    "metro_area": "Boynton Beach",
+    "name": "The Premier - Boynton Beach",
+    "address": "1151 N. Congress Avenue",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "zip": "33426",
+    "phone": "5617529797"
+  },
+  {
+    "metro_area": "Jacksonville",
+    "name": "Studio Eats Jacksonville",
+    "address": "11567 Atlantic Blvd",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32225",
+    "phone": "9049152091"
+  },
+  {
+    "metro_area": "Jacksonville",
+    "name": "Studio Eats Tinseltown Jacksonville",
+    "address": "4535 Southside Blvd",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip": "32216",
+    "phone": "9049982122"
+  },
+  {
+    "metro_area": "Orlando",
+    "name": "Studio Eats Orlando",
+    "address": "5150 International Drive",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32819",
+    "phone": "4073521042"
+  },
+  {
+    "metro_area": "Orlando",
+    "name": "Universal Cinemark at CityWalk",
+    "address": "6000 Universal Blvd",
+    "city": "Orlando",
+    "state": "FL",
+    "zip": "32819",
+    "phone": ""
+  },
+  {
+    "metro_area": "St Johns",
+    "name": "Studio Eats Durbin Park",
+    "address": "435 Durbin Pavilion Drive",
+    "city": "St Johns",
+    "state": "FL",
+    "zip": "32259",
+    "phone": "9042304622"
+  },
+  {
+    "metro_area": "Melrose Park",
+    "name": "Studio Eats Melrose Park",
+    "address": "1001 West North Avenue",
+    "city": "Melrose Park",
+    "state": "IL",
+    "zip": "60160",
+    "phone": "7083382294"
+  },
+  {
+    "metro_area": "Merriam",
+    "name": "Studio Eats Merriam",
+    "address": "5500 Antioch",
+    "city": "Merriam",
+    "state": "KS",
+    "zip": "66202",
+    "phone": "9137897038"
+  },
+  {
+    "metro_area": "Florence",
+    "name": "The Premier - Florence",
+    "address": "7860 Mall Rd",
+    "city": "Florence",
+    "state": "KY",
+    "zip": "41042",
+    "phone": "8596924921"
+  },
+  {
+    "metro_area": "Louisville",
+    "name": "Studio Eats Kitchen & Bar - Louisville Preston Crossings",
+    "address": "9700 Preston Crossing Blvd",
+    "city": "Louisville",
+    "state": "KY",
+    "zip": "40229",
+    "phone": "5029619700"
+  },
+  {
+    "metro_area": "Louisville",
+    "name": "Studio Eats Louisville",
+    "address": "4400 Towne Center Drive",
+    "city": "Louisville",
+    "state": "KY",
+    "zip": "40241",
+    "phone": "5023269272"
+  },
+  {
+    "metro_area": "Lake Charles",
+    "name": "Movie Bistro - Lake Charles",
+    "address": "3416 Derek Drive",
+    "city": "Lake Charles",
+    "state": "LA",
+    "zip": "70607",
+    "phone": "3374773913"
+  },
+  {
+    "metro_area": "Towson",
+    "name": "Reserve Kitchen & Bar - Towson",
+    "address": "111 East Joppa Rd",
+    "city": "Towson",
+    "state": "MD",
+    "zip": "21286",
+    "phone": "4108281262"
+  },
+  {
+    "metro_area": "Taylor",
+    "name": "Studio Eats  Southland Center",
+    "address": "23000 Eureka Road",
+    "city": "Taylor",
+    "state": "MI",
+    "zip": "48180",
+    "phone": "7342870629"
+  },
+  {
+    "metro_area": "Gulfport",
+    "name": "Studio Eats Gulfport",
+    "address": "15171 Crossroads Parkway",
+    "city": "Gulfport",
+    "state": "MS",
+    "zip": "39503",
+    "phone": "2285395294"
+  },
+  {
+    "metro_area": "Asheville",
+    "name": "Movie Bistro - Asheville",
+    "address": "1640 Hendersonville Rd",
+    "city": "Asheville",
+    "state": "NC",
+    "zip": "28803",
+    "phone": "8282748811"
+  },
+  {
+    "metro_area": "Charlotte",
+    "name": "Movie Bistro - Charlotte",
+    "address": "9630 Monroe Rd",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip": "28270",
+    "phone": "7048472031"
+  },
+  {
+    "metro_area": "Raleigh",
+    "name": "Movie Bistro - Raleigh",
+    "address": "4840 Grove Barton Rd",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": "27613",
+    "phone": "9197889000"
+  },
+  {
+    "metro_area": "Salem",
+    "name": "Studio Eats Rockingham Park",
+    "address": "15 Mall Road",
+    "city": "Salem",
+    "state": "NH",
+    "zip": "03079",
+    "phone": "6038907111"
+  },
+  {
+    "metro_area": "Wayne",
+    "name": "Studio Eats Willowbrook Mall",
+    "address": "360 Willowbrook Mall Blvd",
+    "city": "Wayne",
+    "state": "NJ",
+    "zip": "07470",
+    "phone": "9738908644"
+  },
+  {
+    "metro_area": "Beavercreek",
+    "name": "Studio Eats Kitchen & Bar - Beavercreek",
+    "address": "4489 Glengarry Dr",
+    "city": "Beavercreek",
+    "state": "OH",
+    "zip": "45440",
+    "phone": "9374294130"
+  },
+  {
+    "metro_area": "Milford",
+    "name": "Studio Eats Milford",
+    "address": "500 Rivers Edge Dr",
+    "city": "Milford",
+    "state": "OH",
+    "zip": "45150",
+    "phone": "5132482169"
+  },
+  {
+    "metro_area": "North Canton",
+    "name": "Movie Bistro - North Canton",
+    "address": "6284 Dressler Road NW",
+    "city": "North Canton",
+    "state": "OH",
+    "zip": "44720",
+    "phone": "3304979118"
+  },
+  {
+    "metro_area": "Toledo",
+    "name": "Studio Eats Kitchen & Bar - Toledo Franklin Park",
+    "address": "5001 Monroe St",
+    "city": "Toledo",
+    "state": "OH",
+    "zip": "43623",
+    "phone": "4194722324"
+  },
+  {
+    "metro_area": "Valley View",
+    "name": "Studio Eats Valley View",
+    "address": "6001 Canal Road",
+    "city": "Valley View",
+    "state": "OH",
+    "zip": "44125",
+    "phone": "2164478820"
+  },
+  {
+    "metro_area": "West Carrollton",
+    "name": "Studio Eats  Dayton South",
+    "address": "195 Mall Woods Dr",
+    "city": "West Carrollton",
+    "state": "OH",
+    "zip": "45449",
+    "phone": "9374351806"
+  },
+  {
+    "metro_area": "Tulsa",
+    "name": "Studio Eats Tulsa",
+    "address": "10802 E 71st St.",
+    "city": "Tulsa",
+    "state": "OK",
+    "zip": "74133",
+    "phone": "9182501956"
+  },
+  {
+    "metro_area": "Erie",
+    "name": "Studio Eats Erie",
+    "address": "1910 Rotunda Drive",
+    "city": "Erie",
+    "state": "PA",
+    "zip": "16509",
+    "phone": "8148663390"
+  },
+  {
+    "metro_area": "Moosic",
+    "name": "Studio Eats Montage Mountain",
+    "address": "40 Glenmaura National Blvd.",
+    "city": "Moosic",
+    "state": "PA",
+    "zip": "18507",
+    "phone": "5709615943"
+  },
+  {
+    "metro_area": "College Station",
+    "name": "Studio Eats College Station",
+    "address": "1401 Earl Rudder Frwy S.",
+    "city": "College Station",
+    "state": "TX",
+    "zip": "77845",
+    "phone": "9797649692"
+  },
+  {
+    "metro_area": "Cypress",
+    "name": "The Kitchen at CUT! - Cypress",
+    "address": "29030 Northwest Freeway",
+    "city": "Cypress",
+    "state": "TX",
+    "zip": "77433",
+    "phone": "2812568744"
+  },
+  {
+    "metro_area": "Dallas",
+    "name": "Studio Eats Dallas",
+    "address": "11819 Webb Chapel Road",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75234",
+    "phone": "9722478172"
+  },
+  {
+    "metro_area": "Edinburg",
+    "name": "Movie Bistro - Edinburg",
+    "address": "2001 W. Trenton",
+    "city": "Edinburg",
+    "state": "TX",
+    "zip": "78539",
+    "phone": "9566313990"
+  },
+  {
+    "metro_area": "El Paso",
+    "name": "Gamescape by Cinemark at El Paso",
+    "address": "13361 Gateway Blvd W",
+    "city": "El Paso",
+    "state": "TX",
+    "zip": "79928",
+    "phone": "9156035223"
+  },
+  {
+    "metro_area": "El Paso",
+    "name": "Studio Eats Las Palmas",
+    "address": "11855 Gateway Blvd. West",
+    "city": "El Paso",
+    "state": "TX",
+    "zip": "79936",
+    "phone": "9155904676"
+  },
+  {
+    "metro_area": "Frisco",
+    "name": "The Kitchen at CUT! - Frisco",
+    "address": "6969 US HWY 380",
+    "city": "Frisco",
+    "state": "TX",
+    "zip": "75033",
+    "phone": "9724331035"
+  },
+  {
+    "metro_area": "Grapevine",
+    "name": "Studio Eats Kitchen - Grapevine",
+    "address": "911 State Hwy. 114 West",
+    "city": "Grapevine",
+    "state": "TX",
+    "zip": "76051",
+    "phone": "8174815040"
+  },
+  {
+    "metro_area": "Greenville",
+    "name": "Gamescape by Cinemark at Greenville",
+    "address": "3800 Abolwich Drive",
+    "city": "Greenville",
+    "state": "TX",
+    "zip": "75402",
+    "phone": ""
+  },
+  {
+    "metro_area": "Harlingen",
+    "name": "Studio Eats Harlingen",
+    "address": "401 S. Expressway 83",
+    "city": "Harlingen",
+    "state": "TX",
+    "zip": "78550",
+    "phone": "9564283224"
+  },
+  {
+    "metro_area": "Houston",
+    "name": "Studio Eats Houston",
+    "address": "12920 NW Freeway",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77040",
+    "phone": "7133299402"
+  },
+  {
+    "metro_area": "Katy",
+    "name": "Studio Eats Katy",
+    "address": "1030 W Grand Parkway North",
+    "city": "Katy",
+    "state": "TX",
+    "zip": "77449",
+    "phone": "2813716008"
+  },
+  {
+    "metro_area": "Missouri City",
+    "name": "Studio Eats Missouri City",
+    "address": "10343 Highway 6​",
+    "city": "Missouri City",
+    "state": "TX",
+    "zip": "77459",
+    "phone": "2812416497"
+  },
+  {
+    "metro_area": "Plano",
+    "name": "Reserve Kitchen & Bar - West Plano",
+    "address": "3800 Dallas Parkway",
+    "city": "Plano",
+    "state": "TX",
+    "zip": "75093",
+    "phone": "9724732289"
+  },
+  {
+    "metro_area": "Plano",
+    "name": "Studio Eats Kitchen & Bar - Legacy",
+    "address": "7201 N Central Expy",
+    "city": "Plano",
+    "state": "TX",
+    "zip": "75025",
+    "phone": "9725274385"
+  },
+  {
+    "metro_area": "The Woodlands",
+    "name": "Studio Eats The Woodlands",
+    "address": "1600 Lake Robbins Drive",
+    "city": "The Woodlands",
+    "state": "TX",
+    "zip": "77380",
+    "phone": "2813624340"
+  },
+  {
+    "metro_area": "Waco",
+    "name": "Studio Eats Waco",
+    "address": "2400 Creekview Drive",
+    "city": "Waco",
+    "state": "TX",
+    "zip": "76711",
+    "phone": "6824993273"
+  },
+  {
+    "metro_area": "Webster",
+    "name": "Studio Eats NASA",
+    "address": "20915 Gulf Freeway",
+    "city": "Webster",
+    "state": "TX",
+    "zip": "77598",
+    "phone": "2813320951"
+  },
+  {
+    "metro_area": "Riverton",
+    "name": "Studio Eats Riverton",
+    "address": "13257 S. Teal Ridge Way",
+    "city": "Riverton",
+    "state": "UT",
+    "zip": "84096",
+    "phone": "8019385700"
+  },
+  {
+    "metro_area": "West Jordan",
+    "name": "Studio Eats  Jordan Landing",
+    "address": "7301 S Jordan Landing",
+    "city": "West Jordan",
+    "state": "UT",
+    "zip": "84084",
+    "phone": "8012828847"
+  },
+  {
+    "metro_area": "Fairfax",
+    "name": "Studio Eats Kitchen & Bar - Fairfax",
+    "address": "11900 Palace Way",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "7033786550"
+  },
+  {
+    "metro_area": "Newport News",
+    "name": "Reserve Restaurant & Bar | Pizzeria",
+    "address": "11810 Fountain Way",
+    "city": "Newport News",
+    "state": "VA",
+    "zip": "23606",
+    "phone": "7575259958"
+  },
+  {
+    "metro_area": "Bellevue",
+    "name": "Reserve Kitchen & Bar - Bellevue Lincoln Square",
+    "address": "500 Bellevue Way NE",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "phone": "4254558422"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Sanford",
+    "description": "Smitty's Cinema in Sanford, ME, part of an entertainment complex with an arcade and bowling alley alongside the theaters. Food and drinks are ordered from your seat and delivered during the film. Seating is mixed — some auditoriums have recliner-style seats, others don't — so it's worth checking what you're getting when booking. Reviews are strong on private events and staff attentiveness, with one specific complaint about a shrinking chip/dip portion on a repeat order. Pricing runs high for a full family outing — reviewers cite around $200 for a family of four with food.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "unknown",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Reserved Seating", "Arcade", "Bowling"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Topsham",
+    "description": "Smitty's Cinema in Topsham, ME, with an arcade alongside the theaters. Seating is notably not recliners — reviewers describe rolling office-style chairs, which some appreciate (easier on a sensitive back than a fixed recline) and others find under-cushioned. Food and drinks are ordered and delivered to your seat during the film; service is consistently praised as quick and unobtrusive, timed to not interrupt the movie. One recurring light complaint: servers checking in can land at inopportune moments during a film's climax.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "unknown",
+    "reserved_recliners": false,
+    "menu_price_range": "$$",
+    "amenities": ["Reserved Seating", "Arcade"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Windham",
+    "description": "Smitty's Entertainment in Windham, ME. Like Topsham, seating is rolling office-style chairs rather than recliners — one reviewer specifically prefers this over fixed recliners elsewhere for comfort reasons. Food and drinks are ordered and delivered to your seat during the film, and ticket prices are repeatedly called inexpensive. Reviews split on food quality: several call it good value, while one describes it as tasting pre-frozen and microwaved, and notes the theater felt outdated and left auditorium lights on during a showing.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "unknown",
+    "reserved_recliners": false,
+    "menu_price_range": "$$",
+    "amenities": ["Reserved Seating"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  },
+  {
+    "name": "Tilton",
+    "description": "Smitty's Cinema & GameLAB in Tilton, NH — the chain's larger-format location, adding axe throwing, a bar, and a dance floor to the usual arcade and dine-in theaters. Food is delivered to your seat during the film; reviews consistently praise the milkshakes and describe comfortable seating, though mixed drinks are called overly sweet by one reviewer. A recurring complaint is auditorium volume being uncomfortably loud, and one reviewer disputed a $40 steak tips portion size with management, who maintained the portion was correct.",
+    "delivery_style": "in_seat_delivery",
+    "alcohol_served": "full_bar",
+    "reserved_recliners": null,
+    "menu_price_range": "$$$",
+    "amenities": ["Full Bar", "Reserved Seating", "Arcade", "Axe Throwing"],
+    "parking_notes": null,
+    "accessibility_notes": null,
+    "safety_notes": null
+  }
+]

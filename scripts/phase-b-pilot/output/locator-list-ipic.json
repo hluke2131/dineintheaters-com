@@ -1,0 +1,83 @@
+[
+  {
+    "metro_area": "South Florida",
+    "name": "Mizner Park",
+    "address": "301 Plaza Real",
+    "city": "Boca Raton",
+    "state": "FL",
+    "zip": "33432",
+    "phone": "561-299-3000"
+  },
+  {
+    "metro_area": "South Florida",
+    "name": "Delray Beach",
+    "address": "25 SE 4th Ave",
+    "city": "Delray Beach",
+    "state": "FL",
+    "zip": "33483",
+    "phone": "561-359-5844"
+  },
+  {
+    "metro_area": "Miami",
+    "name": "North Miami Beach",
+    "address": "16300 Biscayne Blvd",
+    "city": "North Miami Beach",
+    "state": "FL",
+    "zip": "33160",
+    "phone": "786-563-7061"
+  },
+  {
+    "metro_area": "Atlanta",
+    "name": "Colony Square",
+    "address": "400 10th St NE",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30309",
+    "phone": "470-893-8525"
+  },
+  {
+    "metro_area": "Washington DC",
+    "name": "Pike & Rose",
+    "address": "11830 Grand Park Avenue",
+    "city": "North Bethesda",
+    "state": "MD",
+    "zip": "20852",
+    "phone": "301-231-2300"
+  },
+  {
+    "metro_area": "New York",
+    "name": "Hudson Lights",
+    "address": "1000 Plaza America Dr",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "zip": "07024",
+    "phone": "201-582-7100"
+  },
+  {
+    "metro_area": "Austin",
+    "name": "The Domain",
+    "address": "11410 Century Oaks Terrace",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "78758",
+    "phone": "512-568-3400"
+  },
+  {
+    "metro_area": "Dallas",
+    "name": "Fairview",
+    "address": "5250 State Highway 5",
+    "city": "Fairview",
+    "state": "TX",
+    "zip": "75069",
+    "phone": "972-549-4200"
+  },
+  {
+    "metro_area": "Houston",
+    "name": "River Oaks",
+    "address": "4444 Westheimer Rd",
+    "city": "Houston",
+    "state": "TX",
+    "zip": "77027",
+    "phone": "832-709-2146"
+  }
+]

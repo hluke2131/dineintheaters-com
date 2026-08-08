@@ -1,0 +1,54 @@
+{
+  "chain": "Metropolitan",
+  "chain_id": "7e070c05-3d97-4029-99db-a82ecdb0aa34",
+  "generated_at": "2026-08-08T00:00:59.131Z",
+  "source_counts": {
+    "locator_total": 1,
+    "outscraper_total": 1,
+    "matched": 1,
+    "locator_only": 0,
+    "outscraper_only": 0
+  },
+  "locations": [
+    {
+      "slug": "metrolux-san-clemente",
+      "name": "MetroLux Theatres + IMAX @ San Clemente",
+      "chain_id": "7e070c05-3d97-4029-99db-a82ecdb0aa34",
+      "sub_brand": null,
+      "address": "101 W Avenida Vista Hermosa Unit 144",
+      "city": "San Clemente",
+      "state": "CA",
+      "zip": "92672",
+      "lat": 33.4392369,
+      "lng": -117.62686339999999,
+      "place_id": "ChIJR7GvHnHz3IARc2OsfCy4qmU",
+      "fsq_id": null,
+      "phone": "949-226-8034",
+      "website_url": "https://www.metrotheatres.com/theatres/g017w-metrolux-theatres-imax-san-clemente/",
+      "ticketing_url": "https://www.metrotheatres.com/theatres/g017w-metrolux-theatres-imax-san-clemente/",
+      "hours": null,
+      "delivery_style": "in_seat_delivery",
+      "alcohol_served": "full_bar",
+      "age_restricted_auditoriums": null,
+      "reserved_recliners": null,
+      "menu_price_range": "$$",
+      "amenities": [
+        "Full Bar",
+        "Reserved Seating",
+        "IMAX"
+      ],
+      "accessibility_notes": null,
+      "parking_notes": null,
+      "safety_notes": null,
+      "description": "MetroLux Theatres + IMAX at San Clemente, at the Outlets at San Clemente, open since 2022. Standard auditoriums get in-seat food and drink delivery during the film; IMAX auditoriums specifically are counter pickup only, per the chain's own site. The theater is paired with Scripted Bar & Kitchen, a standalone full-service restaurant on the second floor that doesn't require a movie ticket to visit, which several reviewers use independently of seeing a film for lunch, dinner, or date nights. Reviews consistently praise the food and staff, including a detailed account of a private event handled exceptionally well. The most consistent complaint, raised independently by multiple reviewers, is that the bar/lobby area gets uncomfortably hot in summer, with regulars bringing their own portable fans.",
+      "status": "active",
+      "last_verified_date": "2026-08-08",
+      "photos": [
+        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8l979W4jmM0oevTFQzj48rJ52qU2g-U0PadrTIzB1JTiFcxg8b6Je6_mlWsSNoOGRsapUtc9xMHZjhFMXbPoPwJvThnR0LMnTVOwh7Q-AOavIgBZJWj0RxpfbQcxGTFpPzlLYUw=w800-h500-k-no"
+      ],
+      "is_sponsored": false,
+      "metro_area": "Orange County",
+      "match_method": "city_and_name"
+    }
+  ]
+}
