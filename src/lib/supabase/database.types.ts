@@ -82,6 +82,7 @@ export type Database = {
           fsq_id: string | null
           hours: Json | null
           id: string
+          is_published: boolean
           is_sponsored: boolean
           last_verified_date: string | null
           lat: number
@@ -99,6 +100,8 @@ export type Database = {
           status: string
           sub_brand: string | null
           ticketing_url: string | null
+          unpublished_at: string | null
+          unpublished_reason: string | null
           updated_at: string
           website_url: string | null
           zip: string | null
@@ -117,6 +120,7 @@ export type Database = {
           fsq_id?: string | null
           hours?: Json | null
           id?: string
+          is_published?: boolean
           is_sponsored?: boolean
           last_verified_date?: string | null
           lat: number
@@ -134,6 +138,8 @@ export type Database = {
           status?: string
           sub_brand?: string | null
           ticketing_url?: string | null
+          unpublished_at?: string | null
+          unpublished_reason?: string | null
           updated_at?: string
           website_url?: string | null
           zip?: string | null
@@ -152,6 +158,7 @@ export type Database = {
           fsq_id?: string | null
           hours?: Json | null
           id?: string
+          is_published?: boolean
           is_sponsored?: boolean
           last_verified_date?: string | null
           lat?: number
@@ -169,6 +176,8 @@ export type Database = {
           status?: string
           sub_brand?: string | null
           ticketing_url?: string | null
+          unpublished_at?: string | null
+          unpublished_reason?: string | null
           updated_at?: string
           website_url?: string | null
           zip?: string | null
