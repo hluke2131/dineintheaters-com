@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ListingDetail } from "@/components/listing-detail";
 import { formatSlug } from "@/lib/format-slug";
-import { getLocationBySlug, getReviewsByLocationId } from "@/lib/queries";
+import { getLocationBySlug, getReviewsByLocationId, isCityHubLinked } from "@/lib/queries";
 import { metaDescription } from "@/lib/theater-display";
 
 type Params = { slug: string };
@@ -36,7 +36,10 @@ export default async function ListingPage({ params }: { params: Promise<Params> 
     notFound();
   }
 
-  const reviews = await getReviewsByLocationId(location.id);
+  const [reviews, cityHubLinked] = await Promise.all([
+    getReviewsByLocationId(location.id),
+    isCityHubLinked(location.state, location.city),
+  ]);
 
-  return <ListingDetail location={location} reviews={reviews} />;
+  return <ListingDetail location={location} reviews={reviews} cityHubLinked={cityHubLinked} />;
 }

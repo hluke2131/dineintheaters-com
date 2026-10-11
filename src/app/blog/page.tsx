@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PlaceholderPage } from "@/components/placeholder-page";
+import { Hero } from "@/components/hero";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 
 export default function BlogIndexPage() {
   return (
-    <PlaceholderPage
+    <Hero
+      size="compact"
       eyebrow="Blog"
       title="Blog"
       description="Articles and guides about dine-in movie theaters will be published here."

@@ -129,9 +129,13 @@ function StatusBanner({ status }: { status: string }) {
 export function ListingDetail({
   location,
   reviews,
+  cityHubLinked,
 }: {
   location: LocationDetail;
   reviews: ReviewRow[];
+  /** Whether the listing's city has 3+ published listings and so a hub page
+   * worth linking to. When false the breadcrumb stops at the state hub. */
+  cityHubLinked: boolean;
 }) {
   const { slug } = location;
   const verification = new Map(location.field_verification.map((row) => [row.field_name, row]));
@@ -147,6 +151,18 @@ export function ListingDetail({
 
   const websiteUrl = safeHttpUrl(location.website_url);
   const showtimesUrl = safeHttpUrl(getShowtimesLink(location.ticketing_url));
+  const hoursValue = formatHours(location.hours);
+  const hoursLinkUrl = showtimesUrl ?? websiteUrl;
+  const hoursFallbackLink = hoursLinkUrl ? (
+    <a
+      href={hoursLinkUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline hover:text-burgundy"
+    >
+      Check hours &amp; showtimes
+    </a>
+  ) : null;
   const phoneHref = location.phone ? telHref(location.phone) : null;
   const embedUrl = mapsEmbedUrl(location);
   const directions = directionsUrl(location);
@@ -162,10 +178,14 @@ export function ListingDetail({
         items={[
           { label: "Home", href: "/" },
           { label: stateName, href: `/dine-in-theaters-in/${slugify(location.state)}` },
-          {
-            label: location.city,
-            href: `/dine-in-theaters-in/${slugify(location.state)}/${slugify(location.city)}`,
-          },
+          ...(cityHubLinked
+            ? [
+                {
+                  label: location.city,
+                  href: `/dine-in-theaters-in/${slugify(location.state)}/${slugify(location.city)}`,
+                },
+              ]
+            : []),
           { label: location.name },
         ]}
       />
@@ -256,11 +276,14 @@ export function ListingDetail({
             value={yesNo(location.age_restricted_auditoriums)}
             slug={slug}
           />
+          {/* Hours are not collected yet. Until they are, point at the
+              theater's own ticketing page (else its website) rather than a
+              "help us verify" prompt for data we are not set up to store. */}
           <DetailRow
             label="Hours"
-            value={formatHours(location.hours)}
+            value={hoursValue ?? hoursFallbackLink}
             slug={slug}
-            verification={verification.get("hours")}
+            verification={hoursValue ? verification.get("hours") : undefined}
           />
           <DetailRow
             label="Phone"

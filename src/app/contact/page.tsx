@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PlaceholderPage } from "@/components/placeholder-page";
+import { Hero } from "@/components/hero";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <PlaceholderPage
+    <Hero
+      size="compact"
       eyebrow="Contact"
       title="Contact Us"
       description="A contact form will live here."

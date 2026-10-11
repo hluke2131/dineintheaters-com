@@ -1,18 +1,19 @@
 import Link from "next/link";
 import {
-  ALCOHOL_SERVED_LABELS,
+  ALCOHOL_FILTER_LABELS,
+  ALCOHOL_FILTER_OPTIONS,
   DELIVERY_STYLE_LABELS,
-  FILTERABLE_ALCOHOL_SERVED,
   FILTERABLE_DELIVERY_STYLES,
   MENU_PRICE_RANGES,
-  type AlcoholServed,
+  type AlcoholFilter,
   type DeliveryStyle,
   type MenuPriceRange,
 } from "@/lib/theater-fields";
 
 export type ActiveFilters = {
   deliveryStyle: DeliveryStyle[];
-  alcoholServed: AlcoholServed[];
+  /** One nested choice: "any" already includes everything "full_bar" matches. */
+  alcoholServed: AlcoholFilter | null;
   menuPriceRange: MenuPriceRange[];
   reservedRecliners: boolean;
 };
@@ -48,16 +49,16 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
       <fieldset>
         <legend className={legendClass}>Alcohol</legend>
         <div className="mt-3 space-y-2">
-          {FILTERABLE_ALCOHOL_SERVED.map((value) => (
+          {ALCOHOL_FILTER_OPTIONS.map((value) => (
             <label key={value} className={labelClass}>
               <input
                 type="checkbox"
                 name="alcohol_served"
                 value={value}
-                defaultChecked={active.alcoholServed.includes(value)}
+                defaultChecked={active.alcoholServed === value}
                 className="accent-burgundy"
               />
-              {ALCOHOL_SERVED_LABELS[value]}
+              {ALCOHOL_FILTER_LABELS[value]}
             </label>
           ))}
         </div>

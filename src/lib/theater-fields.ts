@@ -30,7 +30,21 @@ export const FILTERABLE_DELIVERY_STYLES: readonly DeliveryStyle[] = [
   "in_seat_delivery",
   "counter_pickup",
 ];
-export const FILTERABLE_ALCOHOL_SERVED: readonly AlcoholServed[] = ["full_bar", "beer_wine"];
+
+// The directory's alcohol filter is a pair of nested choices rather than the
+// raw column values: "any" is every confirmed-alcohol row (beer & wine or full
+// bar), "full_bar" is the narrower subset. `alcohol_served=beer_wine` in old
+// shared URLs is read as "any" (see parseFilters on the directory page).
+export const ALCOHOL_FILTER_OPTIONS = ["any", "full_bar"] as const;
+export type AlcoholFilter = (typeof ALCOHOL_FILTER_OPTIONS)[number];
+export const ALCOHOL_FILTER_LABELS: Record<AlcoholFilter, string> = {
+  any: "Any alcohol",
+  full_bar: "Full bar",
+};
+export const ALCOHOL_FILTER_MATCHES: Record<AlcoholFilter, readonly AlcoholServed[]> = {
+  any: ["beer_wine", "full_bar"],
+  full_bar: ["full_bar"],
+};
 
 // Fields a visitor can crowd-verify on a listing page. Keys match the
 // `field_verification.field_name` values a submission/moderation flow

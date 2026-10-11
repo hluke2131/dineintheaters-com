@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { Container } from "@/components/container";
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
 import { formatSlug } from "@/lib/format-slug";
-import { getActiveLocationsByCity } from "@/lib/queries";
+import { getCityByStateAndSlug } from "@/lib/queries";
 import { getStateBySlug } from "@/lib/us-states";
 
 type Params = { state: string; city: string };
@@ -16,11 +17,22 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { state, city } = await params;
-  const stateName = getStateBySlug(state)?.name ?? formatSlug(state);
-  const cityName = formatSlug(city);
+  const stateInfo = getStateBySlug(state);
+  if (!stateInfo) {
+    return { title: formatSlug(city) };
+  }
+
+  const group = await getCityByStateAndSlug(stateInfo.code, city);
+  const cityName = group?.city ?? formatSlug(city);
   return {
-    title: `Dine-In Theaters in ${cityName}, ${stateName}`,
-    description: `Find dine-in movie theaters in ${cityName}, ${stateName}.`,
+    title: `Dine-In Theaters in ${cityName}, ${stateInfo.name}`,
+    description: `Find dine-in movie theaters in ${cityName}, ${stateInfo.name}.`,
+    // Cities below the linking threshold still resolve, but they are not
+    // linked to or indexed; their theaters live on the state hub.
+    alternates: group
+      ? { canonical: `/dine-in-theaters-in/${stateInfo.code.toLowerCase()}/${group.slug}` }
+      : undefined,
+    robots: group?.linked ? undefined : { index: false, follow: true },
   };
 }
 
@@ -32,15 +44,16 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
     notFound();
   }
 
-  const cityName = formatSlug(city);
-  const locations = await getActiveLocationsByCity(stateInfo.code, cityName);
+  const group = await getCityByStateAndSlug(stateInfo.code, city);
+  const cityName = group?.city ?? formatSlug(city);
+  const locations = group?.listings ?? [];
 
   return (
     <Container className="py-16 sm:py-24">
       <Breadcrumb
         items={[
           { label: "Home", href: "/" },
-          { label: stateInfo.name, href: `/dine-in-theaters-in/${state}` },
+          { label: stateInfo.name, href: `/dine-in-theaters-in/${stateInfo.code.toLowerCase()}` },
           { label: cityName },
         ]}
       />
@@ -62,7 +75,14 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
           <EmptyState
             title={`No theaters listed in ${cityName} yet`}
             message="We're actively building out this directory. Check back soon, or use Add a Theater to suggest one."
-          />
+          >
+            <Link
+              href={`/dine-in-theaters-in/${stateInfo.code.toLowerCase()}`}
+              className="rounded-full border border-burgundy px-5 py-2.5 font-medium text-burgundy hover:bg-burgundy/5"
+            >
+              Browse {stateInfo.name}
+            </Link>
+          </EmptyState>
         )}
       </div>
     </Container>

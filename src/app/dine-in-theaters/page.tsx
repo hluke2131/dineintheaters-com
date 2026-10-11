@@ -6,10 +6,9 @@ import { DirectoryFilterPanel, type ActiveFilters } from "@/components/directory
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
 import {
-  FILTERABLE_ALCOHOL_SERVED,
   FILTERABLE_DELIVERY_STYLES,
   MENU_PRICE_RANGES,
-  type AlcoholServed,
+  type AlcoholFilter,
   type DeliveryStyle,
   type MenuPriceRange,
 } from "@/lib/theater-fields";
@@ -30,6 +29,17 @@ function toArray(value: string | string[] | undefined): string[] {
   return Array.isArray(value) ? value : [value];
 }
 
+/** Narrows `alcohol_served` to the two nested options. "any" and the legacy
+ * `beer_wine` value both mean "any alcohol"; `full_bar` alone means full bar;
+ * "any" wins when both are present because it already includes full bar.
+ * Anything else is ignored. */
+function parseAlcohol(value: string | string[] | undefined): AlcoholFilter | null {
+  const values = toArray(value);
+  if (values.includes("any") || values.includes("beer_wine")) return "any";
+  if (values.includes("full_bar")) return "full_bar";
+  return null;
+}
+
 /** Narrows raw query params to known, filterable values. Anything else
  * (typos, "unknown", hand-edited URLs) is dropped rather than erroring. */
 function parseFilters(params: SearchParams): ActiveFilters {
@@ -37,9 +47,7 @@ function parseFilters(params: SearchParams): ActiveFilters {
     deliveryStyle: toArray(params.delivery_style).filter((v): v is DeliveryStyle =>
       FILTERABLE_DELIVERY_STYLES.includes(v as DeliveryStyle)
     ),
-    alcoholServed: toArray(params.alcohol_served).filter((v): v is AlcoholServed =>
-      FILTERABLE_ALCOHOL_SERVED.includes(v as AlcoholServed)
-    ),
+    alcoholServed: parseAlcohol(params.alcohol_served),
     menuPriceRange: toArray(params.menu_price_range).filter((v): v is MenuPriceRange =>
       MENU_PRICE_RANGES.includes(v as MenuPriceRange)
     ),
@@ -55,7 +63,7 @@ function parsePage(value: string | string[] | undefined): number {
 function buildHref(filters: ActiveFilters, page: number): string {
   const query = new URLSearchParams();
   for (const value of filters.deliveryStyle) query.append("delivery_style", value);
-  for (const value of filters.alcoholServed) query.append("alcohol_served", value);
+  if (filters.alcoholServed) query.set("alcohol_served", filters.alcoholServed);
   for (const value of filters.menuPriceRange) query.append("menu_price_range", value);
   if (filters.reservedRecliners) query.set("reserved_recliners", "true");
   if (page > 1) query.set("page", String(page));
@@ -66,7 +74,7 @@ function buildHref(filters: ActiveFilters, page: number): string {
 function countActive(filters: ActiveFilters): number {
   return (
     filters.deliveryStyle.length +
-    filters.alcoholServed.length +
+    (filters.alcoholServed ? 1 : 0) +
     filters.menuPriceRange.length +
     (filters.reservedRecliners ? 1 : 0)
   );
@@ -102,7 +110,7 @@ export default async function DineInTheatersPage({
 
   const filters: DirectoryFilters = {
     deliveryStyle: active.deliveryStyle.length ? active.deliveryStyle : undefined,
-    alcoholServed: active.alcoholServed.length ? active.alcoholServed : undefined,
+    alcoholServed: active.alcoholServed ?? undefined,
     menuPriceRange: active.menuPriceRange.length ? active.menuPriceRange : undefined,
     reservedRecliners: active.reservedRecliners || undefined,
   };

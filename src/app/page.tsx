@@ -3,14 +3,28 @@ import Link from "next/link";
 import { Container } from "@/components/container";
 import { CountLinkCard } from "@/components/count-link-card";
 import { EmptyState } from "@/components/empty-state";
-import { slugify } from "@/lib/format-slug";
+import { Hero } from "@/components/hero";
 import { getPopularCities, getStatesWithCounts } from "@/lib/queries";
+import { getStateBySlug } from "@/lib/us-states";
 
 export const metadata: Metadata = {
   title: "Find Dine-In Movie Theaters Near You",
   description:
     "A directory of dine-in movie theaters across the United States — recliners, in-seat dining, and full bars, city by city.",
 };
+
+const STANDARDS = [
+  {
+    title: "A real menu",
+    description:
+      "Burgers, pizza, sandwiches, salads, entrées. If it's only popcorn, candy and nachos, it doesn't make the list.",
+  },
+  {
+    title: "Served where you sit",
+    description:
+      "You order at your seat or at the counter and eat in the auditorium, so dinner and the movie happen at once.",
+  },
+];
 
 const DIFFERENTIATORS = [
   {
@@ -35,57 +49,83 @@ const DIFFERENTIATORS = [
   },
 ];
 
+const heroPrimaryButton =
+  "rounded-full bg-gold px-7 py-3.5 font-medium text-ink hover:bg-cream";
+const heroSecondaryButton =
+  "rounded-full border border-cream/70 px-7 py-3.5 font-medium text-cream hover:bg-cream/10";
+
 export default async function Home() {
   const [popularCities, states] = await Promise.all([
     getPopularCities(6),
     getStatesWithCounts(),
   ]);
 
+  // Same published-only source as the state explorer below, so the stat line
+  // can never disagree with the cards.
+  const theaterCount = states.reduce((sum, item) => sum + item.count, 0);
+  const stateCount = states.length;
+
   return (
     <>
-      <Container className="py-20 sm:py-28">
-        <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
-          DineInTheaters.com
-        </p>
-        <h1 className="mt-2 max-w-2xl font-display text-5xl text-burgundy-dark sm:text-6xl">
-          Dinner and a movie, without leaving your seat.
-        </h1>
-        <p className="mt-6 max-w-xl text-lg text-ink/70">
-          A growing directory of dine-in movie theaters across the United States. Find
-          recliners, in-seat service, and full bars near you — the full directory is
-          coming online soon.
-        </p>
-        <div className="mt-8 flex flex-wrap gap-4">
-          <Link
-            href="/dine-in-theaters"
-            className="rounded-full bg-burgundy px-6 py-3 font-medium text-cream hover:bg-burgundy-dark"
-          >
-            Browse Theaters
+      <Hero
+        eyebrow="The dine-in movie theater directory"
+        title="Come hungry. Stay for the movie."
+        description="Burgers, pizza, salads and full entrées, brought to your seat or ready at the counter. Find the theaters where a movie night means a real meal, not just popcorn."
+      >
+        <div className="mt-9 flex flex-wrap gap-4">
+          <Link href="/dine-in-theaters" className={heroPrimaryButton}>
+            Browse all theaters
           </Link>
-          <Link
-            href="/add-a-theater"
-            className="rounded-full border border-burgundy px-6 py-3 font-medium text-burgundy hover:bg-burgundy/5"
-          >
-            Add a Theater
+          <Link href="/dine-in-theaters-in" className={heroSecondaryButton}>
+            Browse by state
           </Link>
         </div>
-      </Container>
-
-      <section className="bg-white">
-        <Container className="py-16 sm:py-24">
-          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
-            Why This Directory
+        {theaterCount > 0 ? (
+          <p className="mt-8 text-base text-cream/90">
+            <span className="font-display text-2xl text-gold">
+              {theaterCount.toLocaleString("en-US")}
+            </span>{" "}
+            dine-in {theaterCount === 1 ? "theater" : "theaters"} across{" "}
+            <span className="font-medium text-cream">{stateCount.toLocaleString("en-US")}</span>{" "}
+            {stateCount === 1 ? "state" : "states"}
           </p>
-          <h2 className="mt-2 max-w-2xl font-display text-3xl text-burgundy-dark sm:text-4xl">
-            Not another generic listings site.
+        ) : null}
+      </Hero>
+
+      <section className="bg-white" aria-labelledby="how-we-choose-heading">
+        <Container className="py-14 sm:py-20">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+            How We Choose
+          </p>
+          <h2
+            id="how-we-choose-heading"
+            className="mt-2 max-w-2xl font-display text-3xl text-burgundy-dark sm:text-4xl"
+          >
+            A real meal, not just popcorn.
           </h2>
-          <div className="mt-10 grid gap-8 sm:grid-cols-2">
-            {DIFFERENTIATORS.map((item) => (
-              <div key={item.title}>
+          <p className="mt-4 max-w-2xl text-lg text-ink/70">
+            We list only theaters where you can order a real meal, at your seat or at the
+            counter. That&rsquo;s the whole standard.
+          </p>
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+            {STANDARDS.map((item) => (
+              <div key={item.title} className="border-l-4 border-gold pl-5">
                 <h3 className="font-display text-lg text-burgundy-dark">{item.title}</h3>
                 <p className="mt-2 text-ink/70">{item.description}</p>
               </div>
             ))}
+            <div className="rounded-xl border border-dashed border-burgundy/25 bg-burgundy/5 p-5">
+              <h3 className="font-display text-lg text-burgundy-dark">Know one we missed?</h3>
+              <p className="mt-2 text-ink/70">
+                If a theater near you serves real meals, tell us and we&rsquo;ll take a look.
+              </p>
+              <Link
+                href="/add-a-theater"
+                className="mt-3 inline-block font-medium text-burgundy underline hover:text-burgundy-dark"
+              >
+                Suggest a theater
+              </Link>
+            </div>
           </div>
         </Container>
       </section>
@@ -103,8 +143,8 @@ export default async function Home() {
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {popularCities.map((item) => (
                   <CountLinkCard
-                    key={`${item.state}-${item.city}`}
-                    href={`/dine-in-theaters-in/${slugify(item.state)}/${slugify(item.city)}`}
+                    key={`${item.state}-${item.slug}`}
+                    href={`/dine-in-theaters-in/${item.state.toLowerCase()}/${item.slug}`}
                     name={`${item.city}, ${item.state}`}
                     count={item.count}
                   />
@@ -135,8 +175,8 @@ export default async function Home() {
                   {states.map((item) => (
                     <CountLinkCard
                       key={item.state}
-                      href={`/dine-in-theaters-in/${slugify(item.state)}`}
-                      name={item.state}
+                      href={`/dine-in-theaters-in/${item.state.toLowerCase()}`}
+                      name={getStateBySlug(item.state)?.name ?? item.state}
                       count={item.count}
                     />
                   ))}
@@ -154,6 +194,25 @@ export default async function Home() {
                 message="States will appear here as soon as the first dine-in theaters go live."
               />
             )}
+          </div>
+        </Container>
+      </section>
+
+      <section>
+        <Container className="py-16 sm:py-24">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+            Why This Directory
+          </p>
+          <h2 className="mt-2 max-w-2xl font-display text-3xl text-burgundy-dark sm:text-4xl">
+            Not another generic listings site.
+          </h2>
+          <div className="mt-10 grid gap-8 sm:grid-cols-2">
+            {DIFFERENTIATORS.map((item) => (
+              <div key={item.title}>
+                <h3 className="font-display text-lg text-burgundy-dark">{item.title}</h3>
+                <p className="mt-2 text-ink/70">{item.description}</p>
+              </div>
+            ))}
           </div>
         </Container>
       </section>

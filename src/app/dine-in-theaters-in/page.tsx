@@ -4,6 +4,7 @@ import { CountLinkCard } from "@/components/count-link-card";
 import { EmptyState } from "@/components/empty-state";
 import { slugify } from "@/lib/format-slug";
 import { getStatesWithCounts } from "@/lib/queries";
+import { getStateBySlug } from "@/lib/us-states";
 
 export const metadata: Metadata = {
   title: "Dine-In Theaters by State",
@@ -32,7 +33,7 @@ export default async function StateIndexPage() {
               <CountLinkCard
                 key={item.state}
                 href={`/dine-in-theaters-in/${slugify(item.state)}`}
-                name={item.state}
+                name={getStateBySlug(item.state)?.name ?? item.state}
                 count={item.count}
               />
             ))}
