@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { Container } from "@/components/container";
+import { DirectoryFilterPanel, type ActiveFilters } from "@/components/directory-filters";
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
 import {
-  ALCOHOL_SERVED_LABELS,
-  DELIVERY_STYLE_LABELS,
   FILTERABLE_ALCOHOL_SERVED,
   FILTERABLE_DELIVERY_STYLES,
   MENU_PRICE_RANGES,
@@ -13,23 +13,80 @@ import {
   type DeliveryStyle,
   type MenuPriceRange,
 } from "@/lib/theater-fields";
-import { getDirectoryListings, type DirectoryFilters } from "@/lib/queries";
+import { DIRECTORY_PAGE_SIZE, getDirectoryListings, type DirectoryFilters } from "@/lib/queries";
 
-export const metadata: Metadata = {
-  title: "Dine-In Movie Theaters Directory",
-  description: "Browse the full directory of dine-in movie theaters across the United States.",
-};
+const BASE_PATH = "/dine-in-theaters";
 
 type SearchParams = {
   delivery_style?: string | string[];
   alcohol_served?: string | string[];
   menu_price_range?: string | string[];
-  reserved_recliners?: string;
+  reserved_recliners?: string | string[];
+  page?: string | string[];
 };
 
 function toArray(value: string | string[] | undefined): string[] {
   if (!value) return [];
   return Array.isArray(value) ? value : [value];
+}
+
+/** Narrows raw query params to known, filterable values. Anything else
+ * (typos, "unknown", hand-edited URLs) is dropped rather than erroring. */
+function parseFilters(params: SearchParams): ActiveFilters {
+  return {
+    deliveryStyle: toArray(params.delivery_style).filter((v): v is DeliveryStyle =>
+      FILTERABLE_DELIVERY_STYLES.includes(v as DeliveryStyle)
+    ),
+    alcoholServed: toArray(params.alcohol_served).filter((v): v is AlcoholServed =>
+      FILTERABLE_ALCOHOL_SERVED.includes(v as AlcoholServed)
+    ),
+    menuPriceRange: toArray(params.menu_price_range).filter((v): v is MenuPriceRange =>
+      MENU_PRICE_RANGES.includes(v as MenuPriceRange)
+    ),
+    reservedRecliners: toArray(params.reserved_recliners).includes("true"),
+  };
+}
+
+function parsePage(value: string | string[] | undefined): number {
+  const page = Number.parseInt(toArray(value)[0] ?? "", 10);
+  return Number.isFinite(page) && page > 1 ? page : 1;
+}
+
+function buildHref(filters: ActiveFilters, page: number): string {
+  const query = new URLSearchParams();
+  for (const value of filters.deliveryStyle) query.append("delivery_style", value);
+  for (const value of filters.alcoholServed) query.append("alcohol_served", value);
+  for (const value of filters.menuPriceRange) query.append("menu_price_range", value);
+  if (filters.reservedRecliners) query.set("reserved_recliners", "true");
+  if (page > 1) query.set("page", String(page));
+  const qs = query.toString();
+  return qs ? `${BASE_PATH}?${qs}` : BASE_PATH;
+}
+
+function countActive(filters: ActiveFilters): number {
+  return (
+    filters.deliveryStyle.length +
+    filters.alcoholServed.length +
+    filters.menuPriceRange.length +
+    (filters.reservedRecliners ? 1 : 0)
+  );
+}
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<SearchParams>;
+}): Promise<Metadata> {
+  const params = await searchParams;
+  const filtered = countActive(parseFilters(params)) > 0 || parsePage(params.page) > 1;
+
+  return {
+    title: "Dine-In Movie Theaters Directory",
+    description: "Browse the full directory of dine-in movie theaters across the United States.",
+    alternates: { canonical: BASE_PATH },
+    // Filter and pagination permutations are for visitors, not the index.
+    robots: filtered ? { index: false, follow: true } : undefined,
+  };
 }
 
 export default async function DineInTheatersPage({
@@ -38,31 +95,29 @@ export default async function DineInTheatersPage({
   searchParams: Promise<SearchParams>;
 }) {
   const params = await searchParams;
-
-  const deliveryStyle = toArray(params.delivery_style).filter((v): v is DeliveryStyle =>
-    FILTERABLE_DELIVERY_STYLES.includes(v as DeliveryStyle)
-  );
-  const alcoholServed = toArray(params.alcohol_served).filter((v): v is AlcoholServed =>
-    FILTERABLE_ALCOHOL_SERVED.includes(v as AlcoholServed)
-  );
-  const menuPriceRange = toArray(params.menu_price_range).filter((v): v is MenuPriceRange =>
-    MENU_PRICE_RANGES.includes(v as MenuPriceRange)
-  );
-  const reservedRecliners = params.reserved_recliners === "true";
-  const hasActiveFilters =
-    deliveryStyle.length > 0 ||
-    alcoholServed.length > 0 ||
-    menuPriceRange.length > 0 ||
-    reservedRecliners;
+  const active = parseFilters(params);
+  const activeCount = countActive(active);
+  const hasActiveFilters = activeCount > 0;
+  const requestedPage = parsePage(params.page);
 
   const filters: DirectoryFilters = {
-    deliveryStyle: deliveryStyle.length ? deliveryStyle : undefined,
-    alcoholServed: alcoholServed.length ? alcoholServed : undefined,
-    menuPriceRange: menuPriceRange.length ? menuPriceRange : undefined,
-    reservedRecliners: reservedRecliners || undefined,
+    deliveryStyle: active.deliveryStyle.length ? active.deliveryStyle : undefined,
+    alcoholServed: active.alcoholServed.length ? active.alcoholServed : undefined,
+    menuPriceRange: active.menuPriceRange.length ? active.menuPriceRange : undefined,
+    reservedRecliners: active.reservedRecliners || undefined,
   };
 
-  const listings = await getDirectoryListings(filters);
+  const { listings, total } = await getDirectoryListings(filters, requestedPage);
+  const totalPages = Math.max(1, Math.ceil(total / DIRECTORY_PAGE_SIZE));
+
+  // A stale or hand-edited ?page= past the end goes to the last real page.
+  if (requestedPage > totalPages) {
+    redirect(buildHref(active, totalPages));
+  }
+
+  const page = requestedPage;
+  const firstShown = total === 0 ? 0 : (page - 1) * DIRECTORY_PAGE_SIZE + 1;
+  const lastShown = (page - 1) * DIRECTORY_PAGE_SIZE + listings.length;
 
   return (
     <Container className="py-16 sm:py-24">
@@ -70,123 +125,100 @@ export default async function DineInTheatersPage({
       <h1 className="mt-2 font-display text-4xl text-burgundy-dark sm:text-5xl">
         Dine-In Movie Theaters
       </h1>
-      <p className="mt-4 max-w-2xl text-lg text-ink/70">
-        {listings.length} {listings.length === 1 ? "theater" : "theaters"}
-        {hasActiveFilters ? " match your filters." : " and counting."}
-      </p>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[16rem_1fr]">
-        <aside>
-          <form
-            method="get"
-            className="space-y-6 rounded-xl border border-burgundy/10 bg-white p-5"
-          >
-            <fieldset>
-              <legend className="font-display text-sm uppercase tracking-wide text-burgundy-dark">
-                Delivery Style
-              </legend>
-              <div className="mt-3 space-y-2">
-                {FILTERABLE_DELIVERY_STYLES.map((value) => (
-                  <label key={value} className="flex items-center gap-2 text-sm text-ink/80">
-                    <input
-                      type="checkbox"
-                      name="delivery_style"
-                      value={value}
-                      defaultChecked={deliveryStyle.includes(value)}
-                      className="accent-burgundy"
-                    />
-                    {DELIVERY_STYLE_LABELS[value]}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
+        <DirectoryFilterPanel active={active} hasActive={hasActiveFilters} activeCount={activeCount} />
 
-            <fieldset>
-              <legend className="font-display text-sm uppercase tracking-wide text-burgundy-dark">
-                Alcohol Served
-              </legend>
-              <div className="mt-3 space-y-2">
-                {FILTERABLE_ALCOHOL_SERVED.map((value) => (
-                  <label key={value} className="flex items-center gap-2 text-sm text-ink/80">
-                    <input
-                      type="checkbox"
-                      name="alcohol_served"
-                      value={value}
-                      defaultChecked={alcoholServed.includes(value)}
-                      className="accent-burgundy"
-                    />
-                    {ALCOHOL_SERVED_LABELS[value]}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <legend className="font-display text-sm uppercase tracking-wide text-burgundy-dark">
-                Menu Price Range
-              </legend>
-              <div className="mt-3 space-y-2">
-                {MENU_PRICE_RANGES.map((value) => (
-                  <label key={value} className="flex items-center gap-2 text-sm text-ink/80">
-                    <input
-                      type="checkbox"
-                      name="menu_price_range"
-                      value={value}
-                      defaultChecked={menuPriceRange.includes(value)}
-                      className="accent-burgundy"
-                    />
-                    {value}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <label className="flex items-center gap-2 text-sm text-ink/80">
-                <input
-                  type="checkbox"
-                  name="reserved_recliners"
-                  value="true"
-                  defaultChecked={reservedRecliners}
-                  className="accent-burgundy"
-                />
-                Reserved Recliners Only
-              </label>
-            </fieldset>
-
-            <button
-              type="submit"
-              className="w-full rounded-full bg-burgundy px-4 py-2 font-medium text-cream hover:bg-burgundy-dark"
-            >
-              Apply Filters
-            </button>
+        <div>
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+            <p className="text-lg text-ink/80" aria-live="polite">
+              <span className="font-display text-2xl text-burgundy-dark">
+                {total.toLocaleString("en-US")} {total === 1 ? "theater" : "theaters"}
+              </span>
+              {hasActiveFilters ? " match your filters" : null}
+            </p>
             {hasActiveFilters ? (
               <Link
-                href="/dine-in-theaters"
-                className="block text-center text-sm text-ink/60 hover:text-burgundy"
+                href={BASE_PATH}
+                className="text-sm text-ink/60 underline hover:text-burgundy"
               >
                 Clear filters
               </Link>
             ) : null}
-          </form>
-        </aside>
+          </div>
+          {hasActiveFilters ? (
+            <p className="mt-1 text-sm text-ink/60">
+              Filters only match theaters where we&rsquo;ve confirmed that detail.
+            </p>
+          ) : null}
 
-        <div>
           {listings.length > 0 ? (
-            <div className="grid gap-4 sm:grid-cols-2">
-              {listings.map((location) => (
-                <TheaterCard key={location.id} location={location} />
-              ))}
-            </div>
+            <>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {listings.map((location) => (
+                  <TheaterCard key={location.id} location={location} />
+                ))}
+              </div>
+
+              {totalPages > 1 ? (
+                <nav
+                  aria-label="Pagination"
+                  className="mt-10 flex items-center justify-between gap-4 text-sm"
+                >
+                  {page > 1 ? (
+                    <Link
+                      href={buildHref(active, page - 1)}
+                      rel="prev"
+                      className="rounded-full border border-burgundy px-5 py-2 font-medium text-burgundy hover:bg-burgundy/5"
+                    >
+                      &larr; Previous
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" />
+                  )}
+                  <p className="text-ink/60">
+                    Showing {firstShown}&ndash;{lastShown} of {total.toLocaleString("en-US")}
+                  </p>
+                  {page < totalPages ? (
+                    <Link
+                      href={buildHref(active, page + 1)}
+                      rel="next"
+                      className="rounded-full border border-burgundy px-5 py-2 font-medium text-burgundy hover:bg-burgundy/5"
+                    >
+                      Next &rarr;
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" />
+                  )}
+                </nav>
+              ) : null}
+            </>
           ) : (
-            <EmptyState
-              title="No theaters listed yet"
-              message={
-                hasActiveFilters
-                  ? "No theaters match those filters yet. Try clearing a filter, or check back as the directory grows."
-                  : "We're actively building out this directory. Check back soon, or use Add a Theater to suggest one."
-              }
-            />
+            <div className="mt-6">
+              <EmptyState
+                title={hasActiveFilters ? "No theaters match those filters" : "No theaters listed yet"}
+                message={
+                  hasActiveFilters
+                    ? "Try removing a filter. Filters only match theaters where we've confirmed that detail, so some theaters may be missing from these results."
+                    : "We're actively building out this directory. Check back soon, or suggest a theater to add."
+                }
+              >
+                {hasActiveFilters ? (
+                  <Link
+                    href={BASE_PATH}
+                    className="rounded-full bg-burgundy px-5 py-2.5 font-medium text-cream hover:bg-burgundy-dark"
+                  >
+                    Clear filters
+                  </Link>
+                ) : null}
+                <Link
+                  href="/add-a-theater"
+                  className="rounded-full border border-burgundy px-5 py-2.5 font-medium text-burgundy hover:bg-burgundy/5"
+                >
+                  Add a theater
+                </Link>
+              </EmptyState>
+            </div>
           )}
         </div>
       </div>
