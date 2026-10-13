@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/breadcrumb";
 import { Container } from "@/components/container";
 import { TheaterCard } from "@/components/theater-card";
 import { formatSlug } from "@/lib/format-slug";
+import { resolveRobots } from "@/lib/indexing";
 import { getCityByStateAndSlug } from "@/lib/queries";
 import { getStateBySlug } from "@/lib/us-states";
 
@@ -30,7 +31,7 @@ export async function generateMetadata({
     alternates: group
       ? { canonical: `/dine-in-theaters-in/${stateInfo.code.toLowerCase()}/${group.slug}` }
       : undefined,
-    robots: group?.linked ? undefined : { index: false, follow: true },
+    robots: await resolveRobots(group?.linked ? undefined : { index: false, follow: true }),
   };
 }
 

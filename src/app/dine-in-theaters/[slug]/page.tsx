@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ListingDetail } from "@/components/listing-detail";
 import { formatSlug } from "@/lib/format-slug";
+import { resolveRobots } from "@/lib/indexing";
 import { getLocationBySlug, getReviewsByLocationId, isCityHubLinked } from "@/lib/queries";
 import { metaDescription } from "@/lib/theater-display";
 
@@ -24,7 +25,9 @@ export async function generateMetadata({
       ? metaDescription(location.description)
       : `Details, menu style, and directions for ${location.name} in ${location.city}, ${location.state}.`,
     alternates: { canonical: `/dine-in-theaters/${location.slug}` },
-    robots: location.status === "permanently_closed" ? { index: false, follow: true } : undefined,
+    robots: await resolveRobots(
+      location.status === "permanently_closed" ? { index: false, follow: true } : undefined
+    ),
   };
 }
 
