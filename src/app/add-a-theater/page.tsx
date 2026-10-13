@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { getListingLabel } from "@/lib/queries";
+import { currentSlugFor } from "@/lib/slug-redirects";
 import { SITE_URL, SUBMISSIONS_EMAIL } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -27,7 +28,16 @@ export default async function AddATheaterPage({
   const slug = firstValue(listing)?.trim();
   // Unknown and unpublished slugs both come back null and fall through to the
   // generic page, so this never confirms that an unpublished listing exists.
-  const target = slug ? await getListingLabel(slug) : null;
+  // A slug that was renamed is looked up under its current slug (the redirect
+  // map only holds published rows, and getListingLabel re-checks that).
+  let target = null;
+  if (slug) {
+    target = await getListingLabel(slug);
+    if (!target) {
+      const renamed = currentSlugFor(slug);
+      if (renamed) target = await getListingLabel(renamed);
+    }
+  }
 
   const subject = target
     ? `Correction: ${target.name} (${target.city}, ${target.state})`

@@ -1,0 +1,600 @@
+{
+  "generated_at": "2026-10-13T19:47:38.856Z",
+  "snapshot": "scripts\\slug-fix\\output\\locations-snapshot-pre-slug-v3.json",
+  "all_gates_passed": true,
+  "gates": [
+    {
+      "gate": "0 duplicate slugs across all rows",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 slugs over 70 chars",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 slugs starting with \"indie-\"",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 slugs outside [a-z0-9-], or with leading/trailing/doubled hyphens",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 join-created adjacent repeats",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "every redirect source distinct from every new slug",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 redirect chains (no target is itself a redirect source)",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "0 redirect targets that are unpublished",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "redirect sources unique",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "every override names a real chain",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "no apply-order hazards (a new slug equal to another row's current slug)",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    },
+    {
+      "gate": "published unchanged rows have no redirect and changed published rows have exactly one",
+      "pass": true,
+      "offenders": [],
+      "offender_count": 0
+    }
+  ],
+  "counts": {
+    "rows": 948,
+    "published": 457,
+    "unpublished": 491,
+    "chains": 83,
+    "changed": 946,
+    "unchanged": 2,
+    "changed_published": 455,
+    "changed_unpublished": 491
+  },
+  "length": {
+    "min": 12,
+    "median": 31,
+    "max": 66
+  },
+  "collisions": [],
+  "over_70_outcome": [
+    {
+      "name": "Scene One Wilton Mall Cinemas & The Big Scene",
+      "is_published": false,
+      "before": "btm-cinemas-scene-one-wilton-mall-cinemas-the-big-scene-saratoga-springs",
+      "before_len": 72,
+      "after": "btm-scene-one-wilton-mall-cinemas-the-big-scene-saratoga-springs",
+      "after_len": 64,
+      "chain_shortened": true,
+      "venue_segments_dropped": 0
+    }
+  ],
+  "override_outcome": [
+    {
+      "chain": "Goodrich Quality Theaters (GQT)",
+      "token": "gqt",
+      "rows": 8,
+      "rows_changed_vs_v2": 8,
+      "example": {
+        "name": "GQT Holland 7",
+        "v2": "goodrich-quality-theaters-gqt-holland-7",
+        "v3": "gqt-holland-7"
+      }
+    },
+    {
+      "chain": "Schulman Theatres",
+      "token": "schulmans",
+      "rows": 5,
+      "rows_changed_vs_v2": 5,
+      "example": {
+        "name": "Schulman's Movie Bowl Grille - Corsicana",
+        "v2": "schulman-theatres-schulmans-movie-bowl-grille-corsicana",
+        "v3": "schulmans-movie-bowl-grille-corsicana"
+      }
+    },
+    {
+      "chain": "Showcase Cinema de Lux",
+      "token": "showcase",
+      "rows": 9,
+      "rows_changed_vs_v2": 2,
+      "example": {
+        "name": "Blackstone Valley 14 Cinema de Lux",
+        "v2": "showcase-cinema-de-lux-blackstone-valley-14-cinema-de-lux-millbury",
+        "v3": "showcase-blackstone-valley-14-cinema-de-lux-millbury"
+      }
+    },
+    {
+      "chain": "Reading International",
+      "token": "reading",
+      "rows": 9,
+      "rows_changed_vs_v2": 7,
+      "example": {
+        "name": "Cinema 123 by Angelika",
+        "v2": "reading-international-cinema-123-by-angelika-new-york",
+        "v3": "reading-cinema-123-by-angelika-new-york"
+      }
+    },
+    {
+      "chain": "Metropolitan",
+      "token": "metrolux",
+      "rows": 2,
+      "rows_changed_vs_v2": 2,
+      "example": {
+        "name": "MetroLux Theatres + IMAX @ San Clemente",
+        "v2": "metropolitan-metrolux-theatres-imax-san-clemente",
+        "v3": "metrolux-theatres-imax-san-clemente"
+      }
+    },
+    {
+      "chain": "Lee Neighborhood Theatres",
+      "token": "lee",
+      "rows": 2,
+      "rows_changed_vs_v2": 2,
+      "example": {
+        "name": "Presidio Movie Theater",
+        "v2": "lee-neighborhood-theatres-presidio-movie-theater-san-francisco",
+        "v3": "lee-presidio-movie-theater-san-francisco"
+      }
+    },
+    {
+      "chain": "Independent Cinemas",
+      "token": "(never prepend)",
+      "rows": 2,
+      "rows_changed_vs_v2": 2,
+      "example": {
+        "name": "New Paltz Cinemas",
+        "v2": "independent-cinemas-new-paltz-cinemas",
+        "v3": "new-paltz-cinemas"
+      }
+    },
+    {
+      "chain": "Far Away Entertainment",
+      "token": "(never prepend)",
+      "rows": 1,
+      "rows_changed_vs_v2": 1,
+      "example": {
+        "name": "Admiral Theater",
+        "v2": "far-away-entertainment-admiral-theater-seattle",
+        "v3": "admiral-theater-seattle"
+      }
+    },
+    {
+      "chain": "Rochester Theater Management",
+      "token": "(never prepend)",
+      "rows": 2,
+      "rows_changed_vs_v2": 2,
+      "example": {
+        "name": "Auburn Movieplex 10",
+        "v2": "rochester-theater-management-auburn-movieplex-10",
+        "v3": "auburn-movieplex-10"
+      }
+    }
+  ],
+  "changes_vs_v2": {
+    "count": 35,
+    "rows": [
+      {
+        "name": "GQT Holland 7",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-holland-7",
+        "v3": "gqt-holland-7"
+      },
+      {
+        "name": "GQT Krafft 8",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-krafft-8-port-huron",
+        "v3": "gqt-krafft-8-port-huron"
+      },
+      {
+        "name": "CinemaWest Roseville (Formerly Olympus Pointe) IMAX, 4DX, & ScreenX",
+        "chain": "CinemaWest",
+        "v2": "cinemawest-roseville-formerly-olympus-pointe-imax-4dx-screenx",
+        "v3": "cinemawest-roseville-olympus-pointe-imax-4dx-screenx"
+      },
+      {
+        "name": "Schulman's Movie Bowl Grille - Corsicana",
+        "chain": "Schulman Theatres",
+        "v2": "schulman-theatres-schulmans-movie-bowl-grille-corsicana",
+        "v3": "schulmans-movie-bowl-grille-corsicana"
+      },
+      {
+        "name": "Cinema 123 by Angelika",
+        "chain": "Reading International",
+        "v2": "reading-international-cinema-123-by-angelika-new-york",
+        "v3": "reading-cinema-123-by-angelika-new-york"
+      },
+      {
+        "name": "Presidio Movie Theater",
+        "chain": "Lee Neighborhood Theatres",
+        "v2": "lee-neighborhood-theatres-presidio-movie-theater-san-francisco",
+        "v3": "lee-presidio-movie-theater-san-francisco"
+      },
+      {
+        "name": "Blackstone Valley 14 Cinema de Lux",
+        "chain": "Showcase Cinema de Lux",
+        "v2": "showcase-cinema-de-lux-blackstone-valley-14-cinema-de-lux-millbury",
+        "v3": "showcase-blackstone-valley-14-cinema-de-lux-millbury"
+      },
+      {
+        "name": "Angelika Film Center & Cafe at Mosaic",
+        "chain": "Reading International",
+        "v2": "reading-international-angelika-film-center-cafe-at-mosaic-fairfax",
+        "v3": "reading-angelika-film-center-cafe-at-mosaic-fairfax"
+      },
+      {
+        "name": "Theatre Dreams Chicago LLC",
+        "chain": null,
+        "v2": "theatre-dreams-chicago-llc",
+        "v3": "theatre-dreams-chicago"
+      },
+      {
+        "name": "Marina Theater",
+        "chain": "Lee Neighborhood Theatres",
+        "v2": "lee-neighborhood-theatres-marina-theater-san-francisco",
+        "v3": "lee-marina-theater-san-francisco"
+      },
+      {
+        "name": "New Paltz Cinemas",
+        "chain": "Independent Cinemas",
+        "v2": "independent-cinemas-new-paltz-cinemas",
+        "v3": "new-paltz-cinemas"
+      },
+      {
+        "name": "Film Alley Georgetown",
+        "chain": "Schulman Theatres",
+        "v2": "schulman-theatres-film-alley-georgetown",
+        "v3": "schulmans-film-alley-georgetown"
+      },
+      {
+        "name": "Island 16 Cinema de Lux",
+        "chain": "Showcase Cinema de Lux",
+        "v2": "showcase-cinema-de-lux-island-16-cinema-de-lux-holtsville",
+        "v3": "showcase-island-16-cinema-de-lux-holtsville"
+      },
+      {
+        "name": "Roosevelt Theatre",
+        "chain": "Independent Cinemas",
+        "v2": "independent-cinemas-roosevelt-theatre-hyde-park",
+        "v3": "roosevelt-theatre-hyde-park"
+      },
+      {
+        "name": "Angelika Film Center & Café - Carmel Mountain",
+        "chain": "Reading International",
+        "v2": "reading-international-angelika-film-center-cafe-carmel-mountain-san-diego",
+        "v3": "reading-angelika-film-center-cafe-carmel-mountain-san-diego"
+      },
+      {
+        "name": "MetroLux Theatres + IMAX @ San Clemente",
+        "chain": "Metropolitan",
+        "v2": "metropolitan-metrolux-theatres-imax-san-clemente",
+        "v3": "metrolux-theatres-imax-san-clemente"
+      },
+      {
+        "name": "Tower Theatre",
+        "chain": "Reading International",
+        "v2": "reading-international-tower-theatre-sacramento",
+        "v3": "reading-tower-theatre-sacramento"
+      },
+      {
+        "name": "GQT Willow Knolls 14",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-willow-knolls-14-peoria",
+        "v3": "gqt-willow-knolls-14-peoria"
+      },
+      {
+        "name": "GQT Lakeview 10",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-lakeview-10-battle-creek",
+        "v3": "gqt-lakeview-10-battle-creek"
+      },
+      {
+        "name": "Angelika Film Center & Café - Dallas",
+        "chain": "Reading International",
+        "v2": "reading-international-angelika-film-center-cafe-dallas",
+        "v3": "reading-angelika-film-center-cafe-dallas"
+      },
+      {
+        "name": "GQT West Columbia 7 backroad",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-west-columbia-7-backroad-battle-creek",
+        "v3": "gqt-west-columbia-7-backroad-battle-creek"
+      },
+      {
+        "name": "Schulman's Movie Bowl Grille",
+        "chain": "Schulman Theatres",
+        "v2": "schulman-theatres-schulmans-movie-bowl-grille-sherman",
+        "v3": "schulmans-movie-bowl-grille-sherman"
+      },
+      {
+        "name": "Admiral Theater",
+        "chain": "Far Away Entertainment",
+        "v2": "far-away-entertainment-admiral-theater-seattle",
+        "v3": "admiral-theater-seattle"
+      },
+      {
+        "name": "Kan-Kan Cinema & Bar",
+        "chain": null,
+        "v2": "kan-cinema-bar-indianapolis",
+        "v3": "kan-kan-cinema-bar-indianapolis"
+      },
+      {
+        "name": "Angelika Film Center & Cafe - New York",
+        "chain": "Reading International",
+        "v2": "reading-international-angelika-film-center-cafe-new-york",
+        "v3": "reading-angelika-film-center-cafe-new-york"
+      },
+      {
+        "name": "GQT Kalamazoo 10",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-kalamazoo-10",
+        "v3": "gqt-kalamazoo-10"
+      },
+      {
+        "name": "MetroLux 12 Theatres + IMAX @ Centerra",
+        "chain": "Metropolitan",
+        "v2": "metropolitan-metrolux-12-theatres-imax-centerra-loveland",
+        "v3": "metrolux-12-theatres-imax-centerra-loveland"
+      },
+      {
+        "name": "Village East by Angelika",
+        "chain": "Reading International",
+        "v2": "reading-international-village-east-by-angelika-new-york",
+        "v3": "reading-village-east-by-angelika-new-york"
+      },
+      {
+        "name": "Scene One Wilton Mall Cinemas & The Big Scene",
+        "chain": "BTM Cinemas",
+        "v2": "btm-cinemas-scene-one-wilton-mall-cinemas-the-big-scene-saratoga-springs",
+        "v3": "btm-scene-one-wilton-mall-cinemas-the-big-scene-saratoga-springs"
+      },
+      {
+        "name": "Auburn Movieplex 10",
+        "chain": "Rochester Theater Management",
+        "v2": "rochester-theater-management-auburn-movieplex-10",
+        "v3": "auburn-movieplex-10"
+      },
+      {
+        "name": "Film Alley Longview",
+        "chain": "Schulman Theatres",
+        "v2": "schulman-theatres-film-alley-longview",
+        "v3": "schulmans-film-alley-longview"
+      },
+      {
+        "name": "Canandaigua Theatres",
+        "chain": "Rochester Theater Management",
+        "v2": "rochester-theater-management-canandaigua-theatres",
+        "v3": "canandaigua-theatres"
+      },
+      {
+        "name": "Schulman's Movie Bowl Grille - Bay City",
+        "chain": "Schulman Theatres",
+        "v2": "schulman-theatres-schulmans-movie-bowl-grille-bay-city",
+        "v3": "schulmans-movie-bowl-grille-bay-city"
+      },
+      {
+        "name": "GQT Pittsburgh Mills Cinemas",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-pittsburgh-mills-cinemas-tarentum",
+        "v3": "gqt-pittsburgh-mills-cinemas-tarentum"
+      },
+      {
+        "name": "GQT Jackson 10",
+        "chain": "Goodrich Quality Theaters (GQT)",
+        "v2": "goodrich-quality-theaters-gqt-jackson-10",
+        "v3": "gqt-jackson-10"
+      }
+    ]
+  },
+  "tokens_stripped": [
+    {
+      "name": "CinemaWest Roseville (Formerly Olympus Pointe) IMAX, 4DX, & ScreenX",
+      "stripped": [
+        "formerly"
+      ],
+      "new_slug": "cinemawest-roseville-olympus-pointe-imax-4dx-screenx"
+    },
+    {
+      "name": "Theatre Dreams Chicago LLC",
+      "stripped": [
+        "llc"
+      ],
+      "new_slug": "theatre-dreams-chicago"
+    }
+  ],
+  "join_repeats_collapsed": [
+    {
+      "name": "Regal Cinebarre Mountlake",
+      "collapsed": [
+        "mountlake"
+      ],
+      "new_slug": "regal-cinebarre-mountlake-terrace"
+    },
+    {
+      "name": "Cinema Carousel",
+      "collapsed": [
+        "cinema"
+      ],
+      "new_slug": "celebration-cinema-carousel-muskegon"
+    },
+    {
+      "name": "Movies of Delray",
+      "collapsed": [
+        "delray"
+      ],
+      "new_slug": "movies-of-delray-beach"
+    },
+    {
+      "name": "Hooky Entertainment Delray",
+      "collapsed": [
+        "delray"
+      ],
+      "new_slug": "hooky-entertainment-delray-beach"
+    }
+  ],
+  "name_internal_repeats_kept": [
+    {
+      "name": "Kan-Kan Cinema & Bar",
+      "new_slug": "kan-kan-cinema-bar-indianapolis"
+    }
+  ],
+  "redirect": {
+    "entries": 455
+  },
+  "samples": [
+    {
+      "chain": "Marcus Theatres",
+      "is_published": true,
+      "old": "marcus-des-peres-marcus-des-peres-cinema",
+      "new": "marcus-des-peres-cinema"
+    },
+    {
+      "chain": "Marcus Theatres",
+      "is_published": true,
+      "old": "marcus-chesterfield-marcus-chesterfield-cinema",
+      "new": "marcus-chesterfield-cinema"
+    },
+    {
+      "chain": "AMC",
+      "is_published": true,
+      "old": "amc-lawrenceville-amc-dine-in-webb-gin-11",
+      "new": "amc-dine-in-webb-gin-11-lawrenceville"
+    },
+    {
+      "chain": "AMC",
+      "is_published": true,
+      "old": "amc-wyomissing-amc-dine-in-berkshire-8",
+      "new": "amc-dine-in-berkshire-8-wyomissing"
+    },
+    {
+      "chain": "Cinemark",
+      "is_published": true,
+      "old": "cinemark-milford-studio-eats-milford",
+      "new": "cinemark-studio-eats-milford"
+    },
+    {
+      "chain": "Cinemark",
+      "is_published": true,
+      "old": "cinemark-boca-raton-movie-bistro-boca-raton",
+      "new": "cinemark-movie-bistro-boca-raton"
+    },
+    {
+      "chain": "B&B Theatres",
+      "is_published": true,
+      "old": "indie-tx-north-richland-hills-bb-theatres-north-richland-hills-8",
+      "new": "bb-theatres-north-richland-hills-8"
+    },
+    {
+      "chain": "B&B Theatres",
+      "is_published": false,
+      "old": "indie-tx-wylie-bb-theatres-wylie-12",
+      "new": "bb-theatres-wylie-12"
+    },
+    {
+      "chain": "Goodrich Quality Theaters (GQT)",
+      "is_published": false,
+      "old": "indie-mi-holland-gqt-holland-7",
+      "new": "gqt-holland-7"
+    },
+    {
+      "chain": "Goodrich Quality Theaters (GQT)",
+      "is_published": false,
+      "old": "indie-mi-port-huron-gqt-krafft-8",
+      "new": "gqt-krafft-8-port-huron"
+    },
+    {
+      "chain": "Reading International",
+      "is_published": false,
+      "old": "indie-ny-new-york-cinema-123-by-angelika",
+      "new": "reading-cinema-123-by-angelika-new-york"
+    },
+    {
+      "chain": "Reading International",
+      "is_published": true,
+      "old": "indie-ca-murrieta-reading-cinemas-at-cal-oaks-plaza-with-titan-luxe",
+      "new": "reading-cinemas-at-cal-oaks-plaza-with-titan-luxe-murrieta"
+    },
+    {
+      "chain": "Showcase Cinema de Lux",
+      "is_published": false,
+      "old": "indie-ma-north-attleborough-showcase-cinema-de-lux-north-attleboro",
+      "new": "showcase-cinema-de-lux-north-attleboro-north-attleborough"
+    },
+    {
+      "chain": "Showcase Cinema de Lux",
+      "is_published": false,
+      "old": "indie-ny-farmingdale-showcase-cinema-de-lux-farmingdale",
+      "new": "showcase-cinema-de-lux-farmingdale"
+    },
+    {
+      "chain": "Cinépolis",
+      "is_published": true,
+      "old": "indie-fl-miami-cinepolis-luxury-cinemas-coconut-grove",
+      "new": "cinepolis-luxury-cinemas-coconut-grove-miami"
+    },
+    {
+      "chain": "Cinépolis",
+      "is_published": true,
+      "old": "indie-fl-jupiter-cinepolis-luxury-cinemas-jupiter",
+      "new": "cinepolis-luxury-cinemas-jupiter"
+    },
+    {
+      "chain": null,
+      "is_published": true,
+      "old": "indie-in-indianapolis-kan-kan-cinema-bar",
+      "new": "kan-kan-cinema-bar-indianapolis"
+    },
+    {
+      "chain": null,
+      "is_published": true,
+      "old": "indie-pa-bridgeville-phoenix-theatres-luxury-14-ptx",
+      "new": "phoenix-theatres-luxury-14-ptx-bridgeville"
+    },
+    {
+      "chain": null,
+      "is_published": true,
+      "old": "indie-fl-st-petersburg-green-light-cinema",
+      "new": "green-light-cinema-st-petersburg"
+    },
+    {
+      "chain": null,
+      "is_published": true,
+      "old": "indie-pa-lancaster-zoetropolis-cinema-stillhouse",
+      "new": "zoetropolis-cinema-stillhouse-lancaster"
+    }
+  ]
+}

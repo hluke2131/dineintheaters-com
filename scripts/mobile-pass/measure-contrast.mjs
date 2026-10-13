@@ -7,8 +7,8 @@
 
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE);
 const base = process.env.BASE_URL ?? "http://localhost:3100";
-const MARCUS = "marcus-baton-rouge-movie-tavern-citiplace-cinema";
-const UNKNOWN = "indie-ma-millbury-blackstone-valley-14-cinema-de-lux";
+const MARCUS = "marcus-theatres-movie-tavern-citiplace-cinema-baton-rouge";
+const UNKNOWN = "showcase-blackstone-valley-14-cinema-de-lux-millbury";
 
 // `before` is the colour the same text used before the contrast pass, so the
 // table can show before/after on identical backgrounds.
