@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   title: "Find Dine-In Movie Theaters Near You",
   description:
     "A directory of dine-in movie theaters across the United States — recliners, in-seat dining, and full bars, city by city.",
+  // Resolved against metadataBase (SITE_URL), never the request host.
+  alternates: { canonical: "/" },
 };
 
 const STANDARDS = [

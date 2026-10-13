@@ -5,7 +5,6 @@ import { Container } from "@/components/container";
 import { DirectoryFilterPanel, type ActiveFilters } from "@/components/directory-filters";
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
-import { resolveRobots } from "@/lib/indexing";
 import {
   FILTERABLE_DELIVERY_STYLES,
   MENU_PRICE_RANGES,
@@ -94,7 +93,7 @@ export async function generateMetadata({
     description: "Browse the full directory of dine-in movie theaters across the United States.",
     alternates: { canonical: BASE_PATH },
     // Filter and pagination permutations are for visitors, not the index.
-    robots: await resolveRobots(filtered ? { index: false, follow: true } : undefined),
+    robots: filtered ? { index: false, follow: true } : undefined,
   };
 }
 

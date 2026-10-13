@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero";
 export const metadata: Metadata = {
   title: "Blog",
   description: "News and guides about dine-in movie theaters.",
+  alternates: { canonical: "/blog" },
 };
 
 export default function BlogIndexPage() {

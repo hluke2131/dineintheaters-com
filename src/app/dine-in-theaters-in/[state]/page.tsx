@@ -7,7 +7,6 @@ import { CountLinkCard } from "@/components/count-link-card";
 import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
 import { formatSlug } from "@/lib/format-slug";
-import { resolveRobots } from "@/lib/indexing";
 import { getStateHub } from "@/lib/queries";
 import { getStateBySlug } from "@/lib/us-states";
 
@@ -31,7 +30,7 @@ export async function generateMetadata({
     alternates: { canonical: `/dine-in-theaters-in/${stateInfo.code.toLowerCase()}` },
     // A valid state with nothing published yet renders a friendly empty page
     // for visitors, but there is nothing for a search engine to index.
-    robots: await resolveRobots(hub.total === 0 ? { index: false, follow: true } : undefined),
+    robots: hub.total === 0 ? { index: false, follow: true } : undefined,
   };
 }
 

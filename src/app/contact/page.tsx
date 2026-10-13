@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with DineInTheaters.com.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

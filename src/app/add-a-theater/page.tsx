@@ -1,18 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/container";
-import { resolveRobots } from "@/lib/indexing";
 import { getListingLabel } from "@/lib/queries";
 import { SITE_URL, SUBMISSIONS_EMAIL } from "@/lib/site-config";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "Add a Theater",
-    description: "Suggest a dine-in movie theater to add to the directory, or send a correction.",
-    // A shell with no form yet; nothing here is worth a search result.
-    robots: await resolveRobots({ index: false, follow: true }),
-  };
-}
+export const metadata: Metadata = {
+  title: "Add a Theater",
+  description: "Suggest a dine-in movie theater to add to the directory, or send a correction.",
+  // A shell with no form yet; nothing here is worth a search result.
+  robots: { index: false, follow: true },
+};
 
 const contactButton =
   "inline-block rounded-full bg-burgundy px-6 py-3 font-medium text-cream hover:bg-burgundy-dark";

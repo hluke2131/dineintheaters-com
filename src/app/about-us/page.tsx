@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero";
 export const metadata: Metadata = {
   title: "About Us",
   description: "About DineInTheaters.com.",
+  alternates: { canonical: "/about-us" },
 };
 
 export default function AboutPage() {

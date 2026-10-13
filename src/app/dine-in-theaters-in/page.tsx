@@ -9,6 +9,7 @@ import { getStateBySlug } from "@/lib/us-states";
 export const metadata: Metadata = {
   title: "Dine-In Theaters by State",
   description: "Browse dine-in movie theaters by state.",
+  alternates: { canonical: "/dine-in-theaters-in" },
 };
 
 export default async function StateIndexPage() {
