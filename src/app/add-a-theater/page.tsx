@@ -114,6 +114,16 @@ export default async function AddATheaterPage({
           Browse theaters
         </Link>
       </div>
+
+      {mailtoHref ? (
+        <p className="mt-6 max-w-2xl text-ink/70">
+          Have a different question, like sponsorship or something else?{" "}
+          <Link href="/contact" className="font-medium text-burgundy underline hover:text-burgundy-dark">
+            Contact us
+          </Link>
+          .
+        </p>
+      ) : null}
     </Container>
   );
 }
