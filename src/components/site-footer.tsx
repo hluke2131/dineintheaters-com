@@ -24,10 +24,13 @@ function FooterColumn({ title, links }: { title: string; links: FooterLink[] }) 
   return (
     <div>
       <h3 className="font-display text-sm uppercase tracking-wide text-gold">{title}</h3>
-      <ul className="mt-3 space-y-2">
+      <ul className="mt-1">
         {links.map((link) => (
           <li key={link.href}>
-            <Link href={link.href} className="text-sm text-cream/80 hover:text-cream">
+            <Link
+              href={link.href}
+              className="inline-flex min-h-11 min-w-11 items-center text-sm text-cream/80 hover:text-cream"
+            >
               {link.label}
             </Link>
           </li>

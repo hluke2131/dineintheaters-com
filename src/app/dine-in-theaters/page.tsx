@@ -129,7 +129,7 @@ export default async function DineInTheatersPage({
 
   return (
     <Container className="py-16 sm:py-24">
-      <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">Directory</p>
+      <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">Directory</p>
       <h1 className="mt-2 font-display text-4xl text-burgundy-dark sm:text-5xl">
         Dine-In Movie Theaters
       </h1>
@@ -148,7 +148,7 @@ export default async function DineInTheatersPage({
             {hasActiveFilters ? (
               <Link
                 href={BASE_PATH}
-                className="text-sm text-ink/60 underline hover:text-burgundy"
+                className="inline-flex min-h-11 items-center text-sm text-ink/60 underline hover:text-burgundy"
               >
                 Clear filters
               </Link>
@@ -177,7 +177,7 @@ export default async function DineInTheatersPage({
                     <Link
                       href={buildHref(active, page - 1)}
                       rel="prev"
-                      className="rounded-full border border-burgundy px-5 py-2 font-medium text-burgundy hover:bg-burgundy/5"
+                      className="inline-flex min-h-11 items-center rounded-full border border-burgundy px-5 font-medium text-burgundy hover:bg-burgundy/5"
                     >
                       &larr; Previous
                     </Link>
@@ -191,7 +191,7 @@ export default async function DineInTheatersPage({
                     <Link
                       href={buildHref(active, page + 1)}
                       rel="next"
-                      className="rounded-full border border-burgundy px-5 py-2 font-medium text-burgundy hover:bg-burgundy/5"
+                      className="inline-flex min-h-11 items-center rounded-full border border-burgundy px-5 font-medium text-burgundy hover:bg-burgundy/5"
                     >
                       Next &rarr;
                     </Link>

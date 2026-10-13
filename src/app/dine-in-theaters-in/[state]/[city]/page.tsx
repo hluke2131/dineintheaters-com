@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { Container } from "@/components/container";
-import { EmptyState } from "@/components/empty-state";
 import { TheaterCard } from "@/components/theater-card";
 import { formatSlug } from "@/lib/format-slug";
 import { getCityByStateAndSlug } from "@/lib/queries";
@@ -44,9 +42,16 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
     notFound();
   }
 
+  // A valid state with a city that has no published listing is a 404, same as
+  // an unpublished listing slug. (Cities with 1-2 listings resolve here and are
+  // noindexed in generateMetadata; they are just never linked to.)
   const group = await getCityByStateAndSlug(stateInfo.code, city);
-  const cityName = group?.city ?? formatSlug(city);
-  const locations = group?.listings ?? [];
+  if (!group) {
+    notFound();
+  }
+
+  const cityName = group.city;
+  const locations = group.listings;
 
   return (
     <Container className="py-16 sm:py-24">
@@ -64,26 +69,10 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
         Every dine-in theater in {cityName}.
       </p>
 
-      <div className="mt-10">
-        {locations.length > 0 ? (
-          <div className="grid gap-4 sm:grid-cols-2">
-            {locations.map((location) => (
-              <TheaterCard key={location.id} location={location} />
-            ))}
-          </div>
-        ) : (
-          <EmptyState
-            title={`No theaters listed in ${cityName} yet`}
-            message="We're actively building out this directory. Check back soon, or use Add a Theater to suggest one."
-          >
-            <Link
-              href={`/dine-in-theaters-in/${stateInfo.code.toLowerCase()}`}
-              className="rounded-full border border-burgundy px-5 py-2.5 font-medium text-burgundy hover:bg-burgundy/5"
-            >
-              Browse {stateInfo.name}
-            </Link>
-          </EmptyState>
-        )}
+      <div className="mt-10 grid gap-4 sm:grid-cols-2">
+        {locations.map((location) => (
+          <TheaterCard key={location.id} location={location} />
+        ))}
       </div>
     </Container>
   );

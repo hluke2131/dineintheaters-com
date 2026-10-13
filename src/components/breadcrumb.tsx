@@ -10,11 +10,14 @@ export function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
           <li key={index} className="flex items-center gap-1.5">
             {index > 0 ? <span aria-hidden="true">/</span> : null}
             {item.href ? (
-              <Link href={item.href} className="hover:text-burgundy">
+              <Link
+                href={item.href}
+                className="inline-flex min-h-11 min-w-11 items-center hover:text-burgundy"
+              >
                 {item.label}
               </Link>
             ) : (
-              <span aria-current="page" className="text-ink">
+              <span aria-current="page" className="py-2.5 text-ink">
                 {item.label}
               </span>
             )}

@@ -89,7 +89,7 @@ export function Hero({
 
       <Container className={`relative ${full ? "py-24 sm:py-32" : "py-16 sm:py-20"}`}>
         {eyebrow ? (
-          <p className="font-sans text-sm font-medium uppercase tracking-widest text-[#e8c65a]">
+          <p className="font-sans text-sm font-medium uppercase tracking-widest text-gold-bright">
             {eyebrow}
           </p>
         ) : null}

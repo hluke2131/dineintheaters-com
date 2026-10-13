@@ -43,9 +43,9 @@ const DIFFERENTIATORS = [
       "Hours, menus, and policies change. Details here get confirmed or disputed by people who've actually been, so listings don't rot for years like an old directory entry.",
   },
   {
-    title: "One City at a Time",
+    title: "One Standard, Nationwide",
     description:
-      "We're not trying to list everything everywhere on day one. We're building an accurate, focused directory — city by city — and it shows in the data quality.",
+      "From coast to coast, a theater makes the list only if you can order a real meal there. No filler listings, and anything we haven't confirmed says so instead of guessing.",
   },
 ];
 
@@ -82,7 +82,7 @@ export default async function Home() {
         </div>
         {theaterCount > 0 ? (
           <p className="mt-8 text-base text-cream/90">
-            <span className="font-display text-2xl text-gold">
+            <span className="font-display text-2xl text-gold-bright">
               {theaterCount.toLocaleString("en-US")}
             </span>{" "}
             dine-in {theaterCount === 1 ? "theater" : "theaters"} across{" "}
@@ -94,7 +94,7 @@ export default async function Home() {
 
       <section className="bg-white" aria-labelledby="how-we-choose-heading">
         <Container className="py-14 sm:py-20">
-          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
             How We Choose
           </p>
           <h2
@@ -121,7 +121,7 @@ export default async function Home() {
               </p>
               <Link
                 href="/add-a-theater"
-                className="mt-3 inline-block font-medium text-burgundy underline hover:text-burgundy-dark"
+                className="mt-1 inline-flex min-h-11 items-center font-medium text-burgundy underline hover:text-burgundy-dark"
               >
                 Suggest a theater
               </Link>
@@ -132,7 +132,7 @@ export default async function Home() {
 
       <section>
         <Container className="py-16 sm:py-24">
-          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
             Popular Cities
           </p>
           <h2 className="mt-2 font-display text-3xl text-burgundy-dark sm:text-4xl">
@@ -162,7 +162,7 @@ export default async function Home() {
 
       <section className="bg-white">
         <Container className="py-16 sm:py-24">
-          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
             Browse by State
           </p>
           <h2 className="mt-2 font-display text-3xl text-burgundy-dark sm:text-4xl">
@@ -183,7 +183,7 @@ export default async function Home() {
                 </div>
                 <Link
                   href="/dine-in-theaters-in"
-                  className="mt-8 inline-block font-medium text-burgundy hover:text-burgundy-dark"
+                  className="mt-6 inline-flex min-h-11 items-center font-medium text-burgundy hover:text-burgundy-dark"
                 >
                   Browse all states →
                 </Link>
@@ -200,7 +200,7 @@ export default async function Home() {
 
       <section>
         <Container className="py-16 sm:py-24">
-          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+          <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
             Why This Directory
           </p>
           <h2 className="mt-2 max-w-2xl font-display text-3xl text-burgundy-dark sm:text-4xl">

@@ -35,10 +35,12 @@ const secondaryButton =
 function Unconfirmed({ slug }: { slug: string }) {
   return (
     <>
-      <span className="text-ink/50">{NOT_YET_CONFIRMED}</span>
+      <span className="text-ink/60">{NOT_YET_CONFIRMED}</span>
+      {/* py-3.5 with matching negative margins grows the tap target to 44px
+          without changing how tall the details grid is. */}
       <Link
         href={`/add-a-theater?listing=${slug}`}
-        className="mt-1 block text-xs text-ink/50 underline hover:text-burgundy"
+        className="-mb-3.5 -mt-2.5 block py-3.5 text-xs text-ink/60 underline hover:text-burgundy"
       >
         Know this? Help us verify.
       </Link>
@@ -48,7 +50,7 @@ function Unconfirmed({ slug }: { slug: string }) {
 
 function VerificationCounts({ row }: { row: FieldVerificationRow }) {
   return (
-    <p className="mt-1 text-xs text-ink/50">
+    <p className="mt-1 text-xs text-ink/60">
       {row.confirmed_count} confirmed · {row.disputed_count} disputed
       {" — "}
       <Link href="/login" className="underline hover:text-burgundy">
@@ -73,7 +75,7 @@ function DetailRow({
 }) {
   return (
     <div>
-      <dt className="text-xs font-medium uppercase tracking-wide text-ink/50">{label}</dt>
+      <dt className="text-xs font-medium uppercase tracking-wide text-ink/60">{label}</dt>
       <dd className="mt-1 text-ink/90">
         {value === null ? <Unconfirmed slug={slug} /> : value}
         {value !== null && verification ? <VerificationCounts row={verification} /> : null}
@@ -208,7 +210,7 @@ export function ListingDetail({
       </ul>
 
       {paragraphs.length > 0 ? (
-        <div className="mt-8 max-w-[68ch] space-y-5 border-l-4 border-gold pl-5 text-xl leading-relaxed text-ink/85 sm:pl-7">
+        <div className="mt-8 max-w-[68ch] space-y-5 border-l-4 border-gold pl-5 text-lg leading-relaxed text-ink/85 sm:pl-7 sm:text-xl">
           {paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
@@ -399,13 +401,13 @@ export function ListingDetail({
                   <p className="font-display text-lg text-burgundy-dark">
                     {review.title || "Review"}
                   </p>
-                  <span aria-label={`${review.rating} out of 5 stars`} className="text-gold">
+                  <span aria-label={`${review.rating} out of 5 stars`} className="text-gold-text">
                     {"★".repeat(review.rating)}
                     {"☆".repeat(5 - review.rating)}
                   </span>
                 </div>
                 <p className="mt-2 text-ink/80">{review.review_text}</p>
-                <p className="mt-3 text-sm text-ink/50">
+                <p className="mt-3 text-sm text-ink/60">
                   {review.reviewer_name || "Anonymous"}
                   {review.visit_date
                     ? ` · Visited ${new Date(review.visit_date).toLocaleDateString("en-US", {
@@ -418,7 +420,7 @@ export function ListingDetail({
             ))}
           </ul>
         ) : (
-          <p className="mt-4 text-ink/50">No reviews yet.</p>
+          <p className="mt-4 text-ink/60">No reviews yet.</p>
         )}
       </section>
 

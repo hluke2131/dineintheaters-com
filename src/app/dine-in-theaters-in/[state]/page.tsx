@@ -90,7 +90,7 @@ export default async function StatePage({ params }: { params: Promise<Params> })
                   <h3 className="font-display text-xl text-burgundy-dark">{city.city}</h3>
                   <Link
                     href={`/dine-in-theaters-in/${stateSlug}/${city.slug}`}
-                    className="text-sm font-medium text-burgundy hover:text-burgundy-dark"
+                    className="inline-flex min-h-11 items-center text-sm font-medium text-burgundy hover:text-burgundy-dark"
                   >
                     {city.city} page →
                   </Link>

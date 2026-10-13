@@ -6,7 +6,15 @@
 
   --color-burgundy: #6d1029;
   --color-burgundy-dark: #4a0a1c;
+  /* Gold is a three-part scale because one value cannot clear WCAG AA on both
+   * surface types. `gold` is for non-text accents (borders, buttons, bulbs)
+   * and for text on the footer's dark burgundy. `gold-bright` is for text on
+   * the hero gradient, where the projector glow lifts the background.
+   * `gold-text` is for text on cream/white (4.78:1 on cream, 5.15:1 on white;
+   * plain `gold` there is 2.25:1 and 2.42:1). */
   --color-gold: #c9a227;
+  --color-gold-bright: #e8c65a;
+  --color-gold-text: #866a00;
   --color-cream: #faf6ef;
   --color-ink: #221418;
 }

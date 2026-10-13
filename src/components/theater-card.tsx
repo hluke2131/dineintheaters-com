@@ -14,7 +14,7 @@ export function TheaterCard({ location }: { location: LocationSummary }) {
       className="block rounded-xl border border-burgundy/10 bg-white p-5 shadow-sm transition hover:border-burgundy/30 hover:shadow-md"
     >
       {location.is_sponsored ? (
-        <p className="text-xs font-medium uppercase tracking-wide text-gold">Sponsored</p>
+        <p className="text-xs font-medium uppercase tracking-wide text-gold-text">Sponsored</p>
       ) : null}
       <p className="mt-1 font-display text-lg text-burgundy-dark">{location.name}</p>
       <p className="mt-1 text-sm text-ink/60">

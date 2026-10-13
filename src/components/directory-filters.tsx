@@ -19,7 +19,10 @@ export type ActiveFilters = {
 };
 
 const legendClass = "font-display text-sm uppercase tracking-wide text-burgundy-dark";
-const labelClass = "flex items-center gap-2 text-sm text-ink/80";
+// The whole label row is the tap target, so it is 44px tall even though the
+// checkbox itself is small.
+const labelClass = "flex min-h-11 cursor-pointer items-center gap-3 text-sm text-ink/80";
+const checkboxClass = "size-5 shrink-0 accent-burgundy";
 
 /** A plain GET form: submitting it puts the selected filters in the URL, so
  * results are server-rendered, shareable, and back-button safe. Works with no
@@ -30,7 +33,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
     <form method="get" action="/dine-in-theaters" className="space-y-6">
       <fieldset>
         <legend className={legendClass}>Delivery style</legend>
-        <div className="mt-3 space-y-2">
+        <div className="mt-1">
           {FILTERABLE_DELIVERY_STYLES.map((value) => (
             <label key={value} className={labelClass}>
               <input
@@ -38,7 +41,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
                 name="delivery_style"
                 value={value}
                 defaultChecked={active.deliveryStyle.includes(value)}
-                className="accent-burgundy"
+                className={checkboxClass}
               />
               {DELIVERY_STYLE_LABELS[value]}
             </label>
@@ -48,7 +51,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
 
       <fieldset>
         <legend className={legendClass}>Alcohol</legend>
-        <div className="mt-3 space-y-2">
+        <div className="mt-1">
           {ALCOHOL_FILTER_OPTIONS.map((value) => (
             <label key={value} className={labelClass}>
               <input
@@ -56,7 +59,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
                 name="alcohol_served"
                 value={value}
                 defaultChecked={active.alcoholServed === value}
-                className="accent-burgundy"
+                className={checkboxClass}
               />
               {ALCOHOL_FILTER_LABELS[value]}
             </label>
@@ -66,7 +69,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
 
       <fieldset>
         <legend className={legendClass}>Price range</legend>
-        <div className="mt-3 space-y-2">
+        <div className="mt-1">
           {MENU_PRICE_RANGES.map((value) => (
             <label key={value} className={labelClass}>
               <input
@@ -74,7 +77,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
                 name="menu_price_range"
                 value={value}
                 defaultChecked={active.menuPriceRange.includes(value)}
-                className="accent-burgundy"
+                className={checkboxClass}
               />
               {value}
             </label>
@@ -84,14 +87,14 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
 
       <fieldset>
         <legend className={legendClass}>Seating</legend>
-        <div className="mt-3">
+        <div className="mt-1">
           <label className={labelClass}>
             <input
               type="checkbox"
               name="reserved_recliners"
               value="true"
               defaultChecked={active.reservedRecliners}
-              className="accent-burgundy"
+              className={checkboxClass}
             />
             Reserved recliners
           </label>
@@ -108,7 +111,7 @@ function FilterForm({ active, hasActive }: { active: ActiveFilters; hasActive: b
         {hasActive ? (
           <Link
             href="/dine-in-theaters"
-            className="block text-center text-sm text-ink/60 underline hover:text-burgundy"
+            className="flex min-h-11 items-center justify-center text-sm text-ink/60 underline hover:text-burgundy"
           >
             Clear filters
           </Link>
@@ -142,7 +145,7 @@ export function DirectoryFilterPanel({
               </span>
             ) : null}
           </span>
-          <span aria-hidden="true" className="text-ink/50">
+          <span aria-hidden="true" className="text-ink/60">
             +
           </span>
         </summary>

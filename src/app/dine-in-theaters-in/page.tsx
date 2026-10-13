@@ -16,7 +16,7 @@ export default async function StateIndexPage() {
 
   return (
     <Container className="py-16 sm:py-24">
-      <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+      <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
         Browse by State
       </p>
       <h1 className="mt-2 font-display text-4xl text-burgundy-dark sm:text-5xl">

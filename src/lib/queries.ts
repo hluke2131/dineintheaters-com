@@ -1,4 +1,5 @@
 import { cache } from "react";
+import type { PostgrestError } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/server";
 import type { Database } from "@/lib/supabase/database.types";
 import { slugify } from "@/lib/format-slug";
@@ -90,23 +91,52 @@ function groupByCity(rows: LocationSummary[]): CityGroup[] {
   })).sort((a, b) => a.city.localeCompare(b.city));
 }
 
+/** PostgREST silently truncates any response at its max-rows setting (1,000 on
+ * Supabase), with no error, so an unpaginated "fetch everything" read goes
+ * quietly wrong the day the table outgrows it. Every query that needs all the
+ * rows of a set goes through fetchAllRows below instead. */
+const FETCH_PAGE_SIZE = 1000;
+
+/** Reads a whole result set one `.range()` page at a time. `fetchPage` must
+ * apply a total order that ends in a unique column, otherwise rows can repeat
+ * or skip across page boundaries. */
+async function fetchAllRows<T>(
+  fetchPage: (
+    from: number,
+    to: number
+  ) => PromiseLike<{ data: T[] | null; error: PostgrestError | null }>
+): Promise<T[]> {
+  const rows: T[] = [];
+  for (let from = 0; ; from += FETCH_PAGE_SIZE) {
+    const { data, error } = await fetchPage(from, from + FETCH_PAGE_SIZE - 1);
+    // A set whose size is an exact multiple of the page size ends on an empty
+    // page, which PostgREST may report as 416 / PGRST103 rather than [].
+    if (error?.code === "PGRST103" && from > 0) return rows;
+    if (error) throw error;
+    const page = data ?? [];
+    rows.push(...page);
+    if (page.length < FETCH_PAGE_SIZE) return rows;
+  }
+}
+
 /** All published, active rows in one state (a 2-letter code), ordered by city,
  * name. Cached per request so the state hub, city hub, and listing breadcrumb
  * can all ask without repeating the query. */
 const getStateRows = cache(async (stateCode: string): Promise<LocationSummary[]> => {
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("locations")
-    .select(LOCATION_SUMMARY_COLUMNS)
-    .eq("status", "active")
-    .eq("is_published", true)
-    .ilike("state", stateCode)
-    .order("city")
-    .order("name")
-    .order("slug");
-
-  if (error) throw error;
-  return (data ?? []) as LocationSummary[];
+  const rows = await fetchAllRows((from, to) =>
+    supabase
+      .from("locations")
+      .select(LOCATION_SUMMARY_COLUMNS)
+      .eq("status", "active")
+      .eq("is_published", true)
+      .ilike("state", stateCode)
+      .order("city")
+      .order("name")
+      .order("slug") // unique tie-breaker so pages never overlap or skip rows
+      .range(from, to)
+  );
+  return rows as unknown as LocationSummary[];
 });
 
 /** All states with at least one published, active location, alphabetical by
@@ -115,16 +145,18 @@ const getStateRows = cache(async (stateCode: string): Promise<LocationSummary[]>
  * one filter. */
 export async function getStatesWithCounts(): Promise<StateCount[]> {
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("locations")
-    .select("state")
-    .eq("status", "active")
-    .eq("is_published", true);
-
-  if (error) throw error;
+  const data = await fetchAllRows((from, to) =>
+    supabase
+      .from("locations")
+      .select("state")
+      .eq("status", "active")
+      .eq("is_published", true)
+      .order("id")
+      .range(from, to)
+  );
 
   const counts = new Map<string, number>();
-  for (const row of data ?? []) {
+  for (const row of data) {
     counts.set(row.state, (counts.get(row.state) ?? 0) + 1);
   }
 
@@ -192,17 +224,35 @@ export const getLocationBySlug = cache(async (slug: string): Promise<LocationDet
   return data as LocationDetail | null;
 });
 
+/** Name and place of a published listing, for the correction page to say what
+ * is being corrected. Null for an unknown or unpublished slug. */
+export const getListingLabel = cache(
+  async (slug: string): Promise<{ slug: string; name: string; city: string; state: string } | null> => {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from("locations")
+      .select("slug, name, city, state")
+      .eq("is_published", true)
+      .eq("slug", slug)
+      .maybeSingle();
+
+    if (error) throw error;
+    return data;
+  }
+);
+
 /** Reviews for a given location, most recent first. */
 export async function getReviewsByLocationId(locationId: string): Promise<ReviewRow[]> {
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("reviews")
-    .select("*")
-    .eq("location_id", locationId)
-    .order("created_at", { ascending: false });
-
-  if (error) throw error;
-  return data ?? [];
+  return fetchAllRows((from, to) =>
+    supabase
+      .from("reviews")
+      .select("*")
+      .eq("location_id", locationId)
+      .order("created_at", { ascending: false })
+      .order("id")
+      .range(from, to)
+  );
 }
 
 export type DirectoryFilters = {
@@ -278,17 +328,19 @@ export async function getDirectoryListings(
  * qualifies, so the homepage can render a "check back soon" message. */
 export async function getPopularCities(limit = 6): Promise<PopularCity[]> {
   const supabase = await createClient();
-  const { data, error } = await supabase
-    .from("locations")
-    .select("state, city")
-    .eq("status", "active")
-    .eq("is_published", true);
-
-  if (error) throw error;
+  const data = await fetchAllRows((from, to) =>
+    supabase
+      .from("locations")
+      .select("state, city")
+      .eq("status", "active")
+      .eq("is_published", true)
+      .order("id")
+      .range(from, to)
+  );
 
   const counts = new Map<string, PopularCity>();
   const spellings = new Map<string, string[]>();
-  for (const row of data ?? []) {
+  for (const row of data) {
     const slug = slugify(row.city);
     const key = `${row.state}|${slug}`;
     const existing = counts.get(key);

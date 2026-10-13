@@ -12,7 +12,7 @@ export function PlaceholderPage({
   return (
     <Container className="py-16 sm:py-24">
       {eyebrow ? (
-        <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold">
+        <p className="font-sans text-sm font-medium uppercase tracking-wide text-gold-text">
           {eyebrow}
         </p>
       ) : null}
