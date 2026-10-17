@@ -1,5 +1,8 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
+import { CONSENT_UI_ENABLED } from "@/lib/consent";
 import { Container } from "./container";
+import { CookieSettingsButton } from "./cookie-settings-button";
 
 type FooterLink = { href: string; label: string };
 
@@ -20,7 +23,15 @@ const legalLinks: FooterLink[] = [
   { href: "/terms", label: "Terms of Service" },
 ];
 
-function FooterColumn({ title, links }: { title: string; links: FooterLink[] }) {
+function FooterColumn({
+  title,
+  links,
+  extra,
+}: {
+  title: string;
+  links: FooterLink[];
+  extra?: ReactNode;
+}) {
   return (
     <div>
       <h3 className="font-display text-sm uppercase tracking-wide text-gold">{title}</h3>
@@ -35,6 +46,7 @@ function FooterColumn({ title, links }: { title: string; links: FooterLink[] }) 
             </Link>
           </li>
         ))}
+        {extra ? <li>{extra}</li> : null}
       </ul>
     </div>
   );
@@ -46,7 +58,13 @@ export function SiteFooter() {
       <Container className="grid gap-8 py-12 sm:grid-cols-3">
         <FooterColumn title="Directory" links={directoryLinks} />
         <FooterColumn title="Company" links={companyLinks} />
-        <FooterColumn title="Legal" links={legalLinks} />
+        {/* Build-time check (NEXT_PUBLIC_* is inlined), so the footer stays
+            static. Absent unless the consent banner is enabled. */}
+        <FooterColumn
+          title="Legal"
+          links={legalLinks}
+          extra={CONSENT_UI_ENABLED ? <CookieSettingsButton /> : null}
+        />
       </Container>
       <div className="border-t border-cream/10">
         <Container className="py-6 text-sm text-cream/60">

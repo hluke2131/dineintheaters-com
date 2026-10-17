@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import { AnalyticsGate } from "@/components/AnalyticsGate";
+import { ConsentBanner } from "@/components/consent-banner";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { SITE_URL } from "@/lib/site-config";
@@ -41,6 +43,8 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <ConsentBanner />
+        <AnalyticsGate />
       </body>
     </html>
   );

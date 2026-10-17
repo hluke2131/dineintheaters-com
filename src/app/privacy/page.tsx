@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
 import { LegalContact, LegalPage, LegalSection } from "@/components/legal-page";
 
+// Build-time check (NEXT_PUBLIC_* is inlined), so the page stays static. With
+// the variable unset the page reads exactly as it did before analytics existed.
+const ANALYTICS_ENABLED = Boolean(process.env.NEXT_PUBLIC_ANALYTICS_ID);
+
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description:
-    "How DineInTheaters.com handles information: no accounts, no cookies of our own, no analytics, and what happens when you click through to other sites.",
+  description: ANALYTICS_ENABLED
+    ? "How DineInTheaters.com handles information: no accounts, no cookies of our own, optional analytics only if you accept, and what happens when you click through to other sites."
+    : "How DineInTheaters.com handles information: no accounts, no cookies of our own, no analytics, and what happens when you click through to other sites.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -20,8 +25,11 @@ export default function PrivacyPage() {
         <p>
           DineInTheaters.com (&ldquo;we,&rdquo; &ldquo;us&rdquo;) is an informational directory of
           dine-in movie theaters. You can browse it without creating an account, and the site
-          does not set cookies of its own or run analytics today. We do not sell personal
-          information.
+          does not set cookies of its own
+          {ANALYTICS_ENABLED
+            ? ", with optional analytics running only if you accept them."
+            : " or run analytics today."}{" "}
+          We do not sell personal information.
         </p>
       </LegalSection>
 
@@ -45,10 +53,26 @@ export default function PrivacyPage() {
       </LegalSection>
 
       <LegalSection title="Cookies and analytics">
-        <p>
-          DineInTheaters.com does not set cookies itself and does not currently use analytics or
-          advertising trackers. If that changes, we will update this policy.
-        </p>
+        {ANALYTICS_ENABLED ? (
+          <>
+            <p>
+              DineInTheaters.com does not set cookies itself. We offer optional analytics to
+              understand how the directory is used. It is loaded only after you accept it in the
+              banner, and not at all if you decline or make no choice. Analytics tools may set
+              cookies on your device once loaded, and we don&rsquo;t use advertising trackers.
+            </p>
+            <p>
+              You can change your choice at any time with &ldquo;Cookie settings&rdquo; in the
+              footer. Your choice is stored in your browser&rsquo;s local storage on your own
+              device, not in a cookie, and it is not sent to us.
+            </p>
+          </>
+        ) : (
+          <p>
+            DineInTheaters.com does not set cookies itself and does not currently use analytics or
+            advertising trackers. If that changes, we will update this policy.
+          </p>
+        )}
         <p>
           Some content comes from other companies, and those companies may set their own cookies
           or collect their own data when you load or use it. See &ldquo;Third-party content and
