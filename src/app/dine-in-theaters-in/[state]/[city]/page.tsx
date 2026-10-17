@@ -61,6 +61,8 @@ export default async function CityPage({ params }: { params: Promise<Params> }) 
           { label: stateInfo.name, href: `/dine-in-theaters-in/${stateInfo.code.toLowerCase()}` },
           { label: cityName },
         ]}
+        // Thin city hubs (under the linking threshold) are noindex: no JSON-LD.
+        structuredData={group.linked}
       />
       <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
         Dine-In Theaters in {cityName}, {stateInfo.name}

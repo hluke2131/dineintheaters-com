@@ -47,7 +47,11 @@ export default async function StatePage({ params }: { params: Promise<Params> })
 
   return (
     <Container className="py-16 sm:py-24">
-      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: stateInfo.name }]} />
+      {/* An empty state is noindex, so only a populated hub gets JSON-LD. */}
+      <Breadcrumb
+        items={[{ label: "Home", href: "/" }, { label: stateInfo.name }]}
+        structuredData={hub.total > 0}
+      />
       <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
         Dine-In Theaters in {stateInfo.name}
       </h1>

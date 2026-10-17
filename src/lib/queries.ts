@@ -1,6 +1,7 @@
 import { cache } from "react";
 import type { PostgrestError } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/server";
+import { createPublicClient } from "@/lib/supabase/public";
 import type { Database } from "@/lib/supabase/database.types";
 import { slugify } from "@/lib/format-slug";
 import {
@@ -47,7 +48,7 @@ const LOCATION_SUMMARY_COLUMNS =
  * are never linked to; their theaters are reached through the state hub. */
 export const MIN_CITY_HUB_LISTINGS = 3;
 
-export type CityGroup = {
+export type CityGroup<T extends { city: string } = LocationSummary> = {
   /** URL segment: slugify(city). Two spellings that slugify the same are one group. */
   slug: string;
   /** Display name: the most common stored spelling in the group. */
@@ -55,7 +56,7 @@ export type CityGroup = {
   count: number;
   /** True when the city has enough published listings for its own hub page. */
   linked: boolean;
-  listings: LocationSummary[];
+  listings: T[];
 };
 
 export type StateHub = {
@@ -73,8 +74,8 @@ function mostCommon(values: string[]): string {
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
 }
 
-function groupByCity(rows: LocationSummary[]): CityGroup[] {
-  const bySlug = new Map<string, LocationSummary[]>();
+function groupByCity<T extends { city: string }>(rows: T[]): CityGroup<T>[] {
+  const bySlug = new Map<string, T[]>();
   for (const row of rows) {
     const key = slugify(row.city);
     const group = bySlug.get(key);
@@ -360,4 +361,62 @@ export async function getPopularCities(limit = 6): Promise<PopularCity[]> {
         b.count - a.count || a.state.localeCompare(b.state) || a.city.localeCompare(b.city)
     )
     .slice(0, limit);
+}
+
+export type SitemapListing = { slug: string; updatedAt: string };
+export type SitemapCity = { state: string; slug: string };
+export type SitemapData = {
+  /** Every indexable listing: published and not permanently closed. */
+  listings: SitemapListing[];
+  /** Lowercase state codes with at least one published, active listing. */
+  states: string[];
+  /** Cities with MIN_CITY_HUB_LISTINGS+ published, active listings. */
+  cities: SitemapCity[];
+};
+
+/** Everything the sitemap needs, from one paged read of the published rows
+ * through a cookie-free client (so the sitemap can be prerendered and
+ * revalidated on a timer). The filters mirror the pages: listings are
+ * is_published = true minus permanently_closed (the listing page noindexes
+ * those); state and city hubs count only status = 'active', exactly like
+ * getStateRows, and use the same groupByCity / MIN_CITY_HUB_LISTINGS rule that
+ * decides hub linking and indexability. */
+export async function getSitemapData(): Promise<SitemapData> {
+  const supabase = createPublicClient();
+  const rows = await fetchAllRows((from, to) =>
+    supabase
+      .from("locations")
+      .select("slug, city, state, status, updated_at")
+      .eq("is_published", true)
+      .order("slug") // unique, so pages never overlap or skip rows
+      .range(from, to)
+  );
+
+  const listings = rows
+    .filter((row) => row.status !== "permanently_closed")
+    .map((row) => ({ slug: row.slug, updatedAt: row.updated_at }));
+
+  const activeByState = new Map<string, { city: string }[]>();
+  for (const row of rows) {
+    if (row.status !== "active") continue;
+    const code = row.state.toUpperCase();
+    const bucket = activeByState.get(code);
+    if (bucket) bucket.push({ city: row.city });
+    else activeByState.set(code, [{ city: row.city }]);
+  }
+
+  const states: string[] = [];
+  const cities: SitemapCity[] = [];
+  for (const [code, stateRows] of Array.from(activeByState).sort((a, b) =>
+    a[0].localeCompare(b[0])
+  )) {
+    if (!getStateBySlug(code)) continue; // the route would 404 on it
+    const stateSlug = code.toLowerCase();
+    states.push(stateSlug);
+    for (const group of groupByCity(stateRows)) {
+      if (group.linked) cities.push({ state: stateSlug, slug: group.slug });
+    }
+  }
+
+  return { listings, states, cities };
 }

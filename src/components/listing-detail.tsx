@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { Chip } from "@/components/chip";
 import { Container } from "@/components/container";
-import { slugify } from "@/lib/format-slug";
+import { JsonLd } from "@/components/json-ld";
 import type { LocationDetail } from "@/lib/queries";
 import { getShowtimesLink } from "@/lib/showtimes-link";
 import {
@@ -20,6 +20,7 @@ import {
   telHref,
   websiteDisplay,
 } from "@/lib/theater-display";
+import { listingBreadcrumbItems, movieTheaterJsonLd } from "@/lib/structured-data";
 import { NOT_YET_CONFIRMED } from "@/lib/theater-fields";
 import { getStateBySlug } from "@/lib/us-states";
 import type { Database } from "@/lib/supabase/database.types";
@@ -177,20 +178,11 @@ export function ListingDetail({
   return (
     <Container className="py-16 sm:py-24">
       <Breadcrumb
-        items={[
-          { label: "Home", href: "/" },
-          { label: stateName, href: `/dine-in-theaters-in/${slugify(location.state)}` },
-          ...(cityHubLinked
-            ? [
-                {
-                  label: location.city,
-                  href: `/dine-in-theaters-in/${slugify(location.state)}/${slugify(location.city)}`,
-                },
-              ]
-            : []),
-          { label: location.name },
-        ]}
+        items={listingBreadcrumbItems(location, stateName, cityHubLinked)}
+        structuredData={!permanentlyClosed}
       />
+      {/* Permanently closed listings are noindex, so they carry no JSON-LD. */}
+      {permanentlyClosed ? null : <JsonLd data={movieTheaterJsonLd(location)} />}
 
       <h1 className="mt-4 font-display text-4xl text-burgundy-dark sm:text-5xl">
         {location.name}

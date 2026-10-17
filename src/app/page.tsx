@@ -4,7 +4,9 @@ import { Container } from "@/components/container";
 import { CountLinkCard } from "@/components/count-link-card";
 import { EmptyState } from "@/components/empty-state";
 import { Hero } from "@/components/hero";
+import { JsonLd } from "@/components/json-ld";
 import { getPopularCities, getStatesWithCounts } from "@/lib/queries";
+import { organizationJsonLd, webSiteJsonLd } from "@/lib/structured-data";
 import { getStateBySlug } from "@/lib/us-states";
 
 export const metadata: Metadata = {
@@ -69,6 +71,8 @@ export default async function Home() {
 
   return (
     <>
+      <JsonLd data={organizationJsonLd()} />
+      <JsonLd data={webSiteJsonLd()} />
       <Hero
         eyebrow="The dine-in movie theater directory"
         title="Come hungry. Stay for the movie."
