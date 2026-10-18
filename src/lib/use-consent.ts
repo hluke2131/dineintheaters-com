@@ -17,3 +17,16 @@ export function useConsent(): Consent | null {
 
   return consent;
 }
+
+/** window.location.hostname, or null until an effect has read it. Never taken
+ * from request headers: that would make every page dynamic. */
+export function useHostname(): string | null {
+  const [hostname, setHostname] = useState<string | null>(null);
+
+  useEffect(() => {
+    const read = () => setHostname(window.location.hostname);
+    read();
+  }, []);
+
+  return hostname;
+}

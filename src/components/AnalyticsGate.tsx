@@ -1,30 +1,50 @@
 "use client";
 
-import { useConsent } from "@/lib/use-consent";
+import Script from "next/script";
+import { ANALYTICS_ID, isNonAnalyticsHost } from "@/lib/consent";
+import { useConsent, useHostname } from "@/lib/use-consent";
 
-/** The single place analytics may be loaded. It renders nothing unless the
- * visitor has accepted AND NEXT_PUBLIC_ANALYTICS_ID is set (inlined at build
- * time), so unset and declined visitors never get a script.
+/** Google Analytics 4, behind the consent gate. It renders nothing, so no
+ * script exists on the page, unless ALL of these hold:
+ *  - the visitor has accepted;
+ *  - NEXT_PUBLIC_ANALYTICS_ID is set and is a valid G- ID (checked in
+ *    lib/consent, inlined at build time);
+ *  - the hostname, read client-side in an effect, is not a *.vercel.app or
+ *    local host, so previews and local runs never send data.
+ * Unset and declined visitors never get a script.
  *
- * No provider is chosen yet. When one is, inject its script at the marked spot
- * below and delete the marker element.
+ * Privacy settings: Google signals and ad personalization are off. No
+ * advertising features, remarketing, User-ID or custom dimensions are used.
+ * page_view is not fired by hand. gtag.js sends the first one on config, and
+ * GA4's built-in enhanced measurement ("page changes based on browser history
+ * events", on by default for web streams) covers App Router navigation.
  *
  * Declining after accepting: this component stops rendering, so nothing
  * further is injected, but a script that is already loaded stays loaded for
  * the rest of the page's life. A full page reload is needed to unload it. */
 export function AnalyticsGate() {
   const consent = useConsent();
-  const analyticsId = process.env.NEXT_PUBLIC_ANALYTICS_ID;
+  const hostname = useHostname();
 
-  if (consent !== "accepted" || !analyticsId) return null;
+  if (consent !== "accepted" || !ANALYTICS_ID) return null;
+  if (hostname === null || isNonAnalyticsHost(hostname)) return null;
 
   return (
     <>
-      {/* ===== ANALYTICS PROVIDER PLACEHOLDER =====
-          Inject the chosen provider's script here (for example with
-          next/script). Reaching this point means consent is accepted and an
-          ID is configured. Marker only; no real script is loaded. */}
-      <span hidden data-analytics-gate="open" />
+      <Script
+        id="ga4-src"
+        src={`https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', ${JSON.stringify(ANALYTICS_ID)}, {
+  allow_google_signals: false,
+  allow_ad_personalization_signals: false
+});`}
+      </Script>
     </>
   );
 }

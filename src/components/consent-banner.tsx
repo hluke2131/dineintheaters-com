@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { CONSENT_UI_ENABLED, setConsent } from "@/lib/consent";
-import { useConsent } from "@/lib/use-consent";
+import { consentUiAllowedOnHost, setConsent } from "@/lib/consent";
+import { useConsent, useHostname } from "@/lib/use-consent";
 
 // Both choices share one style on purpose: equal visual prominence.
 const choiceButton =
@@ -11,14 +11,19 @@ const choiceButton =
 
 /** Bottom consent bar. Renders nothing on the server and on first paint; it
  * appears only after an effect has read localStorage and found no choice, and
- * only when the consent UI is enabled at build time. It is a non-modal dialog
+ * only when the consent UI is enabled at build time and allowed on this host
+ * (see consentUiAllowedOnHost). It is a non-modal dialog
  * (no focus trap, Escape does nothing, focus is never moved to it).
  *
  * While it is showing, an in-flow spacer of the same height sits at the end of
  * the page so the footer can always be scrolled fully above the bar. */
 export function ConsentBanner() {
   const consent = useConsent();
-  const visible = CONSENT_UI_ENABLED && consent === "unset";
+  // Hostname is read in an effect (null until then), so the first paint and
+  // the server HTML never contain the banner.
+  const hostname = useHostname();
+  const visible =
+    consent === "unset" && hostname !== null && consentUiAllowedOnHost(hostname);
   const barRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 

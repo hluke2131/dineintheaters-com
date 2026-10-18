@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
 import { LegalContact, LegalPage, LegalSection } from "@/components/legal-page";
+import { ANALYTICS_ID } from "@/lib/consent";
 
 // Build-time check (NEXT_PUBLIC_* is inlined), so the page stays static. With
-// the variable unset the page reads exactly as it did before analytics existed.
-const ANALYTICS_ENABLED = Boolean(process.env.NEXT_PUBLIC_ANALYTICS_ID);
+// no valid analytics ID the page reads exactly as it did before analytics
+// existed, including its "Last updated" date.
+const ANALYTICS_ENABLED = Boolean(ANALYTICS_ID);
+
+const proseLink =
+  "inline-flex min-h-11 items-center font-medium text-burgundy underline hover:text-burgundy-dark";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: ANALYTICS_ENABLED
-    ? "How DineInTheaters.com handles information: no accounts, no cookies of our own, optional analytics only if you accept, and what happens when you click through to other sites."
+    ? "How DineInTheaters.com handles information: no accounts, no cookies of our own, Google Analytics only if you accept, and what happens when you click through to other sites."
     : "How DineInTheaters.com handles information: no accounts, no cookies of our own, no analytics, and what happens when you click through to other sites.",
   alternates: { canonical: "/privacy" },
 };
@@ -18,7 +23,7 @@ export default function PrivacyPage() {
     <LegalPage
       title="Privacy Policy"
       description="Plain-language notes on what this site does, and doesn’t do, with your information."
-      lastUpdated="October 17, 2026"
+      lastUpdated={ANALYTICS_ENABLED ? "October 18, 2026" : "October 17, 2026"}
       otherPage={{ href: "/terms", label: "Terms of Service" }}
     >
       <LegalSection title="The short version">
@@ -56,11 +61,39 @@ export default function PrivacyPage() {
         {ANALYTICS_ENABLED ? (
           <>
             <p>
-              DineInTheaters.com does not set cookies itself. We offer optional analytics to
-              understand how the directory is used. It is loaded only after you accept it in the
-              banner, and not at all if you decline or make no choice. Analytics tools may set
-              cookies on your device once loaded, and we don&rsquo;t use advertising trackers.
+              DineInTheaters.com does not set cookies itself. We use Google Analytics, a service
+              of Google LLC, to measure how the directory is used. It is loaded only after you
+              accept it in the banner, and not at all if you decline or make no choice.
             </p>
+            <p>
+              Once loaded, Google Analytics sets cookies on your device and receives your IP
+              address and information about your browsing activity on this site. Google Analytics 4
+              does not log or store full IP addresses. We have turned off Google signals and ad
+              personalization, and we don&rsquo;t use analytics for advertising. Google&rsquo;s use
+              of this data is governed by Google&rsquo;s own policies:
+            </p>
+            <ul>
+              <li>
+                <a
+                  href="https://policies.google.com/technologies/partner-sites"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={proseLink}
+                >
+                  How Google uses information from sites that use its services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://support.google.com/analytics/answer/6004245"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={proseLink}
+                >
+                  Safeguarding your data (Google Analytics)
+                </a>
+              </li>
+            </ul>
             <p>
               You can change your choice at any time with &ldquo;Cookie settings&rdquo; in the
               footer. Your choice is stored in your browser&rsquo;s local storage on your own

@@ -46,7 +46,7 @@ function FooterColumn({
             </Link>
           </li>
         ))}
-        {extra ? <li>{extra}</li> : null}
+        {extra}
       </ul>
     </div>
   );

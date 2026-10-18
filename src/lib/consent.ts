@@ -9,15 +9,48 @@ export type Consent = "unset" | "accepted" | "declined";
 
 export const CONSENT_STORAGE_KEY = "dit-consent";
 
+/** The GA4 measurement ID, only if NEXT_PUBLIC_ANALYTICS_ID is set and looks
+ * like one (G- followed by capitals and digits). Anything else counts as "no
+ * analytics configured", so a typo can never turn on the banner, the privacy
+ * wording or a script tag. Next inlines NEXT_PUBLIC_* at build time. */
+const RAW_ANALYTICS_ID = process.env.NEXT_PUBLIC_ANALYTICS_ID;
+export const ANALYTICS_ID: string | undefined =
+  RAW_ANALYTICS_ID && /^G-[A-Z0-9]+$/.test(RAW_ANALYTICS_ID) ? RAW_ANALYTICS_ID : undefined;
+
+const FORCE_CONSENT_BANNER = process.env.NEXT_PUBLIC_FORCE_CONSENT_BANNER === "1";
+
 /** Whether the consent UI (banner and footer "Cookie settings" control) exists
  * at all. Resolved at build time from NEXT_PUBLIC_* variables, which Next
  * inlines, so it needs no request data and keeps pages static. With neither
  * variable set the UI is never rendered and nothing changes for visitors.
  * NEXT_PUBLIC_FORCE_CONSENT_BANNER=1 lets the banner be reviewed on a preview
  * before an analytics ID exists. */
-export const CONSENT_UI_ENABLED =
-  Boolean(process.env.NEXT_PUBLIC_ANALYTICS_ID) ||
-  process.env.NEXT_PUBLIC_FORCE_CONSENT_BANNER === "1";
+export const CONSENT_UI_ENABLED = Boolean(ANALYTICS_ID) || FORCE_CONSENT_BANNER;
+
+/** Whether this hostname may never send analytics: every *.vercel.app
+ * deployment (production alias and previews) and local runs. Takes a hostname
+ * (no port); callers read window.location.hostname in an effect, never from
+ * request headers, so pages stay static. */
+export function isNonAnalyticsHost(hostname: string): boolean {
+  const host = hostname.toLowerCase();
+  return (
+    host.endsWith(".vercel.app") ||
+    host === "localhost" ||
+    host.endsWith(".localhost") ||
+    host === "127.0.0.1" ||
+    host === "[::1]"
+  );
+}
+
+/** Whether the banner and footer control are worth showing on this host: with
+ * an analytics ID configured they are pointless where analytics can never
+ * load (previews, local runs), unless NEXT_PUBLIC_FORCE_CONSENT_BANNER=1 so
+ * the banner can still be reviewed there. */
+export function consentUiAllowedOnHost(hostname: string): boolean {
+  if (!CONSENT_UI_ENABLED) return false;
+  if (FORCE_CONSENT_BANNER) return true;
+  return !(ANALYTICS_ID && isNonAnalyticsHost(hostname));
+}
 
 const CHANGE_EVENT = "dit-consent-change";
 
