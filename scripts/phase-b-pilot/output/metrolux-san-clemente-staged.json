@@ -43,9 +43,7 @@
       "description": "MetroLux Theatres + IMAX at San Clemente, at the Outlets at San Clemente, open since 2022. Standard auditoriums get in-seat food and drink delivery during the film; IMAX auditoriums specifically are counter pickup only, per the chain's own site. The theater is paired with Scripted Bar & Kitchen, a standalone full-service restaurant on the second floor that doesn't require a movie ticket to visit, which several reviewers use independently of seeing a film for lunch, dinner, or date nights. Reviews consistently praise the food and staff, including a detailed account of a private event handled exceptionally well. The most consistent complaint, raised independently by multiple reviewers, is that the bar/lobby area gets uncomfortably hot in summer, with regulars bringing their own portable fans.",
       "status": "active",
       "last_verified_date": "2026-08-08",
-      "photos": [
-        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8l979W4jmM0oevTFQzj48rJ52qU2g-U0PadrTIzB1JTiFcxg8b6Je6_mlWsSNoOGRsapUtc9xMHZjhFMXbPoPwJvThnR0LMnTVOwh7Q-AOavIgBZJWj0RxpfbQcxGTFpPzlLYUw=w800-h500-k-no"
-      ],
+      "photos": null,
       "is_sponsored": false,
       "metro_area": "Orange County",
       "match_method": "city_and_name"

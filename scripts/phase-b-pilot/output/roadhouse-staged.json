@@ -42,9 +42,7 @@
       "description": "RoadHouse Cinemas' Scottsdale location, a longtime favorite for reviewers who've been coming for years, including with young kids. Reclining seats, a full bar, and food ordered via a seat-side call button or app and delivered during the movie. Reviews are consistently strong on cleanliness, comfort, and staff friendliness, including praise for hosting private events. The main caveat noted is price — around $17 for a burger — typical of the chain's restaurant-quality, full-service positioning.",
       "status": "active",
       "last_verified_date": "2026-08-03",
-      "photos": [
-        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDisOQJkLClzvnazWqkQj_nQf2wXUMam23h0zftGIUkyiZiqeS8UhBj7lZv7O6BB_W_D5VyRGtyaMjUPJtTLrCzNQoG71aAl1hYlrokq7E20YlI3EJcjeUaxnmne5X_67BDU2p=w800-h500-k-no"
-      ],
+      "photos": null,
       "is_sponsored": false,
       "metro_area": "Phoenix Area",
       "match_method": "city_and_name"
@@ -83,9 +81,7 @@
       "description": "RoadHouse Cinemas' Tucson location, with heated reclining leather seats, a VIP lounge (about 15 seats) and a smaller private screening room, plus food and drinks ordered via a pull-out table QR code and delivered during the movie. It's part of a larger complex that includes Roadies, an adjacent bowling/arcade/ax-throwing venue under the same ownership. One detailed review from a wheelchair user notes real friction points — no push-button front door, and one auditorium's fixed table didn't accommodate a wheelchair as well as another's movable table — alongside genuinely helpful staff who offered a refund when the fit wasn't working. Reviews are otherwise strongly positive on food quality and atmosphere.",
       "status": "active",
       "last_verified_date": "2026-08-03",
-      "photos": [
-        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkyzvGGoiwOLUv3FEq5P3IvTY7S2JxBedqFdt4rZtXanH5Pj9rprb0P9nG0eryl89JFINQ9hM-YeVW1TAR26jHVq1wq2j8L2G5fmcvaoRTtxW8kMDx3KZ703R-MA2hBZEn15Iw=w800-h500-k-no"
-      ],
+      "photos": null,
       "is_sponsored": false,
       "metro_area": "Tucson",
       "match_method": "city_and_name"
@@ -123,9 +119,7 @@
       "description": "RoadHouse Cinemas' Colorado Springs location, with heated reclining seats, individual tables, and a seat-side call button for food and drink orders throughout the movie. It's connected to an arcade/gastropub area, which reviewers note can make nearby auditoriums noisier than a standalone theater. Service is consistently praised as attentive, and ticket policies (refunds/swaps up to an hour before showtime) are called out as reasonable. The main complaints are on the food side — prices are high for portion size, at least one dish arrived below par on a specific visit, and one reviewer found a specific auditorium unexpectedly cold.",
       "status": "active",
       "last_verified_date": "2026-08-03",
-      "photos": [
-        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm99KA0hgJbMx5xmdT8XuWL9tMkKmRcVEzHxaEPcIhDHzJ0ANm2V59Hjlc3VjA8Uh8Up5aH6S6E9qLELfckwXtRmMWygYQA3vX1VEeD233o7ILeCLikdmz-aMmj1p9CuExtQFFA=w800-h500-k-no"
-      ],
+      "photos": null,
       "is_sponsored": false,
       "metro_area": "Colorado Springs",
       "match_method": "city_and_name"

@@ -43,9 +43,7 @@
       "description": "MetroLux 12 Theatres + IMAX at The Promenade Shops at Centerra, in Loveland, CO — a separate, larger location from the chain's Downtown/Foundry theater in the same city. Like the chain's other locations, food and drinks (including wine and beer) are meant to be ordered via mobile app for in-seat delivery, though execution is inconsistent: one reviewer's promised in-seat food never arrived, and a promotional free poster/drink/popcorn wasn't provided as advertised. The most serious recurring concern, raised independently across multiple recent reviews, is facility cleanliness — dirty floors, an unclean bathroom with non-functioning faucets, and one reviewer specifically reporting a moldy smell and recommending the theater test for it given the building's recent renovation. A separate review describes a blown speaker in one auditorium that staff seemed reluctant to escalate, and a refund request over a failed online checkout was handled dismissively by on-site management. On the positive side, staff handled at least one seating mix-up gracefully and with clear communication, seats recline and function despite visible wear, and parking is described as easy to find.",
       "status": "active",
       "last_verified_date": "2026-08-07",
-      "photos": [
-        "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkx1GPlOoVIxZ8GfDl_kmoIfkQ_cSxsegIcIWSCF2Ja0R5kN2DfvcNiZaS31nccfTITnwAYj9Y6UTCGc0tvlUyH_LW_B5d5zXEhhTjxs-hGsaxaMCht-K5b6M1DERUUM4I9jpyA=w800-h500-k-no"
-      ],
+      "photos": null,
       "is_sponsored": false,
       "metro_area": "Loveland",
       "match_method": "city_and_name"
