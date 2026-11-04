@@ -8,6 +8,7 @@
 
 import { readFileSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
+import { assertPhotosNull } from "../lib/slug-v3.mjs";
 
 const [, , stagedPath] = process.argv;
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -25,6 +26,7 @@ function readJson(path) {
 }
 
 const staged = readJson(stagedPath);
+assertPhotosNull(staged.locations); // photos is always null: refuse staged files that carry URLs
 
 // Only real `locations` columns — drop the pilot-only tracking fields
 // (metro_area, match_method) that aren't part of the table schema.
@@ -57,7 +59,7 @@ const rows = staged.locations.map((loc) => ({
   description: loc.description,
   status: loc.status,
   last_verified_date: loc.last_verified_date,
-  photos: loc.photos,
+  photos: null, // never from the staged file
   is_sponsored: loc.is_sponsored,
 }));
 

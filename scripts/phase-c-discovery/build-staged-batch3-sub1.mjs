@@ -4,7 +4,7 @@
 //
 // Usage: node scripts/phase-c-discovery/build-staged-half2.mjs
 import { readFileSync, writeFileSync } from "node:fs";
-import { assertChainRowsMapped, slugFor } from "../lib/slug-v3.mjs";
+import { assertChainRowsMapped, assertPhotosNull, slugFor } from "../lib/slug-v3.mjs";
 
 const OUT = "scripts/phase-c-discovery/output";
 const readJson = (p) => JSON.parse(readFileSync(p, "utf8").replace(/^﻿/, ""));
@@ -78,6 +78,7 @@ for (const st of STATES) {
 }
 
 assertChainRowsMapped(staged, CHAIN_NAMES); // fail loud before anything is written
+assertPhotosNull(staged); // photos is always null
 writeFileSync(`${OUT}/batch3-sub1-staged-qualifies.json`, JSON.stringify({ generated_at: new Date().toISOString(), per_state: perState, count: staged.length, locations: staged }, null, 2));
 writeFileSync(`${OUT}/batch3-sub1-held-borderline.json`, JSON.stringify({ generated_at: new Date().toISOString(), count: held.length, rows: held }, null, 2));
 const mech = readJson(`${OUT}/exclusions-report-batch3-sub1.json`);

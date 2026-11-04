@@ -9,7 +9,7 @@
 // Usage: node scripts/phase-c-discovery/build-staged-batch2.mjs <STATE>
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
-import { assertChainRowsMapped, slugFor } from "../lib/slug-v3.mjs";
+import { assertChainRowsMapped, assertPhotosNull, slugFor } from "../lib/slug-v3.mjs";
 
 const OUT = "scripts/phase-c-discovery/output";
 const state = (process.argv[2] ?? "").toUpperCase();
@@ -162,6 +162,7 @@ const output = {
 };
 
 assertChainRowsMapped(locations, CHAIN_NAMES); // fail loud before anything is written
+assertPhotosNull(locations); // photos is always null
 writeFileSync(`${OUT}/staged-batch2-${state.toLowerCase()}.json`, JSON.stringify(output, null, 2));
 
 console.log(`${state}: reviewed ${candidates.length} | ${JSON.stringify(counts)} | staged ${locations.length} | excluded ${excluded.length}`);

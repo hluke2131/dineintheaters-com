@@ -24,7 +24,7 @@
 // snapshot-locations-*.json) reserves every live slug for collision handling.
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { slugFor } from "../lib/slug-v3.mjs";
+import { assertPhotosNull, slugFor } from "../lib/slug-v3.mjs";
 
 const [, , locatorPath, reconciliationPath, synthesisPath, chainId, chainSlug, chainDisplayName, namePrefixArg] =
   process.argv;
@@ -116,7 +116,10 @@ for (const loc of locatorList) {
     description: synth.description,
     status: o.business_status === "OPERATIONAL" ? "active" : "temporarily_closed",
     last_verified_date: today,
-    photos: o.photo ? [o.photo] : null,
+    // `photos` is an exclusive sponsored-listing perk — never populated from
+    // scraped/warehoused third-party CDN content (Outscraper's raw `photo`
+    // field is Google Places CDN and must not flow into this column).
+    photos: null,
     is_sponsored: false,
     metro_area: loc.metro_area,
     match_method: match.match_method,
@@ -132,6 +135,7 @@ const output = {
 };
 
 const outPath = new URL(`./output/${chainSlug}-staged.json`, import.meta.url);
+assertPhotosNull(staged); // photos is always null
 writeFileSync(outPath, JSON.stringify(output, null, 2));
 
 console.log(`Staged ${staged.length} of ${locatorList.length} locations.`);

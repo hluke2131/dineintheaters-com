@@ -7,7 +7,7 @@
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
-import { slugFor } from "../lib/slug-v3.mjs";
+import { assertPhotosNull, slugFor } from "../lib/slug-v3.mjs";
 
 const OUT = "scripts/phase-b-pilot/output/";
 const MARCUS = "6eace755-4aa5-48f2-b0f8-dc7162e7363a";
@@ -93,6 +93,7 @@ const out = {
   by_state: locations.reduce((a, l) => ((a[l.state] = (a[l.state] || 0) + 1), a), {}),
   locations,
 };
+assertPhotosNull(locations); // photos is always null
 writeFileSync(`${OUT}marcus-completion-staged.json`, JSON.stringify(out, null, 2));
 writeFileSync(`${OUT}flagged-allegations-marcus-completion.json`, JSON.stringify({ note: "Internal log. Paraphrased; no raw review text. Single-source severe staff-conduct, discrimination, sanitation/pest and facility claims are kept out of descriptions and safety_notes.", flagged }, null, 2));
 

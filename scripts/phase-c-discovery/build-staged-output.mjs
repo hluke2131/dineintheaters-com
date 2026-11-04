@@ -16,7 +16,7 @@
 // rows with a `slug`, reserved for collision handling.
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { assertChainRowsMapped, slugFor } from "../lib/slug-v3.mjs";
+import { assertChainRowsMapped, assertPhotosNull, slugFor } from "../lib/slug-v3.mjs";
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8").replace(/^﻿/, ""));
@@ -121,6 +121,7 @@ const output = {
 };
 
 assertChainRowsMapped(staged, CHAIN_NAMES); // fail loud before anything is written
+assertPhotosNull(staged); // photos is always null
 writeFileSync("scripts/phase-c-discovery/output/indie-co-nc-staged.json", JSON.stringify(output, null, 2));
 
 console.log(`Staged ${staged.length} of ${allCandidates.length} candidates.`);

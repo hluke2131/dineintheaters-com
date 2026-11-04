@@ -276,3 +276,25 @@ export function assertChainRowsMapped(rows, chainNames = {}) {
       `Add place_id -> chains.name (or null for a reviewed independent) for:\n${lines.join("\n")}`
   );
 }
+
+/** Rows whose `photos` holds a real value. null, undefined, "" and [] are allowed; anything else is a leak. */
+export function findPhotoLeaks(rows) {
+  return rows
+    .filter((r) => {
+      const p = r.photos;
+      if (p === null || p === undefined || p === "") return false;
+      if (Array.isArray(p)) return p.length > 0;
+      return true;
+    })
+    .map((r) => ({ place_id: r.place_id, name: r.name, photos: JSON.stringify(r.photos).slice(0, 80) }));
+}
+
+/** Throws, listing every offender, if any staged row has a non-null, non-empty `photos`. Policy: photos is always null. */
+export function assertPhotosNull(rows) {
+  const bad = findPhotoLeaks(rows);
+  if (!bad.length) return;
+  const lines = bad.slice(0, 25).map((b) => `  ${b.place_id}  ${b.name}  photos=${b.photos}`);
+  throw new Error(
+    `${bad.length} staged row(s) have a non-null photos value. photos must be null on every row (sponsored-listing perk only).\n${lines.join("\n")}${bad.length > 25 ? `\n  ... and ${bad.length - 25} more` : ""}`
+  );
+}

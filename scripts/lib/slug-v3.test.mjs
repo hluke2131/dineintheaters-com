@@ -1,7 +1,7 @@
 // Sanity tests for scripts/lib/slug-v3.mjs. No dependencies, no I/O.
 // Usage: node scripts/lib/slug-v3.test.mjs   (exit 1 on any failure)
 import assert from "node:assert/strict";
-import { assertChainRowsMapped, assignSlugs, baseSlug, findUnmappedChainRows, MAX_LEN, slugFor, slugify } from "./slug-v3.mjs";
+import { assertChainRowsMapped, assertPhotosNull, assignSlugs, baseSlug, findPhotoLeaks, findUnmappedChainRows, MAX_LEN, slugFor, slugify } from "./slug-v3.mjs";
 
 const tests = [];
 const test = (name, fn) => tests.push([name, fn]);
@@ -83,6 +83,16 @@ test("chain guard: flagged rows need a map entry (null = reviewed independent); 
   assert.deepEqual(findUnmappedChainRows(rows, { p2: null, p3: "McMenamins" }).map((r) => r.place_id), ["p4"]);
   assert.throws(() => assertChainRowsMapped(rows, { p3: "McMenamins" }), /p2.*B[\s\S]*p4.*D/);
   assert.doesNotThrow(() => assertChainRowsMapped(rows, { p2: null, p3: "McMenamins", p4: null }));
+});
+
+test("photos guard: null/undefined/empty pass; any URL string, non-empty array or object fails loudly", () => {
+  const ok = [{ photos: null }, {}, { photos: undefined }, { photos: "" }, { photos: [] }];
+  assert.doesNotThrow(() => assertPhotosNull(ok));
+  assert.equal(findPhotoLeaks(ok).length, 0);
+  const url = "https://lh3.googleusercontent.com/p/abc";
+  const rows = [{ place_id: "p1", name: "A", photos: [url] }, { place_id: "p2", name: "B", photos: null }, { place_id: "p3", name: "C", photos: url }, { place_id: "p4", name: "D", photos: { 0: url } }];
+  assert.deepEqual(findPhotoLeaks(rows).map((r) => r.place_id), ["p1", "p3", "p4"]);
+  assert.throws(() => assertPhotosNull(rows), /3 staged row\(s\) have a non-null photos[\s\S]*p1.*A[\s\S]*p3.*C/);
 });
 
 let failed = 0;
