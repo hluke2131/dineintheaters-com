@@ -1,5 +1,5 @@
 // Already-seeded / dedupe source for discovery batches (read-only). Writes place_id, name, address, city, state
-// for EVERY row in public.locations, INCLUDING is_published = false rows, so a theater unpublished for failing the
+// and slug (the existing-slugs set for scripts/lib/slug-v3.mjs collision handling) for EVERY row in public.locations, INCLUDING is_published = false rows, so a theater unpublished for failing the
 // meal standard can never be re-discovered and re-seeded. Uses the service role (the anon key is limited by RLS to
 // published rows and must never be used for this). Fails loudly if the fetched row count differs from the table's
 // exact count. apply-exclusions-batchN.mjs reads the JSON this writes (name it live-locations-batchN.json).
@@ -15,7 +15,7 @@ const { count, error: ce } = await sb.from("locations").select("*", { count: "ex
 if (ce) throw ce;
 const rows = [];
 for (let from = 0; ; from += 500) {
-  const { data, error } = await sb.from("locations").select("place_id, name, address, city, state, is_published").order("id").range(from, from + 499);
+  const { data, error } = await sb.from("locations").select("place_id, slug, name, address, city, state, is_published").order("id").range(from, from + 499);
   if (error) throw error;
   rows.push(...data);
   if (data.length < 500) break;

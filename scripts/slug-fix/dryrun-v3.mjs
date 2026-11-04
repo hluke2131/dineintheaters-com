@@ -28,6 +28,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { assignSlugs, CHAIN_OVERRIDES, MAX_LEN, seqAt, slugify } from "../lib/slug-v3.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..", "..");
@@ -40,193 +41,46 @@ const all = snapshot.locations;
 const chainById = new Map(snapshot.chains.map((c) => [c.id, c.name]));
 const chainNames = new Set(snapshot.chains.map((c) => c.name));
 
-const CHAIN_OVERRIDES = {
-  "Goodrich Quality Theaters (GQT)": "gqt",
-  "Schulman Theatres": "schulmans",
-  "Showcase Cinema de Lux": "showcase",
-  "Reading International": "reading",
-  Metropolitan: "metrolux",
-  "Lee Neighborhood Theatres": "lee",
-  // "" = never prepend a chain token (operator / catch-all names, not brands)
-  "Independent Cinemas": "",
-  "Far Away Entertainment": "",
-  "Rochester Theater Management": "",
-};
-const STRIP_TOKENS = new Set(["formerly", "llc"]);
-const STATE_CODES = new Set(
-  "al ak az ar ca co ct de dc fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy".split(" ")
-);
-const ARTICLES = new Set(["the", "a", "an"]);
-const MAX_LEN = 70;
-
-const slugify = (s) =>
-  s
-    .normalize("NFKD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/['’‘`´]/g, "")
-    .replace(/&/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-const chainTokenOf = (n) => slugify(n.replace(/\([^)]*\)/g, " "));
-const firstWordOf = (token) => {
-  const w = token.split("-");
-  return w.find((x) => !ARTICLES.has(x)) ?? w[0];
-};
-const seqAt = (segs, seq, i) => seq.every((w, j) => segs[i + j] === w);
-function lastIndexOfSeq(segs, seq) {
-  for (let i = segs.length - seq.length; i >= 0; i--) if (seqAt(segs, seq, i)) return i;
-  return -1;
-}
-
-// tagged segments: tag 'c' chain token, 'n' venue name, 'y' appended city
-const text = (tagged) => tagged.map((t) => t.s).join("-");
-
-function collapseAtJoins(tagged, log) {
-  let again = true;
-  while (again) {
-    again = false;
-    for (let n = 3; n >= 1 && !again; n--) {
-      for (let i = 0; i + 2 * n <= tagged.length; i++) {
-        const a = tagged.slice(i, i + n);
-        const b = tagged.slice(i + n, i + 2 * n);
-        if (!a.every((t, j) => t.s === b[j].s)) continue;
-        if (a[n - 1].tag === b[0].tag) continue; // inside one part: leave it
-        log.push(a.map((t) => t.s).join("-"));
-        tagged.splice(i + n, n);
-        again = true;
-        break;
-      }
-    }
-  }
-}
-
-// Shorten to <= limit, keeping the city. Mutates and returns tagged.
-function fit(tagged, citySegs, limit, notes) {
-  if (text(tagged).length <= limit) return tagged;
-  const chainLen = tagged.filter((t) => t.tag === "c").length;
-  if (chainLen > 1) {
-    tagged.splice(1, chainLen - 1);
-    notes.chainShortened = true;
-  }
-  const segs = () => tagged.map((t) => t.s);
-  while (text(tagged).length > limit && tagged.length > 1) {
-    const idx = lastIndexOfSeq(segs(), citySegs);
-    const cityEnd = idx >= 0 ? idx + citySegs.length : tagged.length;
-    if (cityEnd < tagged.length) {
-      tagged.pop(); // trailing venue segment after the city
-    } else {
-      const dropAt = idx >= 0 ? idx - 1 : tagged.length - 2;
-      if (dropAt < 1) break; // keep the first segment and the city
-      tagged.splice(dropAt, 1);
-      // keep the drop at the end of the venue words, not the middle
-    }
-    notes.venueSegmentsDropped = (notes.venueSegmentsDropped ?? 0) + 1;
-  }
-  return tagged;
-}
-
-function compose(row) {
-  const notes = { prepended: false, collapsed: [], strippedTokens: [], chainShortened: false, truncated: false };
-  const chainName = row.chain_id ? chainById.get(row.chain_id) : null;
-  let nameSegs = slugify(row.name).split("-").filter(Boolean);
-  const kept = nameSegs.filter((s) => !STRIP_TOKENS.has(s));
-  notes.strippedTokens = nameSegs.filter((s) => STRIP_TOKENS.has(s));
-  nameSegs = kept;
-
-  let chainSegs = [];
-  const override = chainName ? CHAIN_OVERRIDES[chainName] : undefined;
-  if (chainName && override !== "") {
-    const token = override ?? chainTokenOf(chainName);
-    if (!nameSegs.includes(firstWordOf(token))) {
-      chainSegs = token.split("-");
-      notes.prepended = true;
-    }
-  }
-  const citySegs = slugify(row.city).split("-").filter(Boolean);
-  const body = [...chainSegs, ...nameSegs];
-  const cityPresent = lastIndexOfSeq(body, citySegs) >= 0;
-
-  let tagged = [
-    ...chainSegs.map((s) => ({ s, tag: "c" })),
-    ...nameSegs.map((s) => ({ s, tag: "n" })),
-    ...(cityPresent ? [] : citySegs.map((s) => ({ s, tag: "y" }))),
-  ];
-  if (tagged[0]?.s === "indie") tagged.shift();
-  const st = row.state.toLowerCase();
-  if (tagged.length > 2 && tagged[0].s === st && STATE_CODES.has(st)) tagged.shift();
-
-  collapseAtJoins(tagged, notes.collapsed);
-
-  const before = text(tagged);
-  if (before.length > MAX_LEN) {
-    notes.truncated = true;
-    notes.untruncated = before;
-    fit(tagged, citySegs, MAX_LEN, notes);
-  }
-  return { tagged, citySegs, notes, chainName };
-}
-
-// ---- compute
+// The rule itself lives in scripts/lib/slug-v3.mjs (shared with the staging scripts).
 const comp = new Map();
-for (const r of all) comp.set(r.id, compose(r));
-const candidate = (id) => text(comp.get(id).tagged);
-
+const results = assignSlugs(all, {
+  chainNameOf: (r) => (r.chain_id ? chainById.get(r.chain_id) : null),
+  keepCurrent: true,
+  compare: (a, b) =>
+    Number(b.is_published) - Number(a.is_published) ||
+    a.created_at.localeCompare(b.created_at) ||
+    a.id.localeCompare(b.id),
+});
 const finalSlug = new Map();
-const taken = new Set();
 const collisions = [];
-for (const r of all) {
-  if (candidate(r.id) === r.slug) {
-    finalSlug.set(r.id, r.slug);
-    taken.add(r.slug);
-  }
-}
-const pending = all
-  .filter((r) => !finalSlug.has(r.id))
-  .sort(
-    (a, b) =>
-      Number(b.is_published) - Number(a.is_published) ||
-      a.created_at.localeCompare(b.created_at) ||
-      a.id.localeCompare(b.id)
-  );
-const withSuffix = (row, suffix) => {
-  const c = comp.get(row.id);
-  const tagged = c.tagged.map((t) => ({ ...t }));
-  const allowed = MAX_LEN - (suffix.length + 1);
-  if (text(tagged).length > allowed) fit(tagged, c.citySegs, allowed, {});
-  return `${text(tagged)}-${suffix}`;
-};
-for (const row of pending) {
-  const base = candidate(row.id);
-  let slug = base;
-  if (taken.has(slug)) {
-    const tries = [
-      ["state suffix", withSuffix(row, row.state.toLowerCase())],
-      ...(row.place_id ? [["place_id suffix", withSuffix(row, row.place_id.slice(-6).toLowerCase())]] : []),
-    ];
-    let resolved = tries.find(([, s]) => !taken.has(s));
-    if (!resolved) {
-      let n = 2;
-      while (taken.has(withSuffix(row, String(n)))) n += 1;
-      resolved = ["numeric suffix", withSuffix(row, String(n))];
-    }
-    slug = resolved[1];
-    const holder = all.find((x) => finalSlug.get(x.id) === base);
+// iterate in resolution order so the collision list reads as before
+all.forEach((r, i) => {
+  comp.set(r.id, results[i].comp);
+  finalSlug.set(r.id, results[i].slug);
+});
+all
+  .map((r, i) => i)
+  .filter((i) => results[i].resolution)
+  .sort((a, b) => {
+    const A = all[a], B = all[b];
+    return Number(B.is_published) - Number(A.is_published) || A.created_at.localeCompare(B.created_at) || A.id.localeCompare(B.id);
+  })
+  .forEach((i) => {
+    const row = all[i];
+    const res = results[i];
+    const holder = res.holder === null ? null : all[res.holder];
     collisions.push({
       location_id: row.id,
       name: row.name,
       city: row.city,
       state: row.state,
       is_published: row.is_published,
-      base,
-      new_slug: slug,
-      resolution: resolved[0],
+      base: res.base,
+      new_slug: res.slug,
+      resolution: res.resolution,
       first_holder: holder ? { location_id: holder.id, name: holder.name, address: holder.address } : null,
     });
-  }
-  finalSlug.set(row.id, slug);
-  taken.add(slug);
-}
+  });
 
 const rowById = new Map(all.map((r) => [r.id, r]));
 const mapping = all.map((r) => ({

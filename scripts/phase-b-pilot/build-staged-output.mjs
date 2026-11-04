@@ -7,9 +7,10 @@
 // Usage: node build-staged-output.mjs <locator-list.json> <reconciliation.json> <synthesis.json> \
 //          <chain_id> <chain_slug> <chain_display_name> [namePrefix]
 //
-// chain_slug: short kebab identifier, used for the output filename and location slugs
-//   (e.g. "flix-brewhouse" -> flix-brewhouse-staged.json, slug flix-brewhouse-<city>-<name>)
-// chain_display_name: used as the `chain` field in the output header
+// chain_slug: short kebab identifier, used for the output filename only. Location slugs
+//   come from the shared v3 rule (scripts/lib/slug-v3.mjs).
+// chain_display_name: used as the `chain` field in the output header, and passed to the v3
+//   slug rule as the chains.name (so it must match the chains table row exactly)
 // namePrefix: text prepended to each location's locator-list `name` to build its public
 //   display name (e.g. "Flix Brewhouse" + "Katy" -> "Flix Brewhouse Katy"). Defaults to
 //   chain_display_name if omitted — pass it explicitly when the two differ (e.g. the
@@ -18,8 +19,12 @@
 // delivery_style / alcohol_served are read per-location from the synthesis entry (grounded
 // in that location's reviews/site copy) rather than assumed chain-wide; synthesis should
 // set them to 'unknown' when there's no real signal, matching the DB column default.
+//
+// Slugs: optional env LIVE_SNAPSHOT = JSON array of rows with a `slug` (e.g. a
+// snapshot-locations-*.json) reserves every live slug for collision handling.
 
 import { readFileSync, writeFileSync } from "node:fs";
+import { slugFor } from "../lib/slug-v3.mjs";
 
 const [, , locatorPath, reconciliationPath, synthesisPath, chainId, chainSlug, chainDisplayName, namePrefixArg] =
   process.argv;
@@ -34,13 +39,6 @@ if (!locatorPath || !reconciliationPath || !synthesisPath || !chainId || !chainS
 
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8").replace(/^﻿/, ""));
-}
-
-function slugify(s) {
-  return s
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
 }
 
 // Strips query strings from an Outscraper `website` value, including ones
@@ -64,6 +62,10 @@ const matchedByName = new Map(
 );
 
 const today = new Date().toISOString().slice(0, 10);
+const takenSlugs = new Set(
+  process.env.LIVE_SNAPSHOT ? readJson(process.env.LIVE_SNAPSHOT).map((r) => r.slug) : []
+);
+if (!process.env.LIVE_SNAPSHOT) console.warn("LIVE_SNAPSHOT not set: slugs are only deduped within this run");
 const staged = [];
 const problems = [];
 
@@ -81,11 +83,13 @@ for (const loc of locatorList) {
   }
 
   const o = match.outscraper;
-  const slug = `${chainSlug}-${slugify(loc.city)}-${slugify(loc.name)}`;
+  const displayName = `${namePrefix} ${loc.name}`.trim();
+  const { slug } = slugFor({ name: displayName, city: loc.city, state: loc.state, place_id: o.place_id }, chainDisplayName, takenSlugs);
+  takenSlugs.add(slug);
 
   staged.push({
     slug,
-    name: `${namePrefix} ${loc.name}`.trim(),
+    name: displayName,
     chain_id: chainId,
     sub_brand: null,
     address: loc.address,
