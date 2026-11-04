@@ -1,7 +1,7 @@
 // Sanity tests for scripts/lib/slug-v3.mjs. No dependencies, no I/O.
 // Usage: node scripts/lib/slug-v3.test.mjs   (exit 1 on any failure)
 import assert from "node:assert/strict";
-import { assignSlugs, baseSlug, MAX_LEN, slugFor, slugify } from "./slug-v3.mjs";
+import { assertChainRowsMapped, assignSlugs, baseSlug, findUnmappedChainRows, MAX_LEN, slugFor, slugify } from "./slug-v3.mjs";
 
 const tests = [];
 const test = (name, fn) => tests.push([name, fn]);
@@ -69,6 +69,20 @@ test(`${MAX_LEN}-char cap: chain token shortened or venue words dropped, city ke
   const withSuffix = slugFor(long, "Some Very Long Chain Operator Name", new Set([s])).slug;
   assert.ok(withSuffix.length <= MAX_LEN, `${withSuffix.length}: ${withSuffix}`);
   assert.ok(withSuffix.endsWith("-mo"), withSuffix);
+});
+
+test("chain guard: flagged rows need a map entry (null = reviewed independent); unflagged rows never do", () => {
+  const rows = [
+    { place_id: "p1", name: "A", chain_note: null },
+    { place_id: "p2", name: "B", chain_note: "Independent local operator." },
+    { place_id: "p3", name: "C", recognized_chain_note: "McMenamins theater-pub" },
+    { place_id: "p4", name: "D", possible_chain_flag: true, recognized_chain_note: null },
+    { place_id: "p5", name: "E", chain_note: "   " },
+  ];
+  assert.deepEqual(findUnmappedChainRows(rows, {}).map((r) => r.place_id), ["p2", "p3", "p4"]);
+  assert.deepEqual(findUnmappedChainRows(rows, { p2: null, p3: "McMenamins" }).map((r) => r.place_id), ["p4"]);
+  assert.throws(() => assertChainRowsMapped(rows, { p3: "McMenamins" }), /p2.*B[\s\S]*p4.*D/);
+  assert.doesNotThrow(() => assertChainRowsMapped(rows, { p2: null, p3: "McMenamins", p4: null }));
 });
 
 let failed = 0;

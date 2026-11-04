@@ -247,3 +247,32 @@ export function assignSlugs(rows, { chainNameOf = () => null, existingSlugs = []
   }
   return out;
 }
+
+/**
+ * Staged rows that carry a recognized-chain flag (a non-empty recognized_chain_note /
+ * chain_note, or possible_chain_flag) but have no entry in the chain-name map.
+ * An entry whose value is null counts as a reviewed independent. Rows with no
+ * flag are independents and never need an entry.
+ * @param {object[]} rows staged rows (place_id, name, and the flag fields)
+ * @param {Record<string, string|null>} chainNames place_id -> chains.name (or null)
+ * @returns {{place_id: string, name: string, note: string|null}[]}
+ */
+export function findUnmappedChainRows(rows, chainNames = {}) {
+  return rows
+    .filter((r) => {
+      const note = (r.recognized_chain_note ?? r.chain_note ?? "").toString().trim();
+      return (note || r.possible_chain_flag) && !Object.hasOwn(chainNames, r.place_id);
+    })
+    .map((r) => ({ place_id: r.place_id, name: r.name, note: (r.recognized_chain_note ?? r.chain_note ?? null) }));
+}
+
+/** Throws, listing every offender, if findUnmappedChainRows finds any. */
+export function assertChainRowsMapped(rows, chainNames = {}) {
+  const bad = findUnmappedChainRows(rows, chainNames);
+  if (!bad.length) return;
+  const lines = bad.map((b) => `  ${b.place_id}  ${b.name}${b.note ? `  [${b.note}]` : "  [possible_chain_flag]"}`);
+  throw new Error(
+    `${bad.length} staged row(s) carry a chain flag/note but have no entry in CHAIN_NAMES_JSON, so their slugs would be built without a chain token.\n` +
+      `Add place_id -> chains.name (or null for a reviewed independent) for:\n${lines.join("\n")}`
+  );
+}
